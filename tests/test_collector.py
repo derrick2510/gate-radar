@@ -61,6 +61,8 @@ class CollectorTests(unittest.TestCase):
             ('Matt Hardy Reveals If Replacing Tommy Dreamer as TNA Head of Creative Was a Possibility','Sportsnaut'),
             ('Ohio Governor-elect Amy Acton Shuns Ramaswamy Over Despicable Campaign Ad','News'),
             ('Ondas to Scale ULTRA Aircraft Production in 2028','Ondas Inc'),
+            ('Alayna Guerrero Appointed Director of Talent Management and Organizational Development at Fossil Group','Press'),
+            ('Starbucks India Appoints TBWA Lintas as Creative Agency of Record','LBB'),
         ]
         targets=['Mother','Union','Squad','WCS','Tommy','Ultra']
         for title,publisher in bad:
@@ -81,6 +83,43 @@ class CollectorTests(unittest.TestCase):
         for title,publisher,category,targets in good:
             with self.subTest(title=title):
                 self.assertIsNotNone(c.qualify_story(title,publisher,category,targets))
+
+    def test_high_priority_requires_commissioning_signal_not_name_match(self):
+        cases=[
+            ('VCCP Media appoints director of activation amid promotions','VCCP', 'Industry move','Low'),
+            ('WAA Chosen appoints new Client Services Director','WAA Chosen', 'Industry move','Low'),
+            ('Movers Spotlight: Jeff Bowerman, We Are Social','We Are Social','Industry move','Low'),
+            ('Marks & Spencer The home of Christmas by Mother','Mother','Campaign','Medium'),
+            ('Anomaly Appointed Creative Agency of Record for Alaska Air Group','Anomaly','Account win','High'),
+            ('Uncommon wins JD Sports account in London','Uncommon','Account win','High'),
+        ]
+        for title,agency,expected_type,expected_priority in cases:
+            with self.subTest(title=title):
+                info=c.intelligence(title,'Hitlist watch',matched_target=True,market='UK/EMEA/US')
+                self.assertEqual(info['type'],expected_type)
+                self.assertEqual(info['priority'],expected_priority)
+                self.assertTrue(info['priority_reason'])
+                self.assertTrue(info['next_action'])
+
+    def test_no_hitlist_match_does_not_make_account_win_high(self):
+        info=c.intelligence('Dig Agency appointed lead creative agency for a2 Milk campaign',
+                            'UK agency account wins',matched_target=False)
+        self.assertEqual(info['type'],'Account win')
+        self.assertEqual(info['priority'],'Medium')
+
+    def test_production_tender_requires_explicit_scope(self):
+        high=c.intelligence('UK council issues RFP for video production services','UK production procurement')
+        low=c.intelligence('Union appoints a new creative director','Hitlist watch',matched_target=True)
+        self.assertEqual((high['type'],high['priority']),('Tender','High'))
+        self.assertEqual((low['type'],low['priority']),('Industry move','Low'))
+
+    def test_saved_past_high_scores_are_reclassified(self):
+        old={'id':'x','title':'WAA Chosen appoints new Client Services Director',
+             'date':'2026-11-07','source':{'label':'UK News Group','feed':'Hitlist watch 1/8'},
+             'priority':'High','signal_score':95}
+        changed=c.revalidate_saved_item(old,['WAA Chosen'])
+        self.assertEqual(changed['priority'],'Low')
+        self.assertEqual(changed['type'],'Industry move')
 
     def test_existing_polluted_feed_is_purged(self):
         with tempfile.TemporaryDirectory() as folder, patch.dict(os.environ,{'GATE_TARGET_AGENCIES':'Mother\nUnion\nVCCP'},clear=False):
