@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T21:50:58Z",
-  "last_successful_fetch": "2026-11-07T21:50:58Z",
+  "generated_at": "2026-11-07T21:51:41Z",
+  "last_successful_fetch": "2026-11-07T21:51:41Z",
   "status": "healthy",
   "sources_ok": 12,
   "sources_total": 12,
-  "new_items_this_run": 30,
+  "new_items_this_run": 0,
   "sources": [
     {
       "name": "UK agency account wins",
