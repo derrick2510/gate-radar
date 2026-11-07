@@ -46,7 +46,7 @@ SEARCHES = [(label,query) for label,query,_,_ in MARKET_SEARCHES]
 BRANDS = ['JD Sports','Sports Direct','Nike','Adidas','Arsenal','Tottenham','Manchester United',
           'Red Bull','Under Armour','Puma','New Balance','On Running','M&S','Marks & Spencer',
           'BBC','Channel 4','ITV','Sky','Lego','Netflix','Amazon','Uber','Spotify',
-          'Coca-Cola','Pepsi','McDonald\'s','Samsung','Apple','Cadbury','Unilever','Diageo','TikTok']
+          'Coca-Cola','Pepsi','KFC','McDonald\'s','Samsung','Apple','Cadbury','Unilever','Diageo','TikTok']
 # Public, illustrative entity recognition only; NOT GATE's internal agency hitlist.
 PUBLIC_AGENCIES = ['Uncommon','Homeground','Tommy','We Are Social','Dark Horses','M&C Saatchi',
                    'VCCP','Mother','The Romans','Saatchi & Saatchi','Droga5','DEPT','MSQ Sport + Entertainment']
@@ -101,6 +101,156 @@ def matches(title: str,names: list[str]) -> list[str]:
     return found
 
 
+
+# Quality gate: Google News search matches do not establish that an item concerns
+# an advertising business. An agency-like string alone (e.g. Mother / Union /
+# Squad / Ultra) MUST NOT qualify a story as relevant.
+TRADE_PUBLISHERS = re.compile(
+    r'(?i)\b(campaign\s*(uk|us|asia)?|the drum|little black book|lbb|shots|'
+    r'adweek|ad age|adage|marketing week|prweek|the media leader|'
+    r'prolific north|muse by clio|creative review|creative boom|'
+    r'creativepool|designrush|brand innovators|mediapost|'
+    r'creative salon|marketing interactive|marketing beat|'
+    r'the stable|adland|advertising week|ad forum|adforum|'
+    r'advertising association|the inspiration room)\b')
+MARKETING_CONTEXT = re.compile(
+    r'(?i)\b(creative agency|advertising agency|ad agency|marketing agency|'
+    r'pr agency|media agency|social media agency|digital agency|brand agency|'
+    r'agency of record|agency appointment|creative partner|agency account|'
+    r'client services|brand activation|brand partnership|brand campaign|'
+    r'campaign launch|advertising campaign|marketing campaign|'
+    r'creative campaign|social campaign|social-first campaign|'
+    r'branded content|brand film|advertising film|campaign film|'
+    r'tv commercial|television commercial|film production|video production|'
+    r'content production|commercial production|production compan(?:y|ies)|'
+    r'production house|production studio|content studio|creative studio|'
+    r'production partner|production brief|commercial director|'
+    r'video advert|advertising work|brand storytelling|agency pitch|'
+    r'agency win|pitch win|creative account|influencer marketing|'
+    r'creator marketing|athlete endorsement|talent representation|'
+    r'athlete representation|talent management|creator management|'
+    r'artist management|modelling agency|model agency)\b')
+TRADE_ACTIVITY = re.compile(
+    r'(?i)\b(brand|brands|advertising|advertis(?:er|ement|ing)|ad campaign|'
+    r'campaign|commercial|production|film|video|content|social|creative|'
+    r'account|client|pitch|agency|agencies|marketing|activation|'
+    r'partner|partnership|sponsor|sponsorship|rebrand|launch|appointed|'
+    r'appoints|joins|promoted|director|studio|campaigns|creator|talent)\b')
+BUSINESS_ACTIVITY = re.compile(
+    r'(?i)\b(appoints?|appointed|wins?|won|awarded|launches?|unveils?|'
+    r'creates?|produces?|new|partnership|signs?|rebrand|campaign|'
+    r'commercial|hires?|joins|promoted|pitch|client|roster|film|'
+    r'production|activation|adverts?|directors?|account)\b')
+IRRELEVANT_SPORTS = re.compile(
+    r'(?i)\b(cricket|IPL|SMAT|syed mushtaq|t20|odi|test match|'
+    r'wickets?|innings|hat.trick|squad (?:for|announced|named)|'
+    r'(?:national|football|cricket) team squad|team (?:line.?up|news)|'
+    r'head coach|match result|match report|match highlights|'
+    r'live score|scores? (?:of|at|from)|goal scorer|goals? scored|'
+    r'captain (?:for|of)|appointed .* captain|qualifying offers|'
+    r'football transfers?|premier league standings)\b')
+IRRELEVANT_POLITICS = re.compile(
+    r'(?i)\b(governor.elect|election campaign|voter|voting|'
+    r'presidential candidate|senator|prime minister|BJP|APC|'
+    r'political campaign|ballot|polling station|union.endorsed candidates|'
+    r'campaign ad featuring .* mother|administration election|'
+    r'health ministry|union ministry|cabinet minister)\b')
+IRRELEVANT_INDUSTRY = re.compile(
+    r'(?i)\b(steel production|aircraft production|oil production|'
+    r'crude oil|refinery|natural gas|wcs discount|manufacturing expansion|'
+    r'manufacturing output|oil sands|energy production|gas production|'
+    r'commodity trading|stock prices?|cryptocurrency|'
+    r'digital life certificate|child welfare agency|forestry agency)\b')
+IRRELEVANT_GOSSIP = re.compile(
+    r'(?i)\b(estranged mother|mother of teen|his wife|her husband|'
+    r'children killed|murder case|lawsuit against|police smear|'
+    r'celebrity divorce)\b')
+# Common words that double as agency names must have marketing context.
+AMBIGUOUS_NAMES = {
+    'mother','union','squad','studio','ultra','stand','spin','ark','if',
+    'wcs','frame','love creative','tommy','pitch','one agency',
+    'scoop','accord','genesis','hope&glory','tangent agency',
+    'the works','brand champions','creative race','social chain',
+    'new commercial arts','homeground','squad','the lane agency',
+    'waste creative','big partnership','the romans',
+}
+
+
+def qualified_target_hits(title: str, publisher: str, names: list[str]) -> list[str]:
+    raw = matches(title,names)
+    trade = bool(TRADE_PUBLISHERS.search(publisher))
+    context = bool(MARKETING_CONTEXT.search(title))
+    named_brand = bool(matches(title,BRANDS))
+    # Generic words by themselves are not an agency identification.
+    # A reputable advertising trade story explicitly mentioning a brand and
+    # a known agency is a plausible match, but still a lead to verify.
+    return [n for n in raw if n.lower() not in AMBIGUOUS_NAMES or
+            (trade and (context or TRADE_ACTIVITY.search(title) or named_brand) or context)]
+
+
+def qualify_story(title: str, publisher: str, category: str, targets: list[str]):
+    """High-precision acceptance gate; prefer missing a lead to publishing junk."""
+    if not title or JUNK_TERMS.search(title):return None
+    trade = bool(TRADE_PUBLISHERS.search(publisher))
+    explicit = bool(MARKETING_CONTEXT.search(title))
+    talent = bool(TALENT_TERMS.search(title))
+    target_hits = qualified_target_hits(title,publisher,targets)
+    # Exclude sports results, elections, generic manufacturing and tabloid
+    # stories; sports *commercial campaigns* are still welcome from industry
+    # publishers where genuine advertising/production context is explicit.
+    if any(p.search(title) for p in (IRRELEVANT_POLITICS,IRRELEVANT_INDUSTRY,IRRELEVANT_GOSSIP)):
+        return None
+    if IRRELEVANT_SPORTS.search(title) and not (trade and explicit):
+        return None
+    if category == 'talent':
+        if not talent or not BUSINESS_ACTIVITY.search(title):return None
+        return target_hits,talent
+    if category == 'tender':
+        if not (re.search(r'(?i)\b(rfp|tender|procurement|invitation to tender)\b',title)
+                and re.search(r'(?i)\b(film|video|content|advertis|creative|marketing|production studio)\b',title)):
+            return None
+        return target_hits,talent
+    if category == 'hitlist' and not target_hits:return None
+    # Generic uses of 'campaign', 'production', 'agency', 'pitch', etc. are
+    # not sufficient. Require an unambiguous creative-industry expression,
+    # or BOTH a reputable ad-industry source and identifiable commercial work.
+    if explicit:
+        if category!='hitlist' and not BUSINESS_ACTIVITY.search(title):return None
+        return target_hits,talent
+    # An explicit named-agency account win is credible even outside trade media.
+    if target_hits and re.search(r'(?i)\b(wins? .{1,70} account|won .{1,70} account|\bawarded .{1,70} account|\bappointed (?:as )?(?:creative|media|ad|marketing) agency)\b',title):
+        return target_hits,talent
+    if trade and target_hits and (TRADE_ACTIVITY.search(title) or matches(title,BRANDS)):
+        return target_hits,talent
+    return None
+
+
+def item_category(item):
+    feed=(item.get('source') or {}).get('feed','')
+    if feed.startswith('Hitlist watch'):return 'hitlist'
+    for label,_,_,category in MARKET_SEARCHES:
+        if label==feed:return category
+    return 'unknown'
+
+
+def revalidate_saved_item(item,targets):
+    """Retroactively purge previously accepted junk, not just new news."""
+    title=item.get('title','')
+    src=item.get('source') or {}
+    category=item_category(item)
+    if category=='unknown':return None
+    verdict=qualify_story(title,src.get('label',''),category,targets)
+    if verdict is None:return None
+    target_hits,talent=verdict
+    item['target_match']=bool(target_hits)
+    item['talent_signal']=bool(talent)
+    item['agency']=', '.join(target_hits or matches(title,PUBLIC_AGENCIES)) if (target_hits or matches(title,PUBLIC_AGENCIES)) else 'Agency to confirm'
+    market=item.get('search_market','')
+    info=intelligence(title,src.get('feed',''),bool(target_hits),bool(talent),market)
+    item.update(info)
+    return item
+
+
 def get_searches(now=None,targets=None):
     now=now or NOW()
     targets=target_names() if targets is None else targets
@@ -116,7 +266,7 @@ def get_searches(now=None,targets=None):
     for k in range(groups_per_hour):
         group=groups[(start+k)%len(groups)]
         selection=' OR '.join('"'+n.replace('"','')+'"' for n in group)
-        query=f'({selection}) (agency OR campaign OR appointed OR client OR brand OR production OR creative OR pitch OR win OR launch) when:14d'
+        query=f'({selection}) ("creative agency" OR "advertising agency" OR "brand campaign" OR "brand film" OR "agency appointed" OR "account win" OR "commercial production" OR "social content") when:14d'
         searches.append((f'Hitlist watch {k+1}/{groups_per_hour}',query,'UK/EMEA/US','hitlist'))
     return searches
 
@@ -188,18 +338,16 @@ def parse_feed(raw: bytes,label: str,market='UK',category='agency',targets=None)
     for item in root.findall('.//item'):
         title=clean(item.findtext('title'))
         link=safe_url(clean(item.findtext('link')))
-        if not title or not link or not SIGNAL_TERMS.search(title) or JUNK_TERMS.search(title):continue
+        if not title or not link:continue
         publisher_node=item.find('source')
         publisher=clean(publisher_node.text if publisher_node is not None else '') or 'Publisher not identified'
         p_url=safe_url(publisher_node.attrib.get('url','')) if publisher_node is not None else ''
         if title.endswith(' - '+publisher):title=title[:-(len(publisher)+3)].strip()
         date=iso_date(item.findtext('pubDate'))
         if not date:continue
-        target_hits=matches(title,targets)
-        talent=bool(TALENT_TERMS.search(title))
-        if category=='hitlist' and not target_hits:continue
-        if category=='talent' and not talent:continue
-        if category!='hitlist' and not (ACTIVITY_TERMS.search(title) or talent):continue
+        verdict=qualify_story(title,publisher,category,targets)
+        if verdict is None:continue
+        target_hits,talent=verdict
         info=intelligence(title,label,bool(target_hits),talent,market)
         brands=matches(title,BRANDS)
         agencies=target_hits or matches(title,PUBLIC_AGENCIES)
@@ -238,7 +386,11 @@ def run(fetcher=download,dest=OUT,now=None):
         try:old=json.loads(dest.read_text(encoding='utf-8'))
         except (ValueError,OSError):old={}
     # Version 3's broad legacy feed should not remain in this targeted feed.
-    accumulated={x['id']:x for x in old.get('items',[]) if isinstance(x,dict) and x.get('id') and x.get('target_match') is not None}
+    accumulated={}
+    for old_item in old.get('items',[]):
+        if isinstance(old_item,dict) and old_item.get('id'):
+            good=revalidate_saved_item(old_item,targets)
+            if good is not None:accumulated[good['id']]=good
     reports=[];successful=0;count_new=0
     for label,query,market,category in searches:
         try:
