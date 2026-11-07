@@ -161,6 +161,7 @@ IRRELEVANT_INDUSTRY = re.compile(
     r'manufacturing output|oil sands|energy production|gas production|'
     r'commodity trading|stock prices?|cryptocurrency|'
     r'digital life certificate|child welfare agency|forestry agency)\b')
+IRRELEVANT_HR = re.compile(r'(?i)\b(organizational development|human resources|HR director|talent acquisition|talent management and organizational|workforce planning|employee relations)\b')
 IRRELEVANT_GOSSIP = re.compile(
     r'(?i)\b(estranged mother|mother of teen|his wife|her husband|'
     r'children killed|murder case|lawsuit against|police smear|'
@@ -198,9 +199,12 @@ def qualify_story(title: str, publisher: str, category: str, targets: list[str])
     # Exclude sports results, elections, generic manufacturing and tabloid
     # stories; sports *commercial campaigns* are still welcome from industry
     # publishers where genuine advertising/production context is explicit.
-    if any(p.search(title) for p in (IRRELEVANT_POLITICS,IRRELEVANT_INDUSTRY,IRRELEVANT_GOSSIP)):
+    if any(p.search(title) for p in (IRRELEVANT_POLITICS,IRRELEVANT_INDUSTRY,IRRELEVANT_GOSSIP,IRRELEVANT_HR)):
         return None
     if IRRELEVANT_SPORTS.search(title) and not (trade and explicit):
+        return None
+    # Exclude India-only news: UK / EMEA / US markets are the brief.
+    if re.search(r'(?i)\b(India|Indian|Mumbai|Delhi|Bengaluru|Bangalore|Chennai|Hyderabad)\b',title) and not any(REGION_PATTERNS[m].search(title) for m in REGION_PATTERNS):
         return None
     if category == 'talent':
         if not talent or not BUSINESS_ACTIVITY.search(title):return None
