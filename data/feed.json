@@ -1,131 +1,111 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T22:07:51Z",
-  "last_successful_fetch": "2026-11-07T22:06:35Z",
-  "status": "unavailable",
-  "sources_ok": 0,
+  "generated_at": "2026-11-07T22:16:35Z",
+  "last_successful_fetch": "2026-11-07T22:16:35Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 0,
+  "new_items_this_run": 93,
   "sources": [
     {
       "name": "UK agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "US agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "UK talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "EMEA talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 1/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 11
     },
     {
       "name": "Hitlist watch 2/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 22
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 10
     },
     {
       "name": "Hitlist watch 4/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 24
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 7
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 10
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 11
     }
   ],
   "items": [
@@ -133,53 +113,19 @@
       "type": "Account win",
       "priority": "High",
       "sector": "Creative & production",
-      "signal_score": 89,
+      "signal_score": 85,
       "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity",
-        "Potential new client relationship"
+        "A named hitlist agency appears alongside a client-account appointment or win. This is an early relationship-opening signal, not an awarded production brief.",
+        "Agency name matches the private target list; identity still needs verification."
       ],
-      "angle": "A new account relationship could generate future campaign production. Find out who commissions film/content, whether suppliers are appointed, and what comes next.",
-      "ask": "Congratulations on the new account news. How do you typically approach film and content production as that partnership develops?",
+      "priority_reason": "A named hitlist agency appears alongside a client-account appointment or win. This is an early relationship-opening signal, not an awarded production brief.",
+      "next_action": "Verify the agency and client appointment, identify the account lead or head of production, then ask about upcoming campaign planning and external suppliers.",
+      "angle": "A new client relationship can lead to future production. Confirm whether work is in planning and whether production suppliers are already selected.",
+      "ask": "I saw the recent client appointment and was curious how you approach external film and social production as that relationship develops?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
       "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-41a3d493353e1198",
-      "date": "2026-11-06",
-      "title": "VCCP Media appoints director of activation amid promotions",
-      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "VCCP",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Campaign UK",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd1ViQ0oxMktKeEw2d0c5SV9sQmVKMl81Zmg4WEdZdUxEaEl6cmFmRURsaXRoOGFaWHVrb1JLcnBQVUhVNDVnWEs0eDhxR3NUN1NXc3ZHWndJbndqSUs4MHZLWnNEQzgwVmItQU9paUdrZS1lZGZkTloyMUxuYUVLNl9XdGtTMkd3eTJxTjYweU1QbFJ5MWtDNTVLUU1hMk5Pak9hZHNVY3RRWVJKSWMzTkRSUHNyY29OQ2JabW9PdlZEdw?oc=5",
-        "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "Hitlist watch 7/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Account win",
-      "priority": "High",
-      "sector": "Creative & production",
-      "signal_score": 89,
-      "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity",
-        "Potential new client relationship"
-      ],
-      "angle": "A new account relationship could generate future campaign production. Find out who commissions film/content, whether suppliers are appointed, and what comes next.",
-      "ask": "Congratulations on the new account news. How do you typically approach film and content production as that partnership develops?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-3b993e88f42cd75d",
       "date": "2026-10-30",
       "title": "Anomaly Appointed Creative Agency of Record for Alaska Air Group — LBB",
@@ -203,266 +149,20 @@
     },
     {
       "type": "Account win",
-      "priority": "High",
-      "sector": "Creative & production",
-      "signal_score": 89,
-      "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity",
-        "Potential new client relationship"
-      ],
-      "angle": "A new account relationship could generate future campaign production. Find out who commissions film/content, whether suppliers are appointed, and what comes next.",
-      "ask": "Congratulations on the new account news. How do you typically approach film and content production as that partnership develops?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-9fd6e4528af86906",
-      "date": "2026-10-29",
-      "title": "WAA Chosen appoints new Client Services Director",
-      "summary": "Source-linked headline from UK News Group. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "WAA CHOSEN",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "UK News Group",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ1hmQ0Q1bjNhQmpGUkt5VlBjdnFjMWd1LUo0QWYwUU1oMHVIc2owdm1mZFlTUjRwTDA2SUxETFh2S0hNcW9nRzZ2b1NVbkpJV2ZaRjNQeHlSYzdHejdyYnZfVEJDS1FsUjhjM2xoSW9NTTNRY3plT0hycHM5bUlsZ1ZXbzdFQQ?oc=5",
-        "publisher_url": "https://www.uknewsgroup.co.uk",
-        "feed": "Hitlist watch 8/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "High",
-      "sector": "Creative & production",
-      "signal_score": 66,
-      "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity",
-        "Social / content relevance"
-      ],
-      "angle": "Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.",
-      "ask": "Saw this news and thought there might be a useful crossover. How do you typically handle external production support?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-1b3986accd129ce5",
-      "date": "2026-11-03",
-      "title": "Movers Spotlight: Jeff Bowerman, We Are Social",
-      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "WE ARE SOCIAL",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Campaign UK",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTRKczZFZWo1a1dCLXlOVnRMSUkyWUcwbkkxMVIwYmRTTVBKUVFvNGVUWUphdU1iVmlEV3hxNzBxNVNNUWYySHJ5ODdFTGp0LWNtMFVUbGJxbkFxS3V5bVc1R18ybmszTDFYc1lzWWVhMkNFODhyN3h6eVlXSEhVc05EczdVWE5tSG5oUjlSNnJHeTNYYTFHUFdjaVYwMElkUWctR3dQYkp0eWtFMERV?oc=5",
-        "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "Hitlist watch 8/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "High",
-      "sector": "Creative & production",
-      "signal_score": 64,
-      "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity",
-        "Market identified in headline: UK"
-      ],
-      "angle": "Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.",
-      "ask": "Saw this news and thought there might be a useful crossover. How do you typically handle external production support?",
-      "region": "UK",
-      "region_evidence": "Headline evidence",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-7da9fda90db5baad",
-      "date": "2026-11-04",
-      "title": "KFC UK&I, Mother Doomify 100 Markets for 'Avengers: Doomsday'",
-      "summary": "Source-linked headline from DesignRush. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "MOTHER",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "DesignRush",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OT1l4M2xPdGVPaUVHTWd0eXlHOHB6dnhIaXhqRE0xdWxnRHI0ZVZTTHl4Q1dCTDB5aDc1SUt6Wm5SUTBTVFFfN0xIeUVrcDl3a1ZVdHVKSWYtOWw1OG1zbEh3a0xCRHNZNGVQZS1nX1hSLUZMOWFqLVd2RQ?oc=5",
-        "publisher_url": "https://news.designrush.com",
-        "feed": "Hitlist watch 1/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
       "priority": "Medium",
       "sector": "Creative & production",
-      "signal_score": 59,
+      "signal_score": 65,
       "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity"
+        "Agency/client appointment reported, but this is not a verified hitlist win or production requirement."
       ],
-      "angle": "Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.",
-      "ask": "Saw this news and thought there might be a useful crossover. How do you typically handle external production support?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-172345a782134d2f",
-      "date": "2026-11-06",
-      "title": "Marks & Spencer \"The home of Christmas\" by Mother",
-      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "MOTHER",
-      "brand": "Marks & Spencer",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Campaign UK",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdV9sdVpwTG52cjZZZDduNHVqd1RUd3g5cXZuVFVSZjZsRTlaYm5MUlBzanBaeUR1ZWp6S19oelNOZWZ2ZFdtUmpWdW8zUXBBcVhfU2xBSkttT1JFNTFlTWdpTjV4SnExem55eExPTWN5aTVJZEhtMmNhalNSTy1FLTlvYUZPbGdKeV9xU1hZVXdwQWhEVnJvaFNZOWtYZ3NVU051WFVIc3hVV29oVlQycQ?oc=5",
-        "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "Hitlist watch 1/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Medium",
-      "sector": "Creative & production",
-      "signal_score": 59,
-      "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity"
-      ],
-      "angle": "Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.",
-      "ask": "Saw this news and thought there might be a useful crossover. How do you typically handle external production support?",
+      "priority_reason": "Agency/client appointment reported, but this is not a verified hitlist win or production requirement.",
+      "next_action": "Check whether the account fits GATE’s sectors, confirm decision-makers and whether external production is relevant.",
+      "angle": "An agency/client appointment may lead to creative production, but no production brief is established.",
+      "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
       "search_market": "EMEA",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-aa8e8052b1814383",
-      "date": "2026-11-03",
-      "title": "VCCP dethrones BBH in Q3 2026 global creative rankings",
-      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "VCCP",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Campaign UK",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1R0Sjg1T0pvVDhEQU8zQkdfbFZ4S0l4ZGh4MHZEWFNEUTRGWEJUdjhoSTJmYUFhbGNGUS1WSVRwcHJ1ZlRuSllzNmRTT2tSX1hMTHVtZkxfZzdXMU4xaW1vekhyMGJTcmtZdzgwdUVWQ1BjR2N4czhtOVBpZmRickFZVGZwRUQtX2JwQ3hpQVE2aGVRcnZjT2NaTkpaWUZzV2lIVnZQblNmMnVNcS1PLWptbzRZX0NGcEZHcA?oc=5",
-        "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "EMEA agency account wins"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Medium",
-      "sector": "Creative & production",
-      "signal_score": 59,
-      "signal_reasons": [
-        "Named GATE target agency appears in headline — verify identity"
-      ],
-      "angle": "Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.",
-      "ask": "Saw this news and thought there might be a useful crossover. How do you typically handle external production support?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-8f637930b2fd189d",
-      "date": "2026-11-02",
-      "title": "What T-Mobile’s choice of Highdive and Anomaly reveals about brand building in an AI-driven world",
-      "summary": "Source-linked headline from Ad Age. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "ANOMALY",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Ad Age",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
-        "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 4/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Medium",
-      "sector": "Talent & representation",
-      "signal_score": 38,
-      "signal_reasons": [
-        "Talent agency / representation signal"
-      ],
-      "angle": "Talent representation activity may drive athlete, artist or creator content. Ask who manages original content, brand partnerships and production for the roster.",
-      "ask": "How do you typically handle filming and content production when new talent or brand partnerships come on board?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-efc9b35d58776848",
-      "date": "2026-11-04",
-      "title": "Dominique Moore Launches DMA Talent Agency For Young Actors",
-      "summary": "Source-linked headline from Deadline. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Deadline",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRjNmcWdCaG1GdVBUeUstS1NFdl9aeHZZenlFaTBhRjNqVVlVZzAyTmZBN3lCaVpOMEM4VUY5aGF6OWhNOUpkNXF4dDlWNkltZHBmUVNDZnQyUlhGSTdlWmZqeElYbWhtcU40b3U0TDQtcnAtSzUwWGhfeUZXLU1uNUdxVWJZRFRHTUFUdDZkMVVyN3V0M191VA?oc=5",
-        "publisher_url": "https://deadline.com",
-        "feed": "UK talent agencies"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": true,
-      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Account win",
-      "priority": "Medium",
-      "sector": "Creative & production",
-      "signal_score": 45,
-      "signal_reasons": [
-        "Potential new client relationship"
-      ],
-      "angle": "A new account relationship could generate future campaign production. Find out who commissions film/content, whether suppliers are appointed, and what comes next.",
-      "ask": "Congratulations on the new account news. How do you typically approach film and content production as that partnership develops?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-2aeef4b0158f6d9c",
       "date": "2026-11-04",
       "title": "Dig Agency appointed lead creative agency for a2 Milk campaign",
@@ -488,52 +188,95 @@
       "type": "Campaign",
       "priority": "Medium",
       "sector": "Creative & production",
-      "signal_score": 36,
+      "signal_score": 53,
       "signal_reasons": [
-        "Production adjacency",
-        "Campaign conversation starter"
+        "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+        "Agency name matches the private target list; identity still needs verification."
       ],
-      "angle": "The campaign may already be delivered. Use the work to ask about next phases, social assets, regional adaptations or overflow production—not an assumed live brief.",
-      "ask": "I saw the recent campaign and wanted to learn how you resource follow-on film and social production around work like this.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-687e571ee4bb7ad2",
-      "date": "2026-11-02",
-      "title": "Versus Launches WE ARE with brand film",
-      "summary": "Source-linked headline from Shots. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-172345a782134d2f",
+      "date": "2026-11-06",
+      "title": "Marks & Spencer \"The home of Christmas\" by Mother",
+      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "MOTHER",
+      "brand": "Marks & Spencer",
       "production": "Not established by headline",
       "source": {
-        "label": "Shots",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyYlVYWUxmNW84MFluNHRkd19vUElVUHBubWFRT0xvZWVfUEFidkhlMkp6R0hXcFhBVnl0Unp4MzhONUk1d2E4Y3Y3bERsUzNyb3Vxa2pVREVwTGJrUjJ2emphQUk0a0hsdWFncDFCU3E0MnZx?oc=5",
-        "publisher_url": "https://shots.net",
-        "feed": "US creative campaigns"
+        "label": "Campaign UK",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdV9sdVpwTG52cjZZZDduNHVqd1RUd3g5cXZuVFVSZjZsRTlaYm5MUlBzanBaeUR1ZWp6S19oelNOZWZ2ZFdtUmpWdW8zUXBBcVhfU2xBSkttT1JFNTFlTWdpTjV4SnExem55eExPTWN5aTVJZEhtMmNhalNSTy1FLTlvYUZPbGdKeV9xU1hZVXdwQWhEVnJvaFNZOWtYZ3NVU051WFVIc3hVV29oVlQycQ?oc=5",
+        "publisher_url": "https://www.campaignlive.co.uk",
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
       "review_status": "Headline collected — requires review",
-      "target_match": false,
+      "target_match": true,
       "talent_signal": false,
-      "target_note": "No agency hitlist match confirmed",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
+      "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign."
     },
     {
       "type": "Campaign",
       "priority": "Medium",
       "sector": "Creative & production",
-      "signal_score": 23,
+      "signal_score": 53,
       "signal_reasons": [
-        "Campaign conversation starter"
+        "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+        "Agency name matches the private target list; identity still needs verification.",
+        "Headline contains a market reference: UK."
       ],
-      "angle": "The campaign may already be delivered. Use the work to ask about next phases, social assets, regional adaptations or overflow production—not an assumed live brief.",
-      "ask": "I saw the recent campaign and wanted to learn how you resource follow-on film and social production around work like this.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
+      "region": "UK",
+      "region_evidence": "Headline evidence",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-7da9fda90db5baad",
+      "date": "2026-11-04",
+      "title": "KFC UK&I, Mother Doomify 100 Markets for 'Avengers: Doomsday'",
+      "summary": "Source-linked headline from DesignRush. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "MOTHER",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "DesignRush",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OT1l4M2xPdGVPaUVHTWd0eXlHOHB6dnhIaXhqRE0xdWxnRHI0ZVZTTHl4Q1dCTDB5aDc1SUt6Wm5SUTBTVFFfN0xIeUVrcDl3a1ZVdHVKSWYtOWw1OG1zbEh3a0xCRHNZNGVQZS1nX1hSLUZMOWFqLVd2RQ?oc=5",
+        "publisher_url": "https://news.designrush.com",
+        "feed": "Hitlist watch 1/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
+      "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 32,
+      "signal_reasons": [
+        "A published campaign is a conversation starter, not evidence of an upcoming production brief."
+      ],
+      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
       "search_market": "UK",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-4f6022fbdb4f3548",
       "date": "2026-11-07",
       "title": "Boardmasters Launches New Brand Campaign, ‘Good Things Come In Waves’, Ahead of 2027 Lineup Announcement",
@@ -556,19 +299,286 @@
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
-      "type": "Industry news",
-      "priority": "Medium",
+      "type": "Campaign",
+      "priority": "Low",
       "sector": "Creative & production",
-      "signal_score": 15,
+      "signal_score": 32,
       "signal_reasons": [
-        "Relevant industry headline; qualify production fit"
+        "A published campaign is a conversation starter, not evidence of an upcoming production brief."
       ],
-      "angle": "Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.",
-      "ask": "Saw this news and thought there might be a useful crossover. How do you typically handle external production support?",
+      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
       "search_market": "US",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-687e571ee4bb7ad2",
+      "date": "2026-11-02",
+      "title": "Versus Launches WE ARE with brand film",
+      "summary": "Source-linked headline from Shots. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Shots",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyYlVYWUxmNW84MFluNHRkd19vUElVUHBubWFRT0xvZWVfUEFidkhlMkp6R0hXcFhBVnl0Unp4MzhONUk1d2E4Y3Y3bERsUzNyb3Vxa2pVREVwTGJrUjJ2emphQUk0a0hsdWFncDFCU3E0MnZx?oc=5",
+        "publisher_url": "https://shots.net",
+        "feed": "US creative campaigns"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry move",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 22,
+      "signal_reasons": [
+        "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "angle": "A new contact or remit can justify a light-touch introduction but does not imply a production need.",
+      "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-41a3d493353e1198",
+      "date": "2026-11-06",
+      "title": "VCCP Media appoints director of activation amid promotions",
+      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "VCCP",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Campaign UK",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd1ViQ0oxMktKeEw2d0c5SV9sQmVKMl81Zmg4WEdZdUxEaEl6cmFmRURsaXRoOGFaWHVrb1JLcnBQVUhVNDVnWEs0eDhxR3NUN1NXc3ZHWndJbndqSUs4MHZLWnNEQzgwVmItQU9paUdrZS1lZGZkTloyMUxuYUVLNl9XdGtTMkd3eTJxTjYweU1QbFJ5MWtDNTVLUU1hMk5Pak9hZHNVY3RRWVJKSWMzTkRSUHNyY29OQ2JabW9PdlZEdw?oc=5",
+        "publisher_url": "https://www.campaignlive.co.uk",
+        "feed": "Hitlist watch 7/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
+      "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+      "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities."
+    },
+    {
+      "type": "Industry move",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 22,
+      "signal_reasons": [
+        "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "angle": "A new contact or remit can justify a light-touch introduction but does not imply a production need.",
+      "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-1b3986accd129ce5",
+      "date": "2026-11-03",
+      "title": "Movers Spotlight: Jeff Bowerman, We Are Social",
+      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "WE ARE SOCIAL",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Campaign UK",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTRKczZFZWo1a1dCLXlOVnRMSUkyWUcwbkkxMVIwYmRTTVBKUVFvNGVUWUphdU1iVmlEV3hxNzBxNVNNUWYySHJ5ODdFTGp0LWNtMFVUbGJxbkFxS3V5bVc1R18ybmszTDFYc1lzWWVhMkNFODhyN3h6eVlXSEhVc05EczdVWE5tSG5oUjlSNnJHeTNYYTFHUFdjaVYwMElkUWctR3dQYkp0eWtFMERV?oc=5",
+        "publisher_url": "https://www.campaignlive.co.uk",
+        "feed": "Hitlist watch 8/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
+      "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+      "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities."
+    },
+    {
+      "type": "Industry move",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 22,
+      "signal_reasons": [
+        "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "angle": "A new contact or remit can justify a light-touch introduction but does not imply a production need.",
+      "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-9fd6e4528af86906",
+      "date": "2026-10-29",
+      "title": "WAA Chosen appoints new Client Services Director",
+      "summary": "Source-linked headline from UK News Group. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "WAA CHOSEN",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "UK News Group",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ1hmQ0Q1bjNhQmpGUkt5VlBjdnFjMWd1LUo0QWYwUU1oMHVIc2owdm1mZFlTUjRwTDA2SUxETFh2S0hNcW9nRzZ2b1NVbkpJV2ZaRjNQeHlSYzdHejdyYnZfVEJDS1FsUjhjM2xoSW9NTTNRY3plT0hycHM5bUlsZ1ZXbzdFQQ?oc=5",
+        "publisher_url": "https://www.uknewsgroup.co.uk",
+        "feed": "Hitlist watch 8/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
+      "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+      "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Talent & representation",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Talent/representation angle; identify a partnerships or content owner."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-efc9b35d58776848",
+      "date": "2026-11-04",
+      "title": "Dominique Moore Launches DMA Talent Agency For Young Actors",
+      "summary": "Source-linked headline from Deadline. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Deadline",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRjNmcWdCaG1GdVBUeUstS1NFdl9aeHZZenlFaTBhRjNqVVlVZzAyTmZBN3lCaVpOMEM4VUY5aGF6OWhNOUpkNXF4dDlWNkltZHBmUVNDZnQyUlhGSTdlWmZqeElYbWhtcU40b3U0TDQtcnAtSzUwWGhfeUZXLU1uNUdxVWJZRFRHTUFUdDZkMVVyN3V0M191VA?oc=5",
+        "publisher_url": "https://deadline.com",
+        "feed": "UK talent agencies"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": true,
+      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "EMEA",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-aa8e8052b1814383",
+      "date": "2026-11-03",
+      "title": "VCCP dethrones BBH in Q3 2026 global creative rankings",
+      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "VCCP",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Campaign UK",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1R0Sjg1T0pvVDhEQU8zQkdfbFZ4S0l4ZGh4MHZEWFNEUTRGWEJUdjhoSTJmYUFhbGNGUS1WSVRwcHJ1ZlRuSllzNmRTT2tSX1hMTHVtZkxfZzdXMU4xaW1vekhyMGJTcmtZdzgwdUVWQ1BjR2N4czhtOVBpZmRickFZVGZwRUQtX2JwQ3hpQVE2aGVRcnZjT2NaTkpaWUZzV2lIVnZQblNmMnVNcS1PLWptbzRZX0NGcEZHcA?oc=5",
+        "publisher_url": "https://www.campaignlive.co.uk",
+        "feed": "EMEA agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-8f637930b2fd189d",
+      "date": "2026-11-02",
+      "title": "What T-Mobile’s choice of Highdive and Anomaly reveals about brand building in an AI-driven world",
+      "summary": "Source-linked headline from Ad Age. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "ANOMALY",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Ad Age",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
+        "publisher_url": "https://adage.com",
+        "feed": "Hitlist watch 4/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-65dfa5a62ba596d2",
       "date": "2026-11-02",
       "title": "Tracking ad agency account reviews—the latest on brand creative, media and more",
