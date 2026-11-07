@@ -1,45 +1,44 @@
-# Publish GATE RADAR v3 with hourly news updates
+# GATE RADAR v4 — Configure the targeted industry radar
 
-**What this is:** A static website that shows hand-researched, source-linked examples plus an automated headline feed. GitHub Actions fetches RSS on an hourly schedule and publishes an updated GitHub Pages site. **This download does not run an hourly service until you configure it on GitHub.** No paid domain or API key required for the default setup.
+## Current production deployment
 
-## Recommended: GitHub Pages, one provider, no domain purchase
+Repository: https://github.com/derrick2510/gate-radar  
+Expected public website: https://derrick2510.github.io/gate-radar/
 
-1. Extract `GATE_RADAR_v3_hourly.zip` on your computer. The ZIP contains `index.html`, `data/`, `scripts/`, `tests/`, and `.github/workflows/news.yml`.
-2. Sign in at https://github.com/new. Create a new repository, for example `gate-radar`. Choose **Public** for GitHub Pages on GitHub Free. Do **not** upload any private client or internal company information. Check with GATE IT before publishing any company-branded site. (Private/restricted access will require an approved hosting and authentication design.)
-3. Upload **the contents of the extracted folder**, preserving the directory structure, to the `main` branch. You may drag the extracted directory contents onto GitHub's **Add file → Upload files** area. Confirm the workflow is at `.github/workflows/news.yml` and not inside a nested `gate_radar_v3` folder.
-4. In the repository, open **Settings → Pages → Build and deployment → Source → GitHub Actions**. Save the setting.
-5. Open **Actions → Refresh GATE RADAR industry news → Run workflow → Run workflow**. Approve Actions for the repository if prompted. The first run can take a few minutes.
-6. The website will be available at `https://YOUR-USERNAME.github.io/gate-radar/` (substitute your GitHub username and repository name). The deployed site and the **Actions** tab show whether the first run succeeded.
-7. The collector checks for new headlines around **17 minutes past each hour (UTC)**. GitHub explicitly says scheduled runs may be delayed or missed. Users visiting a page that's already open will check for the refreshed JSON every 15 minutes.
+The scheduled workflow refreshes the public feed about 17 minutes past each hour (UTC), subject to GitHub Actions delays. A newly opened browser loads `data/feed.json`; already open tabs recheck it approximately every 15 minutes.
 
-**If deployment fails:** Check the Actions run log. If the job cannot push its JSON update, open Settings → Actions → General → Workflow permissions and confirm the repository allows workflows to write contents (organization controls may override). If GitHub Pages reports an authorization error, recheck Settings → Pages → Source → GitHub Actions and the environment's permitted deploy branches.
+## Enable your private agency hitlist (required for target-specific monitoring)
 
-## Keep using Netlify instead
+1. Go to **GitHub repository → Settings → Secrets and variables → Actions → New repository secret**.  
+2. Enter the exact name **`GATE_TARGET_AGENCIES`**.  
+3. Paste your agency names **one per line** as the secret value (no bullets, no HTML table markup). Do not add the list to repository files, issues or commit messages.  
+4. Click **Add secret**, then **Actions → Refresh GATE RADAR industry news → Run workflow**.  
+5. Check `data/feed.json`'s `monitoring_mode` becomes `target-first` and `target_agency_count_configured` is greater than zero; the full list never appears in that JSON.
 
-You may connect the same **GitHub repository** to your existing Netlify site using its **Git/continuous deployment** connection. The scheduled workflow also saves new `data/feed.json` to the repo; Netlify is expected to rebuild on those changes. A **manual Netlify Drop upload alone will not keep updating**, because it cannot run GitHub Actions or pick up subsequent JSON changes. Check that GitHub-to-Netlify automatic builds are enabled after connecting.
+The collector rotates **8 search batches of up to 8 names each hourly** to keep RSS querying practical. For an approximately 181-name list, a full scan normally takes around three hourly runs. Publishing a new hitlist requires updating the secret and running the workflow again. Search engines receive the agency search terms; the public dashboard displays matched headlines and names when relevant. Keep this limitation in mind when choosing whether to proceed with a corporate-sensitive target list.
 
-## What the system does, and doesn't do
+## What counts as news worth checking
 
-- Searches 10 Google News RSS query feeds (UK edition) across agency wins, sport, campaigns, entertainment, production, social content and tenders, every hour **when GitHub Actions is enabled**.
-- Maintains up to 200 unique recent headlines (14 days), using text-only headlines and a link to the publisher via Google News. It does **not** scrape paywalled pages or reproduce article bodies.
-- Offers *heuristic* production opportunity scores and suggested opening questions. **These are not confirmations of projects, budgets, supplier selection, relationships, or factual article claims.** Always read the original and check the commissioning chain before outreach.
-- Shows 9 manually researched examples and their published contact routes. The collector **never invents personal emails or LinkedIn identities**. For new stories, it offers a LinkedIn people search only when a company name is detected; users must verify the person and role.
-- Stores ownership, follow-up, stages and notes **locally in each user's browser**. There is no team-wide sync yet. Export CSV if you want to share; keep sensitive notes out of public repositories.
-- Shows source health (number of successful feeds, failed queries, last successful fetch and stale flags). If feeds are unavailable, old data is retained where possible rather than showing fictitious fresh updates.
-- Does not send emails, contact people, or connect to HubSpot automatically.
+- UK, EMEA and US agency/brand account wins and appointments
+- New branded film, commercial, sport or social campaigns
+- Film/video production tenders or RFPs (verify the buyer's official notice)
+- Talent agencies, creator/artist management, athlete representation and roster announcements
+- Specifically named agency news from the hitlist: matches prioritized ahead of more generic reporting
 
-## Source reliability & rights
+**Market tags** are based on recognizable geographic words *in the headline* when unambiguous; otherwise marked **To verify**. A Google News search country/locale is a discovery parameter, not verified location or commercial territory.
 
-Google News RSS query feeds are a **community-documented, undocumented service**, not a guaranteed API. Feeds can change, have incomplete coverage, contain duplicates or link through Google News rather than straight to a publisher. The feed collector is an intelligence *lead finder*, not fact-checking or a source-of-truth database. The interface retains source and review status. Publisher content and trademarks remain with their owners; use headlines/links, not republished article text.
+**No personal emails are invented.** Named contacts and public links in the curated research directory are separate from automatically collected headlines; their current roles still require checking. No open production budget is assumed from a campaign launch.
 
-## Customize
+## Monitoring health and limitations
 
-- Edit query categories in `scripts/collect_news.py` under `SEARCHES`.
-- Edit priority terms and title-matching lists under `BRANDS`, `AGENCIES`, `intelligence()`.
-- The seeded verified research examples live in `data/curated.json`. The HTML contains an embedded copy for offline preview. After changing curated JSON, run `python make_index.py` and commit `index.html` so both agree.
-- Run tests locally with `python -m unittest discover -s tests -v`.
-- To simulate offline collection, run `python scripts/collect_news.py --fixture tests/sample_feed.xml` after supplying a valid RSS file. To collect live news on your own computer (if internet access is enabled), run `python scripts/collect_news.py`.
+GitHub Actions can occasionally delay or skip scheduled jobs. Google News RSS is an undocumented feed with no availability guarantee. Results are headline-level, not article-body fact-checking. Articles may duplicate, appear late, or concern similarly named entities; read sources before outreach.
 
-## Limits / future upgrade
+The public GitHub Pages site and public feed can be read by anyone with the link. Outreach stages and notes are saved in each person's browser only, not shared. Obtain GATE approval and use an authenticated system before storing sensitive client details or internal activity centrally.
 
-For **shared** notes, account ownership and a proper collaboration workflow, add an authenticated database (e.g. Supabase) and consider CRM synchronization after IT approval. A company-private dashboard is a different architecture from this public demo. For reliability beyond a hobby/prototype use case, replace Google News RSS queries with licensed feeds or a commercial data source with service guarantees.
+## Run locally
+
+`python -m unittest discover -s tests -v`  
+`python scripts/collect_news.py` (network needed)  
+`python make_index.py` to regenerate `index.html` from `data/curated.json`  
+
+For a simple offline test: `python scripts/collect_news.py --fixture tests/sample_feed.xml` (backs up existing `data/feed.json` first).
