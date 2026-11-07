@@ -1,111 +1,131 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T22:06:35Z",
+  "generated_at": "2026-11-07T22:07:51Z",
   "last_successful_fetch": "2026-11-07T22:06:35Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "status": "unavailable",
+  "sources_ok": 0,
   "sources_total": 20,
-  "new_items_this_run": 97,
+  "new_items_this_run": 0,
   "sources": [
     {
       "name": "UK agency account wins",
-      "state": "ok",
-      "items": 4
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "EMEA agency account wins",
-      "state": "ok",
-      "items": 4
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US agency account wins",
-      "state": "ok",
-      "items": 2
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "UK creative campaigns",
-      "state": "ok",
-      "items": 1
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US creative campaigns",
-      "state": "ok",
-      "items": 1
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "UK talent agencies",
-      "state": "ok",
-      "items": 1
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "EMEA talent agencies",
-      "state": "ok",
-      "items": 1
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US talent agencies",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "UK production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "EMEA production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 1/8",
-      "state": "ok",
-      "items": 11
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 2/8",
-      "state": "ok",
-      "items": 22
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "ok",
-      "items": 10
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 4/8",
-      "state": "ok",
-      "items": 24
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "ok",
-      "items": 7
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "ok",
-      "items": 10
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "ok",
-      "items": 11
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     }
   ],
   "items": [
@@ -395,42 +415,6 @@
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
-      "type": "Account win",
-      "priority": "High",
-      "sector": "Talent & representation",
-      "signal_score": 68,
-      "signal_reasons": [
-        "Talent agency / representation signal",
-        "Potential new client relationship"
-      ],
-      "angle": "A new account relationship could generate future campaign production. Find out who commissions film/content, whether suppliers are appointed, and what comes next.",
-      "ask": "Congratulations on the new account news. How do you typically approach film and content production as that partnership develops?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-fa90d644b4152fad",
-      "date": "2026-11-07",
-      "title": "Alayna Guerrero Appointed Director of Talent Management and Organizational Development at Fossil Group",
-      "summary": "Source-linked headline from https://hrtoday.in/. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "https://hrtoday.in/",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORWMySUlkakhLNWFJWVpCUXh6SzRsSks2WEZzS0RmdUV4bk1SSFpkbmsxLUpsUUNuYnNGS0ItMktqZVo3ZHI3dXdsTzNPY05Ceng5RnF4MEJTX25NR180el9wS3JDeHhBS3Z0Z3BpeUtVc0V1WlpCM3pfUU1XNnR4V1NGeWN5bEpQY2kyNHUwLU1yNlNYT3djQy1xemFtdXBZeTEyLThYVURNT1ZxUjE5QWF2V2FjSVNhc2IxWTNCaw?oc=5",
-        "publisher_url": "https://hrtoday.in",
-        "feed": "EMEA talent agencies"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": true,
-      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
       "type": "Industry news",
       "priority": "Medium",
       "sector": "Talent & representation",
@@ -490,41 +474,6 @@
         "label": "Mumbrella",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmtPT29RMTNmX3BWT1J4dFVzWHk2c3NYSVp3dFk0MURWdUd6dk53cnlnWk9mMGdSaEtwcG9Pb1oyQVB4UWxDcXZrX3pZT0pfcl9sTTNMMElXc19SLVBFcUZmMHBhcm9UZk8zM3VQUzF3M3BfYkdMRXVMZVBya21UaG03ejlVNjF6UHpjOGtGMzBXS284M0tfTmtB?oc=5",
         "publisher_url": "https://mumbrella.com.au",
-        "feed": "EMEA agency account wins"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": false,
-      "target_note": "No agency hitlist match confirmed",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Account win",
-      "priority": "Medium",
-      "sector": "Creative & production",
-      "signal_score": 45,
-      "signal_reasons": [
-        "Potential new client relationship"
-      ],
-      "angle": "A new account relationship could generate future campaign production. Find out who commissions film/content, whether suppliers are appointed, and what comes next.",
-      "ask": "Congratulations on the new account news. How do you typically approach film and content production as that partnership develops?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
-      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-d92d1904b9a2cdc4",
-      "date": "2026-11-02",
-      "title": "Starbucks India Appoints TBWA\\Lintas as Creative Agency of Record — LBB",
-      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "LBB - Little Black Book",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORnJ6aUFiUEs4SUFlZmhTSUI1NUJ6NGtvRW5EZ3Mzbkt6WGM5SkFzaTItb2d0Y3RhQnpiVzhBdExTa0dSd2l1NHN5YWx6VDloUGF0XzJjdzRfTEI0a21uYVM0NXV6X2wxMG5fdmlwNjltNkpKV2laUEtNZFR0ZDJKazNTM0kxVUNDMzJkeXU3WEVoYWN6WFdr?oc=5",
-        "publisher_url": "https://lbbonline.com",
         "feed": "EMEA agency account wins"
       },
       "contacts": [],
