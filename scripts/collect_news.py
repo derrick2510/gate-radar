@@ -203,7 +203,8 @@ def qualify_story(title: str, publisher: str, category: str, targets: list[str])
         return None
     if IRRELEVANT_SPORTS.search(title) and not (trade and explicit):
         return None
-    # Exclude India-only news: UK / EMEA / US markets are the brief.
+    # The requested territories are UK, EMEA and US: India-only stories
+    # aren't within scope even if they come through a broad news search.
     if re.search(r'(?i)\b(India|Indian|Mumbai|Delhi|Bengaluru|Bangalore|Chennai|Hyderabad)\b',title) and not any(REGION_PATTERNS[m].search(title) for m in REGION_PATTERNS):
         return None
     if category == 'talent':
@@ -275,12 +276,28 @@ def get_searches(now=None,targets=None):
     return searches
 
 
+# A staff appointment is not an account win. Match *client/agency selection* patterns.
+ACCOUNT_WIN_RE = re.compile(
+    r'(?i)(?:\b(?:wins?|won|secures?|lands?|bags?)\s+(?:[\w&’\'-]+\s+){0,7}(?:account|creative brief|advertising brief|media brief|business|creative duties|ad duties)\b|'
+    r'\b(?:appointed|named|selected)\s+(?:(?:as|the|its|new|lead|global|integrated|creative|media|digital|social|advertising|brand|marketing)\s+){0,8}(?:agency of record|creative agency|media agency|advertising agency|marketing agency|social agency)\b|'
+    r'\bagency of record\b|'
+    r'\b(?:appoints?|names?|selects?|chooses?)\s+.{1,90}\b(?:creative|media|advertising|marketing|integrated|social|digital)\s+agency\b|'
+    r'\b(?:creative|media|advertising|integrated|social)\s+(?:account|agency)\s+(?:win|appointment)\b)'
+)
+PRODUCTION_NEED_RE = re.compile(r'(?i)\b(film|filming|video|branded content|advertising production|creative production|commercial production|content production|production company|production partner|production services)\b')
+LIVE_PROCUREMENT_RE = re.compile(r'(?i)\b(tender|rfp|request for proposals|invitation to tender|procurement notice|seeks? (?:an? )?(?:film|video|content|production) (?:agency|partner|supplier)|seeking (?:an? )?(?:film|video|content|production) (?:agency|partner|supplier))\b')
+TALENT_NEW_BUSINESS_RE = re.compile(r'(?i)\b(signs?|signed|partners?|partnership|commercial deal|brand deal|brand partnership|appointed to represent|representation deal|new roster|launches?)\b')
+PERSONNEL_RE = re.compile(r'(?i)\b(joins?|hired|hires?|promoted|promotion|appoints?|appointed|names? (?:an? )?(?:new )?(?:director|head|chief)|mov(?:es|ers)|new (?:director|head|chief|ceo|cmo)|people moves)\b')
+CAMPAIGN_RE = re.compile(r'(?i)\b(brand film|commercial|creative campaign|advertising campaign|brand campaign|campaign|film|advert|ad spot|activation|creative work)\b')
+
+
 def classify(title: str,group: str):
-    t=title.lower()
-    if re.search(r'\b(tender|rfp|invitation to tender|procurement notice)\b',t):return 'Tender'
-    if re.search(r'\b(appoints?|appointed|agency of record|account win|wins (the |a |its )?account|wins? .{3,65}? account|awards? (the |its )?account|pitch win|names? .* agency)\b',t):return 'Account win'
-    if re.search(r'\b(hired|joins|promoted|named .* head|new .* director|new .* chief|signs .* director|launches? .* studio)\b',t):return 'Industry move'
-    if re.search(r'\b(campaign|film|commercial|advert|spot|launch|activation)\b',t):return 'Campaign'
+    # Category ordering is deliberate. 'appoints a director' is a people move,
+    # never a won account. A published campaign is NOT automatically a live brief.
+    if LIVE_PROCUREMENT_RE.search(title) and PRODUCTION_NEED_RE.search(title):return 'Tender'
+    if ACCOUNT_WIN_RE.search(title):return 'Account win'
+    if PERSONNEL_RE.search(title):return 'Industry move'
+    if CAMPAIGN_RE.search(title) or (matches(title,BRANDS) and matches(title,PUBLIC_AGENCIES)):return 'Campaign'
     return 'Industry news'
 
 
@@ -290,44 +307,72 @@ def headline_region(title):
 
 
 def intelligence(title,group,matched_target=False,talent=False,market=''):
+    """Rank evidence of a *possible commissioning moment*, not headline popularity.
+
+    High is reserved for explicit production procurement or a named target agency
+    winning a client account. Every RSS item still requires source verification;
+    even High does not mean that an active production brief exists.
+    """
     typ=classify(title,group)
     low=title.lower()
-    sector='Talent & representation' if talent else ('Sport & culture' if re.search(r'\b(sport|football|athlete|sponsor|nike|adidas|arsenal|tottenham|manchester united|cricket|rugby)\b',low) else ('Entertainment & culture' if re.search(r'\b(music|entertainment|gaming|culture)\b',low) else 'Creative & production'))
-    reasons=[];score=15
-    if matched_target:score+=44;reasons.append('Named GATE target agency appears in headline — verify identity')
-    if talent:score+=23;reasons.append('Talent agency / representation signal')
-    if typ=='Account win':score+=30;reasons.append('Potential new client relationship')
-    if typ=='Tender':score+=31;reasons.append('Possible procurement signal — official notice required')
-    if sector=='Sport & culture':score+=8;reasons.append('Sports-market adjacency')
-    if re.search(r'\b(production|shoot|filmmak|commercial|branded content|film|video)\b',low):score+=13;reasons.append('Production adjacency')
-    if typ=='Campaign':score+=8;reasons.append('Campaign conversation starter')
-    if typ=='Industry move':score+=5;reasons.append('New relationship-building moment')
-    if re.search(r'\b(social|digital|content)\b',low):score+=7;reasons.append('Social / content relevance')
+    sector='Talent & representation' if talent else ('Sport & culture' if re.search(r'\b(sport|football|athlete|sponsor|nike|adidas|arsenal|tottenham|manchester united|rugby)\b',low) else ('Entertainment & culture' if re.search(r'\b(music|entertainment|gaming|culture)\b',low) else 'Creative & production'))
+    is_live_tender=typ=='Tender' and bool(LIVE_PROCUREMENT_RE.search(title) and PRODUCTION_NEED_RE.search(title))
+    has_account_win=typ=='Account win' and bool(ACCOUNT_WIN_RE.search(title))
+    has_talent_deal=talent and bool(TALENT_NEW_BUSINESS_RE.search(title))
+    has_production=bool(PRODUCTION_NEED_RE.search(title))
     region,confidence=headline_region(title)
-    if region!='To verify':score+=5;reasons.append('Market identified in headline: '+region)
-    if not reasons:reasons=['Relevant industry headline; qualify production fit']
-    if typ=='Account win':
-        angle='A new account relationship could generate future campaign production. Find out who commissions film/content, whether suppliers are appointed, and what comes next.'
-        ask='Congratulations on the new account news. How do you typically approach film and content production as that partnership develops?'
+
+    if is_live_tender:
+        priority,score='High',92
+        rationale='An explicit film/content production procurement signal is present in the headline.'
+        next_action='Find the official notice; check whether the tender is still open, deadline, budget, scope and supplier requirements before bidding.'
+        angle='This looks like a production procurement lead, but the official buyer notice must confirm a live requirement and eligibility.'
+        ask='Could you point us to the official film/content production tender notice and clarify the supplier requirements?'
+    elif matched_target and has_account_win:
+        priority,score='High',85
+        rationale='A named hitlist agency appears alongside a client-account appointment or win. This is an early relationship-opening signal, not an awarded production brief.'
+        next_action='Verify the agency and client appointment, identify the account lead or head of production, then ask about upcoming campaign planning and external suppliers.'
+        angle='A new client relationship can lead to future production. Confirm whether work is in planning and whether production suppliers are already selected.'
+        ask='I saw the recent client appointment and was curious how you approach external film and social production as that relationship develops?'
+    elif has_account_win:
+        priority,score='Medium',65
+        rationale='Agency/client appointment reported, but this is not a verified hitlist win or production requirement.'
+        next_action='Check whether the account fits GATE’s sectors, confirm decision-makers and whether external production is relevant.'
+        angle='An agency/client appointment may lead to creative production, but no production brief is established.'
+        ask='I saw the account appointment and wondered how the team usually brings production partners into new client work?'
+    elif has_talent_deal and (has_production or re.search(r'(?i)\b(brand|commercial|content|campaign|athlete|creator|influencer)\b',title)):
+        priority,score='Medium',59
+        rationale='Talent representation/partnership activity may prompt branded-content planning, but no production buying decision is evidenced.'
+        next_action='Identify the partnerships/content lead; ask whether talent produces campaign or original social content with outside partners.'
+        angle='New talent or partnerships sometimes create production needs; first confirm who produces the content.'
+        ask='How do you approach video and social production when new talent or brand partnerships come on board?'
     elif typ=='Campaign':
-        angle='The campaign may already be delivered. Use the work to ask about next phases, social assets, regional adaptations or overflow production—not an assumed live brief.'
-        ask='I saw the recent campaign and wanted to learn how you resource follow-on film and social production around work like this.'
-    elif typ=='Tender':
-        angle='Locate the official procurement notice and verify buyer, deadline, scope, eligibility and budget before considering a bid.'
-        ask='Is there an official notice and live production brief we could review?'
-    elif talent:
-        angle='Talent representation activity may drive athlete, artist or creator content. Ask who manages original content, brand partnerships and production for the roster.'
-        ask='How do you typically handle filming and content production when new talent or brand partnerships come on board?'
+        priority,score=('Medium',53) if matched_target else ('Low',32)
+        rationale=('A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.' if matched_target else 'A published campaign is a conversation starter, not evidence of an upcoming production brief.')
+        next_action='Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.'
+        angle='The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.'
+        ask='I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?'
     elif typ=='Industry move':
-        angle='Build rapport around the appointment and understand who controls production sourcing; do not presume the hire has buying authority.'
-        ask='Congratulations on the new role. How do external production partners currently fit with the team’s creative plans?'
+        priority,score='Low',22
+        rationale='Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.'
+        next_action='Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities.'
+        angle='A new contact or remit can justify a light-touch introduction but does not imply a production need.'
+        ask='Congratulations on the news. How does your team typically work with outside production partners?'
     else:
-        angle='Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.'
-        ask='Saw this news and thought there might be a useful crossover. How do you typically handle external production support?'
-    return dict(type=typ,priority='High' if score>=64 else 'Medium',sector=sector,
-                signal_score=min(score,99),signal_reasons=reasons,angle=angle,ask=ask,
+        priority,score='Low',16
+        rationale='General creative-industry context. There is no concrete commissioning or account-win signal in the headline.'
+        next_action='Monitor the account or research further; no immediate cold outreach recommended from this story alone.'
+        angle='Useful context to research, not enough to justify a production-specific approach by itself.'
+        ask='How does your team typically plan film and content production?'
+    reasons=[rationale]
+    if matched_target:reasons.append('Agency name matches the private target list; identity still needs verification.')
+    if talent:reasons.append('Talent/representation angle; identify a partnerships or content owner.')
+    if region!='To verify':reasons.append('Headline contains a market reference: '+region+'.')
+    return dict(type=typ,priority=priority,sector=sector,
+                signal_score=score,signal_reasons=reasons,priority_reason=rationale,
+                next_action=next_action,angle=angle,ask=ask,
                 region=region,region_evidence=confidence,search_market=market,
-                caution='Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.')
+                caution='Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.')
 
 
 def rss_url(query,market='UK'):
@@ -408,8 +453,8 @@ def run(fetcher=download,dest=OUT,now=None):
             reports.append({'name':label,'state':'error','items':0,'reason':str(e)[:120]})
     cutoff=(now-dt.timedelta(days=21)).date().isoformat()
     items=[x for x in accumulated.values() if x.get('date','')>=cutoff]
-    # A strong account signal on the hitlist takes precedence over generic news.
-    items.sort(key=lambda x:(int(bool(x.get('target_match'))),int(bool(x.get('talent_signal'))),int(x.get('signal_score',0)),x.get('date','')),reverse=True)
+    # Rank commercial evidence above generic name-matches and personnel news.
+    items.sort(key=lambda x:({'High':3,'Medium':2,'Low':1}.get(x.get('priority'),0),int(x.get('signal_score',0)),x.get('date','')),reverse=True)
     items=items[:160]
     status='healthy' if successful==len(searches) else ('partial' if successful else 'unavailable')
     payload={
