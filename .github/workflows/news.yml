@@ -1,21 +1,27 @@
 name: Refresh GATE RADAR industry news
+
 on:
   schedule:
+    # GitHub schedules are approximate, and may run later than requested.
     - cron: '17 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
     paths:
+      - 'index.html'
       - 'scripts/**'
-      - 'data/**'
+      - 'data/curated.json'
       - '.github/workflows/news.yml'
+
 permissions:
-  contents: write
+  contents: write   # retain latest feed in repository (also triggers Netlify Git deploys)
   pages: write
   id-token: write
+
 concurrency:
   group: gate-radar-pages
   cancel-in-progress: false
+
 jobs:
   refresh-and-publish:
     runs-on: ubuntu-latest
@@ -30,9 +36,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect published headlines
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect targeted UK / EMEA / US headlines
+        env:
+          GATE_TARGET_AGENCIES: ${{ secrets.GATE_TARGET_AGENCIES }}
         run: python scripts/collect_news.py
-      - name: Save latest feed to repository
+      - name: Save latest feed to repository for future runs and Netlify
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
