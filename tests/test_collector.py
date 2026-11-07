@@ -51,6 +51,47 @@ class CollectorTests(unittest.TestCase):
         self.assertTrue(all('Brand Agency' not in label for label,*_ in s))
         self.assertNotEqual([q for _,q,*_ in s if 'Brand Agency' in q],[q for _,q,*_ in c.get_searches(WHEN+dt.timedelta(hours=1),names) if 'Brand Agency' in q])
 
+    def test_junk_cannot_pass_just_because_generic_name_matches(self):
+        bad=[
+            ("No Place For Hardik In Baroda's SMAT Squad, Krunal Appointed Captain",'Times Now'),
+            ('Vaibhav Sooryavanshi appointed Bihar captain for Syed Mushtaq Ali Trophy as BCA announces 17-member squad','News'),
+            ('Union-endorsed candidates sweep JCPS board races after $570K campaign push','WDRB'),
+            ('Refinery disruptions and rising production push WCS discount to multi-year high','Oil Sands Magazine'),
+            ('Mother of teen slain in Carman mass killing ends lawsuit against child welfare agency','CBC'),
+            ('Matt Hardy Reveals If Replacing Tommy Dreamer as TNA Head of Creative Was a Possibility','Sportsnaut'),
+            ('Ohio Governor-elect Amy Acton Shuns Ramaswamy Over Despicable Campaign Ad','News'),
+            ('Ondas to Scale ULTRA Aircraft Production in 2028','Ondas Inc'),
+        ]
+        targets=['Mother','Union','Squad','WCS','Tommy','Ultra']
+        for title,publisher in bad:
+            with self.subTest(title=title):
+                self.assertIsNone(c.qualify_story(title,publisher,'hitlist',targets))
+                self.assertIsNone(c.qualify_story(title,publisher,'campaign',targets))
+
+    def test_real_agency_and_commercial_work_still_pass(self):
+        good=[
+            ('VCCP Media appoints director of activation amid promotions','Campaign UK','hitlist',['VCCP']),
+            ('WAA Chosen appoints new Client Services Director','UK News Group','hitlist',['WAA Chosen']),
+            ('Movers Spotlight: Jeff Bowerman, We Are Social','Campaign UK','hitlist',['We Are Social']),
+            ('KFC UK&I, Mother Doomify 100 Markets for Avengers: Doomsday','DesignRush','hitlist',['Mother']),
+            ('Marks & Spencer The home of Christmas by Mother','Campaign UK','hitlist',['Mother']),
+            ('Uncommon wins JD Sports account in London','Sample Trade','hitlist',['Uncommon']),
+            ('Sports talent agency signs new influencer roster in London','Campaign UK','talent',[]),
+        ]
+        for title,publisher,category,targets in good:
+            with self.subTest(title=title):
+                self.assertIsNotNone(c.qualify_story(title,publisher,category,targets))
+
+    def test_existing_polluted_feed_is_purged(self):
+        with tempfile.TemporaryDirectory() as folder, patch.dict(os.environ,{'GATE_TARGET_AGENCIES':'Mother\nUnion\nVCCP'},clear=False):
+            dest=Path(folder)/'feed.json'
+            dest.write_text(json.dumps({'items':[
+                {'id':'junk','title':'Union-endorsed candidates sweep board races after campaign push','date':'2026-11-07','source':{'label':'WDRB','feed':'Hitlist watch 1/8'},'target_match':True},
+                {'id':'good','title':'VCCP Media appoints director of activation amid promotions','date':'2026-11-07','source':{'label':'Campaign UK','feed':'Hitlist watch 1/8'},'target_match':True},
+            ]}))
+            result=c.run(fetcher=lambda _:b'<rss><channel></channel></rss>',dest=dest,now=WHEN)
+            self.assertEqual([x['id'] for x in result['items']],['good'])
+
     def test_respects_failure_and_deduplication(self):
         with tempfile.TemporaryDirectory() as t,patch.dict(os.environ,{'GATE_TARGET_AGENCIES':'Uncommon\nHomeground'},clear=False):
             p=Path(t)/'feed.json'
@@ -59,7 +100,7 @@ class CollectorTests(unittest.TestCase):
             self.assertGreaterEqual(result['target_agency_count_configured'],2)
             self.assertEqual(len({x['id'] for x in result['items']}),len(result['items']))
             self.assertEqual(len(result['items']),2)
-            with patch.dict(os.environ,{'GATE_TARGET_AGENCIES':''},clear=False):
+            with patch.dict(os.environ,{'GATE_TARGET_AGENCIES':'Uncommon\nHomeground'},clear=False):
                 failed=c.run(fetcher=lambda _:(_ for _ in ()).throw(ValueError('unavailable')),dest=p,now=WHEN)
             self.assertEqual(failed['status'],'unavailable')
             self.assertEqual(failed['last_successful_fetch'],result['last_successful_fetch'])
