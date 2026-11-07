@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-07T21:51:41Z",
-  "last_successful_fetch": "2026-11-07T21:51:41Z",
+  "generated_at": "2026-11-07T21:53:37Z",
+  "last_successful_fetch": "2026-11-07T21:53:37Z",
   "status": "healthy",
   "sources_ok": 12,
   "sources_total": 12,
-  "new_items_this_run": 0,
+  "new_items_this_run": 1,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -987,7 +987,7 @@
     {
       "type": "Industry news",
       "priority": "Medium",
-      "sector": "Creative & production",
+      "sector": "Entertainment & culture",
       "signal_score": 15,
       "signal_reasons": [
         "Relevant industry headline; qualify production fit"
@@ -998,17 +998,17 @@
       "region_evidence": "Search-market context only",
       "search_market": "UK",
       "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
-      "id": "rss-5b40b9ebcfb99eea",
-      "date": "2026-11-06",
-      "title": "Who Wot Why wins Hartley’s",
-      "summary": "Source-linked headline from More About Advertising. Check the report to confirm full details, campaign credits and territory.",
+      "id": "rss-09ad98be43e00a88",
+      "date": "2026-11-07",
+      "title": "Disney+ - Divorce Culture — The Immortal Awards — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "Brand to confirm",
       "production": "Not established by headline",
       "source": {
-        "label": "More About Advertising",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GcVFyRjFxM2J2V2VaMEVtaG5PR1RKYUJYamFNUWtkQkdzR1c2cDBISHlQZ0pMbDlHakN6YkR1R2FfUkJzalF1Skk5blhMcHc1UWcxdHBHMzc2WXNBdDFMZ0h2dFVMVzFRTHAwb09xdlhpbFZadlI0?oc=5",
-        "publisher_url": "https://www.moreaboutadvertising.com",
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJUzdpUld5Vmxyek1YeXdZbzhIUEhNRzc5Q1RQWF9hMFpHR2NySUFqaXZHb0k4Wl9KZjFEeEN0WTkzWDFGVk45dlZDdk96YmtvNnE1SklSblRBOVhJNVlJ?oc=5",
+        "publisher_url": "https://lbbonline.com",
         "feed": "UK agency account wins"
       },
       "contacts": [],
@@ -1115,6 +1115,41 @@
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVTRjcmJqMFBxNTdydk92ZkEwaVVVbTJ0Z3BscEVobVFJSFRzYVYwS3VGX0dBSThuQlJlcFZCdGw5a09vT2lsN2s3a3l2b080ak9KTi1XaTRCeXJoLXpGLXFUSVpod3kzLWxfUFRyN0txTkxXOGFTaHAwM0c5dldJankyNXBxMUUwY3FXek4teHhpQkpCNFVUZXpULW9ka3F6QUNmdw?oc=5",
         "publisher_url": "https://lbbonline.com",
         "feed": "US creative campaigns"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 15,
+      "signal_reasons": [
+        "Relevant industry headline; qualify production fit"
+      ],
+      "angle": "Verify which agency and brand are involved, then qualify whether there is a credible external film/content production need.",
+      "ask": "Saw this news and thought there might be a useful crossover. How do you typically handle external production support?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead; confirm story, company identity, market and production decision-makers at the original source. No open brief or budget confirmed.",
+      "id": "rss-5b40b9ebcfb99eea",
+      "date": "2026-11-02",
+      "title": "Who Wot Why wins Hartley’s",
+      "summary": "Source-linked headline from More About Advertising. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "More About Advertising",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9GcVFyRjFxM2J2V2VaMEVtaG5PR1RKYUJYamFNUWtkQkdzR1c2cDBISHlQZ0pMbDlHakN6YkR1R2FfUkJzalF1Skk5blhMcHc1UWcxdHBHMzc2WXNBdDFMZ0h2dFVMVzFRTHAwb09xdlhpbFZadlI0?oc=5",
+        "publisher_url": "https://www.moreaboutadvertising.com",
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
