@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T21:07:31Z",
-  "last_successful_fetch": "2026-11-07T21:07:31Z",
+  "generated_at": "2026-11-07T21:14:36Z",
+  "last_successful_fetch": "2026-11-07T21:14:36Z",
   "status": "healthy",
   "sources_ok": 10,
   "sources_total": 10,
-  "new_items_this_run": 122,
+  "new_items_this_run": 4,
   "sources": [
     {
       "name": "Agency account wins",
@@ -20,7 +20,7 @@
     {
       "name": "Sport & culture",
       "state": "ok",
-      "items": 19
+      "items": 18
     },
     {
       "name": "Film production",
@@ -50,7 +50,7 @@
     {
       "name": "Retail & consumer brands",
       "state": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "name": "New briefs & tenders",
@@ -200,6 +200,64 @@
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TcnBZNTlIZXFkb29KdkVvNGlPbmJQXzlVeXg5aXg4RDBzRElDbEdzWGs0d2xvelFMeGRXNnNTQlpFMXFYanFMLUdEdU9sLTVkSTNVVy0wMHY3OUl1enVmenF1LXVXOW9RLWdxbw?oc=5",
         "publisher_url": "https://www.moviemaker.com",
         "feed": "Social & content"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "contact_note": "No named contacts automatically inferred. Research the commissioning team and verify profiles before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 20,
+      "signal_reasons": [
+        "Relevant industry headline; qualify production fit"
+      ],
+      "angle": "Research the companies and commissioning roles involved, then check whether GATE has a credible production fit.",
+      "ask": "I came across this news and thought there could be an interesting crossover with our film and content production work. How do you approach that side of projects?",
+      "caution": "Source-linked headline only. The story has not been independently fact-checked by GATE; an open production brief or available budget is NOT confirmed.",
+      "id": "rss-ad98f1fd800e03ff",
+      "date": "2026-11-07",
+      "title": "Thai Life Insurance - Unfading Love — The Immortal Awards — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Open the original report to confirm details, production credits and timing.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1qYzlfQjJ4Qzd6YXdwOVR4Qlk3U0FTVTNNMlBoa2c2UldhSnhaN1JYQmMyX2R1WF9OS3FoeTB2MmJJZC1vbl9uWDFYLUFVaTBCVTZOWkRYNkptbmhVWnlj?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "Agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "contact_note": "No named contacts automatically inferred. Research the commissioning team and verify profiles before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Medium",
+      "sector": "Entertainment & culture",
+      "signal_score": 20,
+      "signal_reasons": [
+        "Relevant industry headline; qualify production fit"
+      ],
+      "angle": "Research the companies and commissioning roles involved, then check whether GATE has a credible production fit.",
+      "ask": "I came across this news and thought there could be an interesting crossover with our film and content production work. How do you approach that side of projects?",
+      "caution": "Source-linked headline only. The story has not been independently fact-checked by GATE; an open production brief or available budget is NOT confirmed.",
+      "id": "rss-09ad98be43e00a88",
+      "date": "2026-11-07",
+      "title": "Disney+ - Divorce Culture — The Immortal Awards — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Open the original report to confirm details, production credits and timing.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJUzdpUld5Vmxyek1YeXdZbzhIUEhNRzc5Q1RQWF9hMFpHR2NySUFqaXZHb0k4Wl9KZjFEeEN0WTkzWDFGVk45dlZDdk96YmtvNnE1SklSblRBOVhJNVlJ?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "Agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -491,6 +549,35 @@
         "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSzZJbVdtVVZNdWpuSHRuMzdkTFI2ZmY1NVhMZXlDWWVxOW9qQ05PXzh3VnRmanVZR19NZjY4M2ltNVk5RUhHZmtQWEdMWC11bllJZ003cmhRRTM0c1Q3VVFhYWpfRjZWRU5hUEhvRmJfVTdDbEw4Vm5QNG9WMmEybnJMY1J1S0hzNEpnaXFmMXR4MW44c3dabk9TZ3U2Wm1XRW9oS2NaS3lvbFlC?oc=5",
         "publisher_url": "https://thethaiger.com",
         "feed": "Entertainment & culture"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "contact_note": "No named contacts automatically inferred. Research the commissioning team and verify profiles before outreach."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 29,
+      "signal_reasons": [
+        "Campaign conversation starter"
+      ],
+      "angle": "The announced campaign may already be delivered. Use the work as a tailored conversation starter about future shoots, social cutdowns and overflow production.",
+      "ask": "I saw the recently announced campaign. How do you usually resource the wider content and future production around work like this?",
+      "caution": "Source-linked headline only. The story has not been independently fact-checked by GATE; an open production brief or available budget is NOT confirmed.",
+      "id": "rss-f5af38d0cc6f03cb",
+      "date": "2026-11-06",
+      "title": "Omens Wins MarCom Platinum for TRUQ’s “Your Old Luggage Is Dead” Kickstarter Launch",
+      "summary": "Source-linked headline from Roastbrief US. Open the original report to confirm details, production credits and timing.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Roastbrief US",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQclZ4ckZfVU5lVGtaTUJFS0JyN1NmTnBOUzhWalVUQ0ZxUnVrQmdCNDk1R1BTem0zSS05MDl0SXBNdTZPd0w4Yk5WSHc3NGc3eWtwUnU3bVRSYXlodUdaZFpyZ1JLN2Vlemo5REprUVhLSlRxX3Q0SlhlSXU5TWlYaFdJazVrRDkzRVp5bkI4TGdyZU1tZjJxNHBwM1NmUFJZbjJYVU93?oc=5",
+        "publisher_url": "https://roastbrief.us",
+        "feed": "Film production"
       },
       "contacts": [],
       "origin": "automated",
@@ -2214,6 +2301,35 @@
       "contact_note": "No named contacts automatically inferred. Research the commissioning team and verify profiles before outreach."
     },
     {
+      "type": "Industry news",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 20,
+      "signal_reasons": [
+        "Relevant industry headline; qualify production fit"
+      ],
+      "angle": "Research the companies and commissioning roles involved, then check whether GATE has a credible production fit.",
+      "ask": "I came across this news and thought there could be an interesting crossover with our film and content production work. How do you approach that side of projects?",
+      "caution": "Source-linked headline only. The story has not been independently fact-checked by GATE; an open production brief or available budget is NOT confirmed.",
+      "id": "rss-7ecb972456097918",
+      "date": "2026-11-04",
+      "title": "Aussie director Steve Rogers helms Tesco’s 2026 Christmas ad ‘The Wrong Address’ via BBH London",
+      "summary": "Source-linked headline from Campaign Brief. Open the original report to confirm details, production credits and timing.",
+      "agency": "BBH",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Campaign Brief",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa3ZEdlBWSUdlSDk4YTBXcmV3X3lCYmgwTHM2ZklTVWhzckhUS3ZjWVl2cGpEamdna2JDbHVVYmhkZ3EySGVCd3Q2RWE2OEtFVGhGc2ZwY093eGRCdy1OMzdOZEN1SFJoTjVTZlN3QmsxMXl2VlBNM29CeTBYUmZ3bmV1V2dNalJFcURMYjZkUGhHUjE0SWJpRDEtTXlacjdUVldSTHdnYTRPWjA3MzBkakJJMHRBTGVLblpN?oc=5",
+        "publisher_url": "https://campaignbrief.com",
+        "feed": "Film production"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "contact_note": "No named contacts automatically inferred. Research the commissioning team and verify profiles before outreach."
+    },
+    {
       "type": "Account win",
       "priority": "Medium",
       "sector": "Creative & production",
@@ -2346,14 +2462,14 @@
       "id": "rss-193b68dd87d0e664",
       "date": "2026-11-03",
       "title": "South West Film Marks 10th Anniversary of Animation Studio and 3rd Anniversary of Sister Agency Spark Animation",
-      "summary": "Source-linked headline from The Des Moines Register. Open the original report to confirm details, production credits and timing.",
+      "summary": "Source-linked headline from Lohud. Open the original report to confirm details, production credits and timing.",
       "agency": "Agency to confirm",
       "brand": "Brand to confirm",
       "production": "Not established by headline",
       "source": {
-        "label": "The Des Moines Register",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZ1JZNmVZMERlelhFQ29DM2NRS3QxVVZsZ3VQT1N5SEpPT0ZiR0g5d0VBTlZyM2VZM3NhcTB4cFhxSUNZVWZMbE5ZekFuZDVDa3VHZGQ0YVNRbU1GRXJGTHBDZ1NyTkZOb0RtYmRmc1ZQNEJNbUdBb2puWTNpVEdMZXlYd2FZWEFtWHMxTlpTRnhJR29JRG42UzVpM3RXWE5oYUczWEVRekdFaF9aRTh5eW5HLXdBQ1hjX2FCMnBxZS02eEZlVFRNcEpFRC1mVHJ3VzZpUERodGk0dUtCWG5QT19IczR4TUh4QUpPNjN2VTVVSzVWZmV2UDZ4VjlQR3J2T0U0?oc=5",
-        "publisher_url": "https://www.desmoinesregister.com",
+        "label": "Lohud",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQY3NvMENTUTRwOHQ5UV9NX2pkYW9rNTMxQW9sbVlPY080eDZMSi1RVE4zYklhYUppSFR3OVduTE5qbUdhVVFSTThLUGJuVHRfQXZ0LVVQUEtmOE4xemQzRndrZXJNX1p1RGc4ckhBdHhuR1o2VXBmLTk4c1JDT21aRkd2eENCMko0NkZtZUc2NzFtMTZXcDNmMTA5bDNlajlmU2dtVjlnZFhkcl9xemx4bUMtcWozUENHRjNwZU1hUFF5Rm95RFVwZHh0MHpZYzFWZ1pONldUT3ptRjRmS2k2d0dBdGMzeko4RThOUGhMTEhlazg?oc=5",
+        "publisher_url": "https://www.lohud.com",
         "feed": "Creative campaigns"
       },
       "contacts": [],
