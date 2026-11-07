@@ -1,18 +1,19 @@
-# GATE RADAR v3
+# GATE RADAR v4 — Target-first production business development intelligence
 
-**Live industry-intelligence + business development signal dashboard (deployable starter).**
+**Live public preview:** https://derrick2510.github.io/gate-radar/
 
-Open `index.html` to preview the 9 curated sourced stories. **Live automatic hourly news is not active until GitHub Actions is deployed and enabled.**
+- Hourly Google News RSS checks focusing on **UK, EMEA and US** creative and media production, account wins, campaigns, talent agencies and production tenders.
+- Optional **private agency hitlist** held only in a GitHub Actions secret: `GATE_TARGET_AGENCIES`. The list is **not committed** to this public repo. Each hourly run monitors 8 groups of 8 names; a complete sweep of a long list generally takes several hours.
+- When a named agency matches a headline, the site flags it as a **name match to verify**, not proof of a confirmed relationship or live brief.
+- Talent agencies/management/creator representation have their own monitoring category.
+- Separate headline-evidenced region vs search-market context; do not treat market filters as verified campaign geography.
+- Priority scores and conversation prompts are heuristics. The system does not invent contacts, verified budgets, project availability or supplier assignments.
+- Outreach notes, saved stories and ownership are saved **locally** in each visitor's browser; not shared or private by default.
 
-For launch and operations, read **[docs/SETUP.md](docs/SETUP.md)**.
+## Enable private target watch
 
-Stack: HTML/CSS/JavaScript; Python standard library XML RSS collector; GitHub Actions hourly scheduled job; GitHub Pages (free public site). Optional existing Netlify Git-connected deployment.
+In **Settings → Secrets and variables → Actions → New repository secret**, create `GATE_TARGET_AGENCIES` with one agency name per line. Save and manually rerun **Actions → Refresh GATE RADAR industry news → Run workflow**. The dashboard will show the number of configured agency names, but never publishes the entire hitlist. **Google News receives agency names in search requests** and the public website displays individual matched headlines; seek company approval.
 
-- 10 monitored topic searches, dedupe and 14-day retention
-- Source attribution, review warnings and feed health indicators
-- Account wins, campaigns, sector, search, relevance ranking
-- Curated public contact routes with evidence links (no inferred emails)
-- Suggested introductory questions and LinkedIn people **searches** (not claimed identities)
-- Local-only outreach stage, owner, due date, notes, save list and CSV export
+Read [docs/SETUP.md](docs/SETUP.md) for setup, limitations, editing and troubleshooting. No commercial API subscription is needed for the starter, though RSS availability, coverage and scheduling are not guaranteed.
 
-Limitations: scheduled runs not exact, Google News RSS has no SLA, article bodies not fact-checked, no user authentication or synchronized database. Any company-branded public deployment should be approved by your organization.
+Technical stack: static HTML/CSS/JS, Python standard library, GitHub Actions, GitHub Pages. Run tests with `python -m unittest discover -s tests -v`.
