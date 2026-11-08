@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T04:12:42Z",
-  "last_successful_fetch": "2026-11-08T04:12:42Z",
+  "generated_at": "2026-11-08T05:10:35Z",
+  "last_successful_fetch": "2026-11-08T05:10:35Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 72,
+  "new_items_this_run": 63,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "EMEA agency account wins",
@@ -20,7 +20,7 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "UK creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 10
+      "items": 4
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 24
+      "items": 2
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 7
+      "items": 13
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 11
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 0
+      "items": 7
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 11
+      "items": 12
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 5
+      "items": 8
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 7
+      "items": 8
     }
   ],
   "items": [
@@ -259,6 +259,44 @@
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
       "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
       "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 53,
+      "signal_reasons": [
+        "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-6d6c411a4e749b5c",
+      "date": "2026-11-05",
+      "title": "CampaignLab Wins Diamonds Factory, Launches Stand-In Engagement Ring Campaign — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "STAND",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VTVJKNzdzZ2lYY1ZSMVpocjJlOVNzRndnTEM2UGJhRW4td3ptX0tldmpMUjNMXzFSSVF0RnpPanhDekFTbU4zVzAtNWVCQkZwRDhINjlrbHNrMjBkSmN6b2JBSGIxNm9CSGFJdHJ0REpmZzNtX1lxTDlLM2cwWEk?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "US agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
       "type": "Campaign",
@@ -654,7 +692,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-8f637930b2fd189d",
       "date": "2026-11-02",
@@ -667,7 +705,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 2/8"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
