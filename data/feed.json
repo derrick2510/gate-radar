@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-08T10:03:40Z",
-  "last_successful_fetch": "2026-11-08T10:03:40Z",
+  "generated_at": "2026-11-08T10:59:55Z",
+  "last_successful_fetch": "2026-11-08T10:59:55Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 47,
+  "new_items_this_run": 46,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,7 +70,7 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "name": "Hitlist watch 2/8",
