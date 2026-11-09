@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T03:07:07Z",
-  "last_successful_fetch": "2026-11-09T03:07:07Z",
+  "generated_at": "2026-11-09T04:20:33Z",
+  "last_successful_fetch": "2026-11-09T04:20:33Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 73,
+  "new_items_this_run": 65,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 10
+      "items": 5
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 24
+      "items": 2
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 7
+      "items": 13
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 1
+      "items": 8
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 11
+      "items": 12
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 5
+      "items": 9
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 7
+      "items": 8
     }
   ],
   "items": [
@@ -692,7 +692,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-8f637930b2fd189d",
       "date": "2026-11-02",
@@ -705,7 +705,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 2/8"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
