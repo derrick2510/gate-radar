@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T07:35:23Z",
-  "last_successful_fetch": "2026-11-10T07:35:23Z",
+  "generated_at": "2026-11-10T09:10:41Z",
+  "last_successful_fetch": "2026-11-10T09:10:41Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 104,
+  "new_items_this_run": 71,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -40,17 +40,17 @@
     {
       "name": "UK talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "EMEA talent agencies",
       "state": "ok",
-      "items": 0
+      "items": 1
     },
     {
       "name": "US talent agencies",
       "state": "ok",
-      "items": 0
+      "items": 1
     },
     {
       "name": "UK production procurement",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 5
+      "items": 14
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 1
+      "items": 9
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 31
+      "items": 8
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 7
+      "items": 13
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 11
+      "items": 8
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 21
+      "items": 8
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 10
+      "items": 6
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 24
+      "items": 5
     }
   ],
   "items": [
@@ -565,6 +565,45 @@
     {
       "type": "Industry news",
       "priority": "Low",
+      "sector": "Talent & representation",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Talent/representation angle; identify a partnerships or content owner.",
+        "Headline contains a market reference: US."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "US",
+      "region_evidence": "Headline evidence",
+      "search_market": "EMEA",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-a1c5014f8384d03b",
+      "date": "2026-11-10",
+      "title": "New Zealand Dancer Jasmine Jones Signs with BLOC Talent Agency Ahead of Los Angeles Performance Work",
+      "summary": "Source-linked headline from openPR.com. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "openPR.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkptWmRMTHljdDRJb0NZSkFubHBBdGZmQ1hMZnNvZk9JQy1kZ205aDlXZWhhRHpJMlRleGhvZG1uV1FBaU13WkdwUGZYdnQ4MGt3ajZySUlSWFBwRnl4d09OMElnRzU3eENIRUV5QXF5bDRqQ0FUSkVRanRYLVRfTk44ZTg2UHR0dXd1WjJtdWZFazJET1BvYzNkRVR1N1k?oc=5",
+        "publisher_url": "https://www.openpr.com",
+        "feed": "EMEA talent agencies"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": true,
+      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
       "sector": "Creative & production",
       "signal_score": 16,
       "signal_reasons": [
@@ -652,7 +691,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-f3b5371065012d4a",
       "date": "2026-11-09",
@@ -665,7 +704,7 @@
         "label": "Variety",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1F0WkNleHRpbS10QWpzeUVLazVJcDlkSzBmSFZfSmk1VG4ydDJVRU5ZekxXNlpnUWlxMVlpNTJhOXhyU2NaOXlLd1d4MXJ1aHp5b2NWc2xOV1M3MW52WEpidWp2MTdIN1Z5WUVUQmF0S21nSjV1RkRXcFBLOUloeFVIeUhWTWJGSHUyaWpYTHhKdWg3aFozTnNPU1hEVUh0?oc=5",
         "publisher_url": "https://variety.com",
-        "feed": "UK talent agencies"
+        "feed": "US talent agencies"
       },
       "contacts": [],
       "origin": "automated",
