@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T13:27:38Z",
-  "last_successful_fetch": "2026-11-10T13:27:38Z",
+  "generated_at": "2026-11-10T15:08:55Z",
+  "last_successful_fetch": "2026-11-10T15:08:55Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 115,
+  "new_items_this_run": 80,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 31
+      "items": 7
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 6
+      "items": 15
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 11
+      "items": 9
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 21
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 10
+      "items": 6
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 24
+      "items": 6
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 1
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 11
+      "items": 31
     }
   ],
   "items": [
@@ -175,7 +175,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0UxemhIcXA1YlgtYW1hWEYzejVZaURFUEJpN3o5SVlabHdWVTN4czdYb3FVWEVsRDVwVUtjLUVTTHJxX3RkSlJYV2xlRHJzbnMzc0F3V1p2aGRmbFZSaXZLLVhIdHBEMmI4dkpURVMwVUkzaG1FS25vc3B4eVN0SFUxZFM1MndOdTFCd0E2R2d3UC1MWWVoVg?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -583,14 +583,14 @@
       "id": "rss-a1c5014f8384d03b",
       "date": "2026-11-10",
       "title": "New Zealand Dancer Jasmine Jones Signs with BLOC Talent Agency Ahead of Los Angeles Performance Work",
-      "summary": "Source-linked headline from openPR.com. Check the report to confirm full details, campaign credits and territory.",
+      "summary": "Source-linked headline from WBOC TV. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "Brand to confirm",
       "production": "Not established by headline",
       "source": {
-        "label": "openPR.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkptWmRMTHljdDRJb0NZSkFubHBBdGZmQ1hMZnNvZk9JQy1kZ205aDlXZWhhRHpJMlRleGhvZG1uV1FBaU13WkdwUGZYdnQ4MGt3ajZySUlSWFBwRnl4d09OMElnRzU3eENIRUV5QXF5bDRqQ0FUSkVRanRYLVRfTk44ZTg2UHR0dXd1WjJtdWZFazJET1BvYzNkRVR1N1k?oc=5",
-        "publisher_url": "https://www.openpr.com",
+        "label": "WBOC TV",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOTE1pUlBNYXIzSW1HUmpFRjNsaWJLYlc2VGQyRUk2QjY3Vzl6SndmS1R4MVAtOHJCUG51aEVJR0dtblNtUU4weEhRTDY2b1E1LXlPR3VPcGZQOUU4THJTbjBGWWlrSzNlb0pXZE5TNkJxcktDakFUUDdlTDRib1M2WEtQQVRzS2hLS05paUJnMEZuV2FVSWZDUGpaR2pVMnpMTjEzV0lYNWZBVDRWS01hRzh4dHhsakZ0TXBIY0Fzd2hEQUJZSU90ZGczc2VQaWh3Nl8wTEVjSTNMSEtwMngwLVZjcU9fSU9NSlZSZ1NCUWRhc3hUdEUzVWtXQnBVYk00UTVZdS1UYThqblM0akdxZ3dRQUNUbXJoQWY0Z29TOHR3eE0?oc=5",
+        "publisher_url": "https://www.wboc.com",
         "feed": "EMEA talent agencies"
       },
       "contacts": [],
