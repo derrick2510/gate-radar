@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T05:13:09Z",
-  "last_successful_fetch": "2026-11-10T05:13:09Z",
+  "generated_at": "2026-11-10T06:12:54Z",
+  "last_successful_fetch": "2026-11-10T06:12:54Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
@@ -10,7 +10,7 @@
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "EMEA agency account wins",
@@ -40,7 +40,7 @@
     {
       "name": "UK talent agencies",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "EMEA talent agencies",
@@ -70,12 +70,12 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 24
+      "items": 2
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 7
+      "items": 13
     },
     {
       "name": "Hitlist watch 3/8",
@@ -85,27 +85,27 @@
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 1
+      "items": 8
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 11
+      "items": 13
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 5
+      "items": 8
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 9
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 5
+      "items": 6
     }
   ],
   "items": [
