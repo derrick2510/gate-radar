@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T10:13:00Z",
-  "last_successful_fetch": "2026-11-10T10:13:00Z",
+  "generated_at": "2026-11-10T11:09:01Z",
+  "last_successful_fetch": "2026-11-10T11:09:01Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 105,
+  "new_items_this_run": 58,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -15,7 +15,7 @@
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "US agency account wins",
@@ -50,7 +50,7 @@
     {
       "name": "US talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "UK production procurement",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 1
+      "items": 10
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 31
+      "items": 1
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 6
+      "items": 12
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 11
+      "items": 5
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 21
+      "items": 8
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 10
+      "items": 6
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 24
+      "items": 2
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 7
+      "items": 14
     }
   ],
   "items": [
@@ -691,7 +691,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-f3b5371065012d4a",
       "date": "2026-11-09",
@@ -704,7 +704,7 @@
         "label": "Variety",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1F0WkNleHRpbS10QWpzeUVLazVJcDlkSzBmSFZfSmk1VG4ydDJVRU5ZekxXNlpnUWlxMVlpNTJhOXhyU2NaOXlLd1d4MXJ1aHp5b2NWc2xOV1M3MW52WEpidWp2MTdIN1Z5WUVUQmF0S21nSjV1RkRXcFBLOUloeFVIeUhWTWJGSHUyaWpYTHhKdWg3aFozTnNPU1hEVUh0?oc=5",
         "publisher_url": "https://variety.com",
-        "feed": "US talent agencies"
+        "feed": "UK talent agencies"
       },
       "contacts": [],
       "origin": "automated",
