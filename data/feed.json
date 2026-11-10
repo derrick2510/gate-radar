@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T01:26:05Z",
-  "last_successful_fetch": "2026-11-10T01:26:05Z",
+  "generated_at": "2026-11-10T03:06:18Z",
+  "last_successful_fetch": "2026-11-10T03:06:18Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 87,
+  "new_items_this_run": 66,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -50,7 +50,7 @@
     {
       "name": "US talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "UK production procurement",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 8
+      "items": 5
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 6
+      "items": 2
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 5
+      "items": 14
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 1
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 31
+      "items": 8
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 7
+      "items": 13
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 11
+      "items": 8
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 22
+      "items": 8
     }
   ],
   "items": [
