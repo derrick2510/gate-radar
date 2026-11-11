@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T15:09:52Z",
-  "last_successful_fetch": "2026-11-11T15:09:52Z",
+  "generated_at": "2026-11-11T16:11:08Z",
+  "last_successful_fetch": "2026-11-11T16:11:08Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 91,
+  "new_items_this_run": 65,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -25,7 +25,7 @@
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 7
+      "items": 12
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 11
+      "items": 5
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 19
+      "items": 8
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 12
+      "items": 6
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 24
+      "items": 2
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 7
+      "items": 15
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 11
+      "items": 9
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 1
+      "items": 7
     }
   ],
   "items": [
@@ -486,6 +486,44 @@
       "target_match": false,
       "talent_signal": false,
       "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry move",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 22,
+      "signal_reasons": [
+        "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+      "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities.",
+      "angle": "A new contact or remit can justify a light-touch introduction but does not imply a production need.",
+      "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-017ba79edb804ad9",
+      "date": "2026-11-11",
+      "title": "M+C Saatchi North America Appoints Jim Hord as Executive Creative Director — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "M+C SAATCHI",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaWNVM0xOdnZuV0k3TTJtV1ZzeW10bElaeVZfZXhONVVLVzBySlpRQzRyd1RCTWZmWmo2MnFzUUwtdFI5OFhmaUIwamNjSVhyRlprNW1TY2NHWlFTRFRnSDJYQ3g2T3h6RWE4NjY5Q2RUWGRWVVZvOU9pZFltei12aUVXSUE5dGZzNkpJb0xqUzNPM0ZfSGtVSlFITnhwVEF6VWxv?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "UK agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
