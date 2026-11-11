@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-11T17:17:22Z",
-  "last_successful_fetch": "2026-11-11T17:17:22Z",
+  "generated_at": "2026-11-11T19:21:40Z",
+  "last_successful_fetch": "2026-11-11T19:21:40Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 75,
+  "new_items_this_run": 65,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -35,17 +35,17 @@
     {
       "name": "US creative campaigns",
       "state": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "UK talent agencies",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "EMEA talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "US talent agencies",
@@ -70,7 +70,7 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 14
+      "items": 5
     },
     {
       "name": "Hitlist watch 2/8",
@@ -80,32 +80,32 @@
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 8
+      "items": 6
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 6
+      "items": 2
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 6
+      "items": 15
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 0
+      "items": 9
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 32
+      "items": 8
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 7
+      "items": 14
     }
   ],
   "items": [
@@ -238,7 +238,7 @@
       "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
       "region": "UK",
       "region_evidence": "Headline evidence",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-a2d784c32426970d",
       "date": "2026-11-11",
@@ -251,7 +251,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VERWJxNVdSLTRkejVBRy1wRE9KUVphRnlpTEpoS0REal91bnlQUDhDSkxHV1YyTlZ5SWtKN0ZudVEzaWFSWW1Sd3J1NGRhUmlRa05ueHJicXZBTjZXeVJvc1ZWa2lvNmdwSmdQOFdRMGlIUW9BUU5vSnpxN1lINlBsYmdTX3NUT2ZyMThuNXlZaE9MOXhSUGFQeDNzV2NmQUg4dzdFNHNiWHBnLXV0Rk80Z3gyUQ?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US creative campaigns"
+        "feed": "UK creative campaigns"
       },
       "contacts": [],
       "origin": "automated",
@@ -881,7 +881,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-f3b5371065012d4a",
       "date": "2026-11-09",
@@ -894,7 +894,7 @@
         "label": "Variety",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd1F0WkNleHRpbS10QWpzeUVLazVJcDlkSzBmSFZfSmk1VG4ydDJVRU5ZekxXNlpnUWlxMVlpNTJhOXhyU2NaOXlLd1d4MXJ1aHp5b2NWc2xOV1M3MW52WEpidWp2MTdIN1Z5WUVUQmF0S21nSjV1RkRXcFBLOUloeFVIeUhWTWJGSHUyaWpYTHhKdWg3aFozTnNPU1hEVUh0?oc=5",
         "publisher_url": "https://variety.com",
-        "feed": "UK talent agencies"
+        "feed": "EMEA talent agencies"
       },
       "contacts": [],
       "origin": "automated",
