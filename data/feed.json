@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-12T19:18:02Z",
-  "last_successful_fetch": "2026-11-12T19:18:02Z",
+  "generated_at": "2026-11-12T21:07:51Z",
+  "last_successful_fetch": "2026-11-12T21:07:51Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 73,
+  "new_items_this_run": 68,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -40,12 +40,12 @@
     {
       "name": "UK talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "EMEA talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "US talent agencies",
@@ -75,37 +75,37 @@
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 6
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 5
+      "items": 2
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 7
+      "items": 14
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 0
+      "items": 10
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 32
+      "items": 7
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 8
+      "items": 15
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 10
+      "items": 8
     }
   ],
   "items": [
@@ -713,6 +713,45 @@
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
       "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
       "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Talent & representation",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Talent/representation angle; identify a partnerships or content owner.",
+        "Headline contains a market reference: US."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "US",
+      "region_evidence": "Headline evidence",
+      "search_market": "EMEA",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-9d607cac60638b1d",
+      "date": "2026-11-12",
+      "title": "DISTINKT, A NEW CALIFORNIA-LICENSED TALENT AGENCY, BREAKS DOWN THE BARRIER TO PROFESSIONAL REPRESENTATION WITH A NEW MODEL FOR GLOBAL TALENT",
+      "summary": "Source-linked headline from The Manila Times. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "The Manila Times",
+        "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNUUQwa3N5dkxpbFlZb2NVMEJwOUV5Ym5UaGFWU3dmMjU0cEhSTExSa3c2bldXd21DdzhGYURXN2N0OVQtelItdmZKNzVGNmhCdjRmU05SZ0ZuS2NEOGV6NjJHWGozTFhCYlg2NzE0YkV1M0hST2NFNUQ5ZlVEVFA1RnFydmhSRWJSYkZ5UHVKdE91MDB2YUpka1daYjBDdXpFbC1WcWxjdzVJazh5MkdVYVplTnJMN1dEZU1EQ3MwcThIcFlnMm5GU2RnS3pyVVFSSjczNU9jV1lDVXZPYTRYOXhhczNZYy1JNlZQNDZRamRzZm1yeU5VdEZnVGFNYUx3WVEwRFpHSmpWT0NldWJ2TEdRUXZJd0xRQ3VWWm13TTc2X2RBTjdVbnZQX2Y1SjU1X29SdW9pZVFvd9IBugJBVV95cUxNUUQwa3N5dkxpbFlZb2NVMEJwOUV5Ym5UaGFWU3dmMjU0cEhSTExSa3c2bldXd21DdzhGYURXN2N0OVQtelItdmZKNzVGNmhCdjRmU05SZ0ZuS2NEOGV6NjJHWGozTFhCYlg2NzE0YkV1M0hST2NFNUQ5ZlVEVFA1RnFydmhSRWJSYkZ5UHVKdE91MDB2YUpka1daYjBDdXpFbC1WcWxjdzVJazh5MkdVYVplTnJMN1dEZU1EQ3MwcThIcFlnMm5GU2RnS3pyVVFSSjczNU9jV1lDVXZPYTRYOXhhczNZYy1JNlZQNDZRamRzZm1yeU5VdEZnVGFNYUx3WVEwRFpHSmpWT0NldWJ2TEdRUXZJd0xRQ3VWWm13TTc2X2RBTjdVbnZQX2Y1SjU1X29SdW9pZVFvdw?oc=5",
+        "publisher_url": "https://www.manilatimes.net",
+        "feed": "EMEA talent agencies"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": true,
+      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
       "type": "Industry news",
