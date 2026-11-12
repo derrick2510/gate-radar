@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-12T05:24:28Z",
-  "last_successful_fetch": "2026-11-12T05:24:28Z",
+  "generated_at": "2026-11-12T07:41:07Z",
+  "last_successful_fetch": "2026-11-12T07:41:07Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 103,
+  "new_items_this_run": 72,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 6
+      "items": 14
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 0
+      "items": 9
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 32
+      "items": 8
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 8
+      "items": 14
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 11
+      "items": 8
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 18
+      "items": 8
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 12
+      "items": 5
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 23
+      "items": 7
     }
   ],
   "items": [
