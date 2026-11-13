@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-13T15:07:58Z",
-  "last_successful_fetch": "2026-11-13T15:07:58Z",
+  "generated_at": "2026-11-13T16:08:19Z",
+  "last_successful_fetch": "2026-11-13T16:08:19Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 77,
+  "new_items_this_run": 90,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "EMEA agency account wins",
@@ -70,22 +70,22 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 15
+      "items": 10
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 16
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 8
+      "items": 12
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 6
+      "items": 23
     },
     {
       "name": "Hitlist watch 5/8",
@@ -95,17 +95,17 @@
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 0
+      "items": 12
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 31
+      "items": 1
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 8
+      "items": 11
     }
   ],
   "items": [
@@ -137,7 +137,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObjd6c0lQbVhzSUpWZnhjU2FsOVN1TGNhZXNKcW5HQzFDb1liRDF6V1JRcFRPOHVTN2dTYXlyV1ZreWVGanY3TlQxLXhFZkljRXR4WGN6US1JMUxYRXdveVJhSllBX05vM2NPQU5EMFNjbk1iazZ3ckxmRXJNX3dVcG1GWFdQa2JxYnY3MDFBNENRZklWZ1E?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1123,7 +1123,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
