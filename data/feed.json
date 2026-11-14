@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T13:14:35Z",
-  "last_successful_fetch": "2026-11-14T13:14:35Z",
+  "generated_at": "2026-11-14T14:06:53Z",
+  "last_successful_fetch": "2026-11-14T14:06:53Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 61,
+  "new_items_this_run": 78,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,37 +70,37 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 10
+      "items": 15
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 5
+      "items": 8
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 3
+      "items": 7
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 14
+      "items": 0
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 10
+      "items": 32
     },
     {
       "name": "Hitlist watch 8/8",
@@ -175,7 +175,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0UxemhIcXA1YlgtYW1hWEYzejVZaURFUEJpN3o5SVlabHdWVTN4czdYb3FVWEVsRDVwVUtjLUVTTHJxX3RkSlJYV2xlRHJzbnMzc0F3V1p2aGRmbFZSaXZLLVhIdHBEMmI4dkpURVMwVUkzaG1FS25vc3B4eVN0SFUxZFM1MndOdTFCd0E2R2d3UC1MWWVoVg?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 8/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1009,7 +1009,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
