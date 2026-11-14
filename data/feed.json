@@ -1,131 +1,111 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T09:06:36Z",
-  "last_successful_fetch": "2026-11-14T07:26:51Z",
-  "status": "unavailable",
-  "sources_ok": 0,
+  "generated_at": "2026-11-14T10:03:56Z",
+  "last_successful_fetch": "2026-11-14T10:03:56Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 0,
+  "new_items_this_run": 55,
   "sources": [
     {
       "name": "UK agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "UK talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "EMEA talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "US talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 1/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "Hitlist watch 2/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 10
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 5
     },
     {
       "name": "Hitlist watch 4/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 5
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 14
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 10
     }
   ],
   "items": [
