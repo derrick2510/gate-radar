@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T19:56:53Z",
-  "last_successful_fetch": "2026-11-14T19:56:53Z",
+  "generated_at": "2026-11-14T20:56:16Z",
+  "last_successful_fetch": "2026-11-14T20:56:16Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 66,
+  "new_items_this_run": 84,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -40,7 +40,7 @@
     {
       "name": "UK talent agencies",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "EMEA talent agencies",
@@ -75,22 +75,22 @@
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 3
+      "items": 8
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 13
+      "items": 0
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 11
+      "items": 32
     },
     {
       "name": "Hitlist watch 6/8",
@@ -100,12 +100,12 @@
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 14
+      "items": 10
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 8
+      "items": 16
     }
   ],
   "items": [
@@ -175,7 +175,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd0UxemhIcXA1YlgtYW1hWEYzejVZaURFUEJpN3o5SVlabHdWVTN4czdYb3FVWEVsRDVwVUtjLUVTTHJxX3RkSlJYV2xlRHJzbnMzc0F3V1p2aGRmbFZSaXZLLVhIdHBEMmI4dkpURVMwVUkzaG1FS25vc3B4eVN0SFUxZFM1MndOdTFCd0E2R2d3UC1MWWVoVg?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 5/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -984,6 +984,44 @@
     {
       "type": "Industry news",
       "priority": "Low",
+      "sector": "Talent & representation",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Talent/representation angle; identify a partnerships or content owner."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-854298dd3368485d",
+      "date": "2026-11-09",
+      "title": "Tenille Arts Signs With MPI Talent Agency",
+      "summary": "Source-linked headline from MusicRow.com. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "MusicRow.com",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAySV95RWxpTWxodnppcmZMUHpUajNBck9LVE92bXFKTjNHa1FRZ0ZfdE1iRXE2S09PSmQ0V2h4M0J6YUdrejc3V1FWY2x5RmlfYl82WjdWM0Rqd1Z1RWxLWDVYR3JPc3hEMnRFay0wZDFjT1AzamJOdERCNA?oc=5",
+        "publisher_url": "https://musicrow.com",
+        "feed": "UK talent agencies"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": true,
+      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
       "sector": "Creative & production",
       "signal_score": 16,
       "signal_reasons": [
@@ -1009,7 +1047,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 6/8"
       },
       "contacts": [],
       "origin": "automated",
