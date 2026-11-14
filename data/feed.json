@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T10:03:56Z",
-  "last_successful_fetch": "2026-11-14T10:03:56Z",
+  "generated_at": "2026-11-14T10:59:18Z",
+  "last_successful_fetch": "2026-11-14T10:59:18Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
@@ -10,7 +10,7 @@
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "EMEA agency account wins",
@@ -25,7 +25,7 @@
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
@@ -553,7 +553,7 @@
         "label": "Campaign UK",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQmszakNJbnFuS2lJRV8tNVhWWHNUdGdNd0x0M2NQUk5ubGF1SHJ1QXRYWDVibEJual9kSEtxbkF2YmVVWmtHYTh6TjY4R3RhV1BwN3NfM1lqM3dVd3F4Q1EySmIySnp1cHltNlJiMFllT3IzbUc5REpwM0lHdGVGMDR3WjRqLTcxT1lwMkhOcnYyMXhXVUxhSHl3?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "UK agency account wins"
+        "feed": "UK creative campaigns"
       },
       "contacts": [],
       "origin": "automated",
