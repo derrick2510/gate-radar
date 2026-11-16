@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T15:54:41Z",
-  "last_successful_fetch": "2026-11-16T15:54:41Z",
+  "generated_at": "2026-11-16T17:31:37Z",
+  "last_successful_fetch": "2026-11-16T17:31:37Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 73,
+  "new_items_this_run": 64,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 1
     },
     {
       "name": "EMEA agency account wins",
@@ -20,7 +20,7 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "UK creative campaigns",
@@ -45,7 +45,7 @@
     {
       "name": "EMEA talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "US talent agencies",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 8
+      "items": 7
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 5
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 6
+      "items": 2
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 9
+      "items": 13
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 0
+      "items": 11
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 29
+      "items": 8
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 8
+      "items": 12
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 10
+      "items": 8
     }
   ],
   "items": [
@@ -927,14 +927,14 @@
       "id": "rss-a1c5014f8384d03b",
       "date": "2026-11-10",
       "title": "New Zealand Dancer Jasmine Jones Signs with BLOC Talent Agency Ahead of Los Angeles Performance Work",
-      "summary": "Source-linked headline from WBOC TV. Check the report to confirm full details, campaign credits and territory.",
+      "summary": "Source-linked headline from openPR.com. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "Brand to confirm",
       "production": "Not established by headline",
       "source": {
-        "label": "WBOC TV",
-        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOTE1pUlBNYXIzSW1HUmpFRjNsaWJLYlc2VGQyRUk2QjY3Vzl6SndmS1R4MVAtOHJCUG51aEVJR0dtblNtUU4weEhRTDY2b1E1LXlPR3VPcGZQOUU4THJTbjBGWWlrSzNlb0pXZE5TNkJxcktDakFUUDdlTDRib1M2WEtQQVRzS2hLS05paUJnMEZuV2FVSWZDUGpaR2pVMnpMTjEzV0lYNWZBVDRWS01hRzh4dHhsakZ0TXBIY0Fzd2hEQUJZSU90ZGczc2VQaWh3Nl8wTEVjSTNMSEtwMngwLVZjcU9fSU9NSlZSZ1NCUWRhc3hUdEUzVWtXQnBVYk00UTVZdS1UYThqblM0akdxZ3dRQUNUbXJoQWY0Z29TOHR3eE0?oc=5",
-        "publisher_url": "https://www.wboc.com",
+        "label": "openPR.com",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSkptWmRMTHljdDRJb0NZSkFubHBBdGZmQ1hMZnNvZk9JQy1kZ205aDlXZWhhRHpJMlRleGhvZG1uV1FBaU13WkdwUGZYdnQ4MGt3ajZySUlSWFBwRnl4d09OMElnRzU3eENIRUV5QXF5bDRqQ0FUSkVRanRYLVRfTk44ZTg2UHR0dXd1WjJtdWZFazJET1BvYzNkRVR1N1k?oc=5",
+        "publisher_url": "https://www.openpr.com",
         "feed": "EMEA talent agencies"
       },
       "contacts": [],
