@@ -1,27 +1,27 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T23:04:06Z",
-  "last_successful_fetch": "2026-11-16T23:04:06Z",
+  "generated_at": "2026-11-16T23:57:49Z",
+  "last_successful_fetch": "2026-11-16T23:57:49Z",
   "status": "partial",
-  "sources_ok": 11,
+  "sources_ok": 17,
   "sources_total": 20,
-  "new_items_this_run": 44,
+  "new_items_this_run": 58,
   "sources": [
     {
       "name": "UK agency account wins",
+      "state": "ok",
+      "items": 0
+    },
+    {
+      "name": "EMEA agency account wins",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
     },
     {
-      "name": "EMEA agency account wins",
-      "state": "ok",
-      "items": 0
-    },
-    {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
@@ -30,15 +30,13 @@
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "UK talent agencies",
@@ -47,9 +45,8 @@
     },
     {
       "name": "EMEA talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US talent agencies",
@@ -58,9 +55,8 @@
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
@@ -69,14 +65,14 @@
     },
     {
       "name": "US production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 1/8",
-      "state": "ok",
-      "items": 2
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 2/8",
@@ -85,9 +81,8 @@
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 10
     },
     {
       "name": "Hitlist watch 4/8",
@@ -101,20 +96,19 @@
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "name": "Hitlist watch 7/8",
       "state": "ok",
       "items": 8
     },
     {
-      "name": "Hitlist watch 8/8",
+      "name": "Hitlist watch 7/8",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "Hitlist watch 8/8",
+      "state": "ok",
+      "items": 6
     }
   ],
   "items": [
@@ -841,6 +835,43 @@
     {
       "type": "Industry news",
       "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-65dfa5a62ba596d2",
+      "date": "2026-11-13",
+      "title": "Tracking ad agency account reviews—the latest on brand creative, media and more",
+      "summary": "Source-linked headline from Ad Age. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Ad Age",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
+        "publisher_url": "https://adage.com",
+        "feed": "US agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
       "sector": "Talent & representation",
       "signal_score": 16,
       "signal_reasons": [
@@ -1293,43 +1324,6 @@
       "target_match": true,
       "talent_signal": false,
       "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Low",
-      "sector": "Creative & production",
-      "signal_score": 16,
-      "signal_reasons": [
-        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline."
-      ],
-      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
-      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
-      "ask": "How does your team typically plan film and content production?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "US",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-65dfa5a62ba596d2",
-      "date": "2026-11-02",
-      "title": "Tracking ad agency account reviews—the latest on brand creative, media and more",
-      "summary": "Source-linked headline from Ad Age. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Ad Age",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
-        "publisher_url": "https://adage.com",
-        "feed": "US agency account wins"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": false,
-      "target_note": "No agency hitlist match confirmed",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     }
   ],
