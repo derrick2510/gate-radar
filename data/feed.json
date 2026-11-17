@@ -1,22 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-16T23:57:49Z",
-  "last_successful_fetch": "2026-11-16T23:57:49Z",
+  "generated_at": "2026-11-17T01:35:57Z",
+  "last_successful_fetch": "2026-11-17T01:35:57Z",
   "status": "partial",
   "sources_ok": 17,
   "sources_total": 20,
-  "new_items_this_run": 58,
+  "new_items_this_run": 45,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 0
+      "items": 1
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "US agency account wins",
@@ -65,50 +64,51 @@
     },
     {
       "name": "US production procurement",
-      "state": "ok",
-      "items": 0
-    },
-    {
-      "name": "Hitlist watch 1/8",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "Hitlist watch 1/8",
+      "state": "ok",
+      "items": 7
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 15
+      "items": 16
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 10
+      "items": 0
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 8
-    },
-    {
-      "name": "Hitlist watch 5/8",
-      "state": "ok",
       "items": 12
     },
     {
-      "name": "Hitlist watch 6/8",
-      "state": "ok",
-      "items": 8
-    },
-    {
-      "name": "Hitlist watch 7/8",
+      "name": "Hitlist watch 5/8",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
     },
     {
-      "name": "Hitlist watch 8/8",
+      "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 6
+      "items": 7
+    },
+    {
+      "name": "Hitlist watch 7/8",
+      "state": "ok",
+      "items": 4
+    },
+    {
+      "name": "Hitlist watch 8/8",
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     }
   ],
   "items": [
@@ -746,7 +746,7 @@
         "label": "Campaign UK",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHMwWW9ndmZCSU9oSDVrNEt5QW9fd21zcWpnajA2Q0J2elpXSF9xUlh5X1Z4ZlRtTWNVSGFQUHJLZGRRM2lDMHFUdWRFck43aUU1ei1kUWFnQUZKUEZQdEtuYl9rV29vSGhsWjdwb3Y0N3g3MmZLQXBKV3pab3BOZk9RSnZDY3Rvd1NLc0ZFRmY0S1M1S2g2Q1E5OXQ0eDhTMUZwYVRFLWNSV3hXOEZfLQ?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
