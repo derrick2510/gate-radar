@@ -1,29 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T04:15:51Z",
-  "last_successful_fetch": "2026-11-17T04:15:51Z",
+  "generated_at": "2026-11-17T05:21:30Z",
+  "last_successful_fetch": "2026-11-17T05:21:30Z",
   "status": "partial",
-  "sources_ok": 12,
+  "sources_ok": 17,
   "sources_total": 20,
-  "new_items_this_run": 36,
+  "new_items_this_run": 39,
   "sources": [
     {
       "name": "UK agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "US agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
@@ -37,14 +34,14 @@
     },
     {
       "name": "US creative campaigns",
-      "state": "ok",
-      "items": 0
-    },
-    {
-      "name": "UK talent agencies",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "UK talent agencies",
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "EMEA talent agencies",
@@ -58,15 +55,13 @@
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US production procurement",
@@ -82,38 +77,38 @@
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 0
+      "items": 8
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "ok",
-      "items": 12
-    },
-    {
-      "name": "Hitlist watch 4/8",
-      "state": "ok",
-      "items": 4
-    },
-    {
-      "name": "Hitlist watch 5/8",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
     },
     {
+      "name": "Hitlist watch 4/8",
+      "state": "ok",
+      "items": 8
+    },
+    {
+      "name": "Hitlist watch 5/8",
+      "state": "ok",
+      "items": 8
+    },
+    {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 4
+      "items": 6
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 2
+      "items": 9
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 15
+      "items": 0
     }
   ],
   "items": [
