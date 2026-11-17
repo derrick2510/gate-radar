@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T05:21:30Z",
-  "last_successful_fetch": "2026-11-17T05:21:30Z",
+  "generated_at": "2026-11-17T07:41:09Z",
+  "last_successful_fetch": "2026-11-17T07:41:09Z",
   "status": "partial",
-  "sources_ok": 17,
+  "sources_ok": 11,
   "sources_total": 20,
-  "new_items_this_run": 39,
+  "new_items_this_run": 22,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -19,8 +19,9 @@
     },
     {
       "name": "US agency account wins",
-      "state": "ok",
-      "items": 2
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "UK creative campaigns",
@@ -29,14 +30,14 @@
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "ok",
-      "items": 0
-    },
-    {
-      "name": "US creative campaigns",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "US creative campaigns",
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "UK talent agencies",
@@ -60,13 +61,15 @@
     },
     {
       "name": "EMEA production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 1/8",
@@ -77,38 +80,41 @@
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 12
     },
     {
       "name": "Hitlist watch 3/8",
+      "state": "ok",
+      "items": 4
+    },
+    {
+      "name": "Hitlist watch 4/8",
+      "state": "ok",
+      "items": 7
+    },
+    {
+      "name": "Hitlist watch 5/8",
       "state": "error",
       "items": 0,
       "reason": "HTTP Error 429: Too Many Requests"
     },
     {
-      "name": "Hitlist watch 4/8",
-      "state": "ok",
-      "items": 8
-    },
-    {
-      "name": "Hitlist watch 5/8",
-      "state": "ok",
-      "items": 8
-    },
-    {
       "name": "Hitlist watch 6/8",
-      "state": "ok",
-      "items": 6
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "ok",
-      "items": 9
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     }
   ],
   "items": [
@@ -746,7 +752,7 @@
         "label": "Campaign UK",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHMwWW9ndmZCSU9oSDVrNEt5QW9fd21zcWpnajA2Q0J2elpXSF9xUlh5X1Z4ZlRtTWNVSGFQUHJLZGRRM2lDMHFUdWRFck43aUU1ei1kUWFnQUZKUEZQdEtuYl9rV29vSGhsWjdwb3Y0N3g3MmZLQXBKV3pab3BOZk9RSnZDY3Rvd1NLc0ZFRmY0S1M1S2g2Q1E5OXQ0eDhTMUZwYVRFLWNSV3hXOEZfLQ?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 2/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -846,7 +852,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-65dfa5a62ba596d2",
       "date": "2026-11-13",
@@ -859,7 +865,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "US agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
