@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T15:17:20Z",
-  "last_successful_fetch": "2026-11-19T15:17:20Z",
+  "generated_at": "2026-11-19T17:21:54Z",
+  "last_successful_fetch": "2026-11-19T17:21:54Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 89,
+  "new_items_this_run": 70,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "US agency account wins",
@@ -25,7 +25,7 @@
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "EMEA creative campaigns",
@@ -35,7 +35,7 @@
     {
       "name": "US creative campaigns",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "UK talent agencies",
@@ -70,45 +70,83 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 8
+      "items": 4
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 7
+      "items": 2
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 8
+      "items": 18
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 0
+      "items": 12
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 34
+      "items": 7
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 8
+      "items": 12
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 11
+      "items": 9
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 17
+      "items": 7
     }
   ],
   "items": [
+    {
+      "type": "Account win",
+      "priority": "High",
+      "sector": "Creative & production",
+      "signal_score": 85,
+      "signal_reasons": [
+        "A named hitlist agency appears alongside a client-account appointment or win. This is an early relationship-opening signal, not an awarded production brief.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "A named hitlist agency appears alongside a client-account appointment or win. This is an early relationship-opening signal, not an awarded production brief.",
+      "next_action": "Verify the agency and client appointment, identify the account lead or head of production, then ask about upcoming campaign planning and external suppliers.",
+      "angle": "A new client relationship can lead to future production. Confirm whether work is in planning and whether production suppliers are already selected.",
+      "ask": "I saw the recent client appointment and was curious how you approach external film and social production as that relationship develops?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-a5e435b01b5c4fa6",
+      "date": "2026-11-19",
+      "title": "M+C Saatchi North America Named Agency of Record for The Dawson Company and Corporate Contractors, Inc. Partnership — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "M+C SAATCHI",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR28zU2JQT1NqQ2owb0lXZWJOeXhSWnRPMUdkbUJGSUI1c0hLQmczZzM1UUNTLWdFc0plYjk2dGVrdnV1TUNpZ1pKQm5EaVViLWt5XzZYZEotb0xWZ3hhaE4tOXBkNEMzcVBPUzhjMkhxcDVzXzlqLUdjV3otQkEzdlV4ZjZEcTdXWThjZEhKQVJCd0FqNDhnWA?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "US agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
     {
       "type": "Account win",
       "priority": "High",
@@ -375,6 +413,43 @@
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
       "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
       "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 32,
+      "signal_reasons": [
+        "A published campaign is a conversation starter, not evidence of an upcoming production brief."
+      ],
+      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-1c16d7378681e99d",
+      "date": "2026-11-19",
+      "title": "MICK JAGGER AND KEITH RICHARDS TELL THEIR JAMAICA STORY IN NEW CROSSFIRE HURRICANE RUM BRAND FILM – Marketing Communication News",
+      "summary": "Source-linked headline from Marketing Communication News. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Marketing Communication News",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOFU4dFZrOHhoUjJyWmlkZERlQ2VuYkNZUXJFYzRFWmtrMldybC0tbHFhalJwbllULTdjZFMtaG1VSFNZVXQwbWU2UVVCTU5oY2dOZlRGQ0l6LVFpZXpROEZnSmpIb0xqdkRzMXFQenZwZ29sbXhpLWlGT2QyUTBIZmVuSFRZMW5tNTFmU3RYeHBsYUduUDFZb2FHTmZrdEcxZnFidWVSdi0tYmQ0c3g1NVZjWjVwMkhfMDhGaXFJQQ?oc=5",
+        "publisher_url": "https://marcommnews.com",
+        "feed": "US creative campaigns"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
       "type": "Campaign",
@@ -768,7 +843,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -781,7 +856,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
