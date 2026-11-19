@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T21:09:49Z",
-  "last_successful_fetch": "2026-11-19T21:09:49Z",
+  "generated_at": "2026-11-19T22:08:58Z",
+  "last_successful_fetch": "2026-11-19T22:08:58Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 105,
+  "new_items_this_run": 67,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -20,7 +20,7 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
@@ -50,7 +50,7 @@
     {
       "name": "US talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "UK production procurement",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 8
+      "items": 7
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 0
+      "items": 16
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 33
+      "items": 0
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 8
+      "items": 13
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 11
+      "items": 5
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 17
+      "items": 21
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 12
+      "items": 5
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 22
+      "items": 2
     }
   ],
   "items": [
@@ -124,7 +124,7 @@
       "ask": "I saw the recent client appointment and was curious how you approach external film and social production as that relationship develops?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-a5e435b01b5c4fa6",
       "date": "2026-11-19",
@@ -137,7 +137,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR28zU2JQT1NqQ2owb0lXZWJOeXhSWnRPMUdkbUJGSUI1c0hLQmczZzM1UUNTLWdFc0plYjk2dGVrdnV1TUNpZ1pKQm5EaVViLWt5XzZYZEotb0xWZ3hhaE4tOXBkNEMzcVBPUzhjMkhxcDVzXzlqLUdjV3otQkEzdlV4ZjZEcTdXWThjZEhKQVJCd0FqNDhnWA?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -817,7 +817,7 @@
         "label": "Campaign UK",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHMwWW9ndmZCSU9oSDVrNEt5QW9fd21zcWpnajA2Q0J2elpXSF9xUlh5X1Z4ZlRtTWNVSGFQUHJLZGRRM2lDMHFUdWRFck43aUU1ei1kUWFnQUZKUEZQdEtuYl9rV29vSGhsWjdwb3Y0N3g3MmZLQXBKV3pab3BOZk9RSnZDY3Rvd1NLc0ZFRmY0S1M1S2g2Q1E5OXQ0eDhTMUZwYVRFLWNSV3hXOEZfLQ?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -843,7 +843,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "US",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -856,7 +856,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "Hitlist watch 6/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -962,14 +962,14 @@
       "id": "rss-33538542f410f383",
       "date": "2026-11-19",
       "title": "Edgar Barrera Signs With Fortress Talent Management",
-      "summary": "Source-linked headline from Yahoo. Check the report to confirm full details, campaign credits and territory.",
+      "summary": "Source-linked headline from Wisevoter. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "Brand to confirm",
       "production": "Not established by headline",
       "source": {
-        "label": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYnU4NzZLZmxmVy0zZGltVnNod2JzUWZ5OUtIY3Jyc1YtNE5KUkZhTWZ3OFd0d25GMnQwMVZMYmV3eDVCcWdXcW1Cd0xDOFZhejNJeTZpbGNFS19QNkpPRWN4OEV2em5KREN0MUdHUlpGM3hOVXFrb0dFNGVfRk9fQnBXaGREMFRiVWFBOGtUWkVQTWx2OHZocTdCWm9LNEJsZm1B?oc=5",
-        "publisher_url": "https://www.yahoo.com",
+        "label": "Wisevoter",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMThXUDNveTZZeXVWb25yWHJybFpHS0VHZVRjVmtMN1l3YTFHTnRVN2VkZHkyN3BwWmxHOFhtQllTZlRUYjNmWXpVSGY0ZzA3LU5WUzFEelgwVFE3V3ZIc29QaGtOWWluNFlKaGdvTHlDMDZlRW9NRnNBX1F4ZGhtNkQ2SlYyY01naVdTNFlB?oc=5",
+        "publisher_url": "https://wisevoter.com",
         "feed": "US talent agencies"
       },
       "contacts": [],
