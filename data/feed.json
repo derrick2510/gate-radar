@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-19T23:04:44Z",
-  "last_successful_fetch": "2026-11-19T23:04:44Z",
+  "generated_at": "2026-11-19T23:59:16Z",
+  "last_successful_fetch": "2026-11-19T23:59:16Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 104,
+  "new_items_this_run": 78,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -20,12 +20,12 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "EMEA creative campaigns",
@@ -70,7 +70,7 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 33
+      "items": 17
     },
     {
       "name": "Hitlist watch 2/8",
@@ -80,7 +80,7 @@
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 17
+      "items": 6
     },
     {
       "name": "Hitlist watch 4/8",
@@ -433,6 +433,43 @@
       "id": "rss-1c16d7378681e99d",
       "date": "2026-11-19",
       "title": "MICK JAGGER AND KEITH RICHARDS TELL THEIR JAMAICA STORY IN NEW CROSSFIRE HURRICANE RUM BRAND FILM – Marketing Communication News",
+      "summary": "Source-linked headline from Marketing Communication News. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Marketing Communication News",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOFU4dFZrOHhoUjJyWmlkZERlQ2VuYkNZUXJFYzRFWmtrMldybC0tbHFhalJwbllULTdjZFMtaG1VSFNZVXQwbWU2UVVCTU5oY2dOZlRGQ0l6LVFpZXpROEZnSmpIb0xqdkRzMXFQenZwZ29sbXhpLWlGT2QyUTBIZmVuSFRZMW5tNTFmU3RYeHBsYUduUDFZb2FHTmZrdEcxZnFidWVSdi0tYmQ0c3g1NVZjWjVwMkhfMDhGaXFJQQ?oc=5",
+        "publisher_url": "https://marcommnews.com",
+        "feed": "US creative campaigns"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 32,
+      "signal_reasons": [
+        "A published campaign is a conversation starter, not evidence of an upcoming production brief."
+      ],
+      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-f468d29502186fbd",
+      "date": "2026-11-19",
+      "title": "MICK JAGGER AND KEITH RICHARDS TELL THEIR JAMAICA STORY IN NEW CROSSFIRE HURRICANE RUM BRAND FILM",
       "summary": "Source-linked headline from Marketing Communication News. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "Brand to confirm",
@@ -843,7 +880,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -856,7 +893,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
