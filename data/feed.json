@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-20T09:22:17Z",
-  "last_successful_fetch": "2026-11-20T09:22:17Z",
+  "generated_at": "2026-11-20T11:18:42Z",
+  "last_successful_fetch": "2026-11-20T11:18:42Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 95,
+  "new_items_this_run": 91,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -15,7 +15,7 @@
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "US agency account wins",
@@ -25,12 +25,12 @@
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "US creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 11
+      "items": 9
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 18
+      "items": 20
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 12
+      "items": 7
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 22
+      "items": 8
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 7
+      "items": 0
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 14
+      "items": 34
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 0
+      "items": 7
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 12
+      "items": 11
     }
   ],
   "items": [
@@ -199,7 +199,7 @@
       "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-4754468deafffd98",
       "date": "2026-11-20",
@@ -212,7 +212,7 @@
         "label": "Campaign UK",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmdjSVlsLWR0OUhOM1FlT1RBODNZc1AzNHlIMUtYdkUzNG9VVVRwaEc1LUNpV2tQdndPNEVzZmM1QlVJaGo5NzRpMkRwNWw2OHhQekdNN0cxNGdfUzZQRzhESFoyZTlHSk9pWVEtaHd4TXNfUDE2M3RTRnZxbHp0TXVvVzVGLXlFYnVvdEkwTHQxZmZ1ME9HRUJqdHRGbE1lcVpUbHhVcGJNMk8wQ3pVSGFRM2FnNjY1ZWF2M0daVXhXOUE?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "EMEA creative campaigns"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1462,7 +1462,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 2/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
