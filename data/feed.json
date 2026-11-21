@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T16:02:10Z",
-  "last_successful_fetch": "2026-11-21T16:02:10Z",
-  "status": "partial",
-  "sources_ok": 19,
+  "generated_at": "2026-11-21T17:04:04Z",
+  "last_successful_fetch": "2026-11-21T17:04:04Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 125,
+  "new_items_this_run": 69,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,43 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 16
+      "items": 22
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 9
+      "items": 8
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 0
+      "items": 10
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 59
+      "items": 0
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 12
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 11
+      "items": 5
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 23
+      "items": 8
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 12
+      "items": 6
     }
   ],
   "items": [
@@ -916,7 +915,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "EMEA",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -929,7 +928,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA agency account wins"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1728,7 +1727,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
