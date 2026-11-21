@@ -1,26 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T09:05:49Z",
-  "last_successful_fetch": "2026-11-21T09:05:49Z",
+  "generated_at": "2026-11-21T10:06:29Z",
+  "last_successful_fetch": "2026-11-21T10:06:29Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 67,
+  "new_items_this_run": 81,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 6
+      "items": 9
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 9
+      "items": 7
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 6
+      "items": 7
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 2
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 17
+      "items": 0
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 10
+      "items": 35
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 13
+      "items": 11
     }
   ],
   "items": [
@@ -915,7 +915,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "UK/EMEA/US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -928,7 +928,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 2/8"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1058,6 +1058,43 @@
       "sector": "Creative & production",
       "signal_score": 16,
       "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-65dfa5a62ba596d2",
+      "date": "2026-11-19",
+      "title": "Tracking ad agency account reviews—the latest on brand creative, media and more",
+      "summary": "Source-linked headline from Ad Age. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Ad Age",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
+        "publisher_url": "https://adage.com",
+        "feed": "US agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
         "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
         "Agency name matches the private target list; identity still needs verification.",
         "Headline contains a market reference: UK."
@@ -1165,43 +1202,6 @@
       "target_match": false,
       "talent_signal": true,
       "target_note": "Talent agency signal; qualify roster, sector and relevance.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Low",
-      "sector": "Creative & production",
-      "signal_score": 16,
-      "signal_reasons": [
-        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline."
-      ],
-      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
-      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
-      "ask": "How does your team typically plan film and content production?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "US",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-65dfa5a62ba596d2",
-      "date": "2026-11-13",
-      "title": "Tracking ad agency account reviews—the latest on brand creative, media and more",
-      "summary": "Source-linked headline from Ad Age. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Ad Age",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
-        "publisher_url": "https://adage.com",
-        "feed": "US agency account wins"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": false,
-      "target_note": "No agency hitlist match confirmed",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
@@ -1386,7 +1386,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 4/8"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1575,7 +1575,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 8/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
