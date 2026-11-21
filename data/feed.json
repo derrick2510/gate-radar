@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T05:16:00Z",
-  "last_successful_fetch": "2026-11-21T05:16:00Z",
-  "status": "partial",
-  "sources_ok": 18,
+  "generated_at": "2026-11-21T06:16:42Z",
+  "last_successful_fetch": "2026-11-21T06:16:42Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 97,
+  "new_items_this_run": 71,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -34,9 +34,8 @@
     },
     {
       "name": "US creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "UK talent agencies",
@@ -50,9 +49,8 @@
     },
     {
       "name": "US talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK production procurement",
@@ -72,7 +70,7 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 7
+      "items": 12
     },
     {
       "name": "Hitlist watch 2/8",
@@ -82,32 +80,32 @@
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 20
+      "items": 9
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 12
+      "items": 6
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 30
+      "items": 2
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 7
+      "items": 17
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 12
+      "items": 10
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 1
+      "items": 7
     }
   ],
   "items": [
@@ -917,7 +915,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "EMEA",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -930,7 +928,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA agency account wins"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1031,20 +1029,20 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-33538542f410f383",
       "date": "2026-11-19",
       "title": "Edgar Barrera Signs With Fortress Talent Management",
-      "summary": "Source-linked headline from Yahoo News UK. Check the report to confirm full details, campaign credits and territory.",
+      "summary": "Source-linked headline from Wisevoter. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "Brand to confirm",
       "production": "Not established by headline",
       "source": {
-        "label": "Yahoo News UK",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNWt2bGNZdVR2ZmRseUh5S0dZX1FIVlNIdVFxWU4yb29IeUtaZTh6X2J6dDhSWU0yMUZvcVllbG1CcnNYT0tGR09mOTFsZ2duQlB1MTg4ZjV6aTFHOHhvZFNLS2hFTG95MUdRZVhlNmxYb1A2WmFZRlYtbVIzSHhQRU93?oc=5",
-        "publisher_url": "https://uk.news.yahoo.com",
-        "feed": "EMEA talent agencies"
+        "label": "Wisevoter",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMThXUDNveTZZeXVWb25yWHJybFpHS0VHZVRjVmtMN1l3YTFHTnRVN2VkZHkyN3BwWmxHOFhtQllTZlRUYjNmWXpVSGY0ZzA3LU5WUzFEelgwVFE3V3ZIc29QaGtOWWluNFlKaGdvTHlDMDZlRW9NRnNBX1F4ZGhtNkQ2SlYyY01naVdTNFlB?oc=5",
+        "publisher_url": "https://wisevoter.com",
+        "feed": "US talent agencies"
       },
       "contacts": [],
       "origin": "automated",
