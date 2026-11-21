@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-21T11:05:43Z",
-  "last_successful_fetch": "2026-11-21T11:05:43Z",
+  "generated_at": "2026-11-21T12:00:18Z",
+  "last_successful_fetch": "2026-11-21T12:00:18Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 93,
+  "new_items_this_run": 72,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "name": "EMEA agency account wins",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 20
+      "items": 8
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 12
+      "items": 6
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 22
+      "items": 3
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 11
+      "items": 17
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 11
+      "items": 10
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 0
+      "items": 8
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 12
+      "items": 13
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 6
+      "items": 9
     }
   ],
   "items": [
@@ -915,7 +915,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "EMEA",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -928,7 +928,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA agency account wins"
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
