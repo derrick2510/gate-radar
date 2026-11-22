@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T16:01:53Z",
-  "last_successful_fetch": "2026-11-22T16:01:53Z",
-  "status": "partial",
-  "sources_ok": 15,
+  "generated_at": "2026-11-22T17:03:37Z",
+  "last_successful_fetch": "2026-11-22T17:03:37Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 55,
+  "new_items_this_run": 93,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -14,9 +14,8 @@
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "US agency account wins",
@@ -25,9 +24,8 @@
     },
     {
       "name": "UK creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA creative campaigns",
@@ -52,7 +50,7 @@
     {
       "name": "US talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "UK production procurement",
@@ -61,9 +59,8 @@
     },
     {
       "name": "EMEA production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US production procurement",
@@ -73,39 +70,37 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 23
+      "items": 3
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 14
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 10
+      "items": 15
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 0
+      "items": 8
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 9
+      "items": 13
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 14
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 22
     },
     {
       "name": "Hitlist watch 8/8",
@@ -656,7 +651,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-31c9f8b3be259b91",
       "date": "2026-11-20",
@@ -669,7 +664,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeU9NUnRDOWpTQXpiMl9wVzN4V2xPWXIxZ1VCME9jbGtMa0w1UlN6S2FZbWZabzZkMGJDWEJjUlNkblZWMTNveTdnSklFamVfU1BqbkcxQV9LandLTU1mVnNJS1dMMU5zMERwTmMzTWRybzJGSkhHTzNWQWdqWnYtTm9jSlBXZnFqS0RwcTZSREtwOXRtNWJQM085RQ?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -958,7 +953,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-fd7966fba229e99f",
       "date": "2026-11-19",
@@ -971,7 +966,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdXNDTjdFOUpVOXZSemZTbjRaZUMyeFZ0LURFU2NUcXlCdkhGYzh5dVlNT1JQR0FveDFlQnJmODgwVDhHUFpHQWN1VXVfcnVSWDdRUi03NHJYdF9ZaGRQa1kzb3Y1NTdlekE?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA creative campaigns"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1092,6 +1087,44 @@
       "target_match": false,
       "talent_signal": false,
       "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Talent & representation",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Talent/representation angle; identify a partnerships or content owner."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-c1d54305d1070900",
+      "date": "2026-11-19",
+      "title": "Latin Grammy Winner Edgar Barrera Signs With Fortress Talent Management",
+      "summary": "Source-linked headline from Deadline. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Deadline",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUEZCamtnNk9aTXVad3UyMDYxX1F3YUg1QV90Q1p0N0lzOWZiMEMxRTFLdFd4UGNfaElaZ1U2YWVHS2pYOU9jLVdGOTV5eVVGeXpsTmdpOW01UEVvcHlGOXZvOFk1LWVEMXJjWEprWnhxeHM3eGNNUDRicng0eDZoMjhtZnVibkRjYTV0NWRzdFA?oc=5",
+        "publisher_url": "https://deadline.com",
+        "feed": "US talent agencies"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": true,
+      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
@@ -1429,7 +1462,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
