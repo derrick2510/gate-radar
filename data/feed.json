@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T15:04:23Z",
-  "last_successful_fetch": "2026-11-22T15:04:23Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "generated_at": "2026-11-22T16:01:53Z",
+  "last_successful_fetch": "2026-11-22T16:01:53Z",
+  "status": "partial",
+  "sources_ok": 15,
   "sources_total": 20,
-  "new_items_this_run": 91,
+  "new_items_this_run": 55,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -14,8 +14,9 @@
     },
     {
       "name": "EMEA agency account wins",
-      "state": "ok",
-      "items": 2
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US agency account wins",
@@ -24,8 +25,9 @@
     },
     {
       "name": "UK creative campaigns",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "EMEA creative campaigns",
@@ -59,8 +61,9 @@
     },
     {
       "name": "EMEA production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US production procurement",
@@ -70,7 +73,7 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 6
+      "items": 23
     },
     {
       "name": "Hitlist watch 2/8",
@@ -80,32 +83,34 @@
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 0
+      "items": 10
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 34
+      "items": 0
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 7
+      "items": 9
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "ok",
-      "items": 10
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "ok",
-      "items": 20
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 11
+      "items": 6
     }
   ],
   "items": [
@@ -651,7 +656,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-31c9f8b3be259b91",
       "date": "2026-11-20",
@@ -664,7 +669,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeU9NUnRDOWpTQXpiMl9wVzN4V2xPWXIxZ1VCME9jbGtMa0w1UlN6S2FZbWZabzZkMGJDWEJjUlNkblZWMTNveTdnSklFamVfU1BqbkcxQV9LandLTU1mVnNJS1dMMU5zMERwTmMzTWRybzJGSkhHTzNWQWdqWnYtTm9jSlBXZnFqS0RwcTZSREtwOXRtNWJQM085RQ?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1765,7 +1770,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 2/8"
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
