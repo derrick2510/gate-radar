@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T22:59:50Z",
-  "last_successful_fetch": "2026-11-22T22:59:50Z",
+  "generated_at": "2026-11-22T23:57:54Z",
+  "last_successful_fetch": "2026-11-22T23:57:54Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 56,
+  "new_items_this_run": 83,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "US agency account wins",
@@ -70,27 +70,27 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 10
+      "items": 15
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 0
+      "items": 7
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 13
+      "items": 34
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 5
+      "items": 8
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 5
+      "items": 9
     },
     {
       "name": "Hitlist watch 6/8",
@@ -100,12 +100,12 @@
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 3
+      "items": 7
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 14
+      "items": 0
     }
   ],
   "items": [
@@ -642,6 +642,43 @@
       "sector": "Creative & production",
       "signal_score": 22,
       "signal_reasons": [
+        "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work."
+      ],
+      "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+      "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities.",
+      "angle": "A new contact or remit can justify a light-touch introduction but does not imply a production need.",
+      "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "EMEA",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-d8be930c215c4a12",
+      "date": "2026-11-22",
+      "title": "Creative agency expands with new wins and hires",
+      "summary": "Source-linked headline from Bdaily. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Bdaily",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObzNETE9FT0NVdGZuVjhVNWo3cFhtR3BjeTNqdncyenRBM0N6Ty1ETm1NYjFLVzRweEIyTmdWNm9xdkdpU0J4UFV0ZDIzeXBtOTBzNUk4RFNzTktmTjE2N3Fyei1GLWF4aWxZNW1La3RELUVVblJIc3dic2VTWHJhMkdrdkNfc3dvblJ1T0l4X1FxQQ?oc=5",
+        "publisher_url": "https://bdaily.co.uk",
+        "feed": "EMEA agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry move",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 22,
+      "signal_reasons": [
         "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
         "Agency name matches the private target list; identity still needs verification."
       ],
@@ -953,7 +990,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-fd7966fba229e99f",
       "date": "2026-11-19",
@@ -966,7 +1003,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdXNDTjdFOUpVOXZSemZTbjRaZUMyeFZ0LURFU2NUcXlCdkhGYzh5dVlNT1JQR0FveDFlQnJmODgwVDhHUFpHQWN1VXVfcnVSWDdRUi03NHJYdF9ZaGRQa1kzb3Y1NTdlekE?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US creative campaigns"
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1462,7 +1499,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 6/8"
       },
       "contacts": [],
       "origin": "automated",
