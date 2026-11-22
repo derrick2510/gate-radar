@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T11:02:16Z",
-  "last_successful_fetch": "2026-11-22T11:02:16Z",
-  "status": "partial",
-  "sources_ok": 17,
+  "generated_at": "2026-11-22T11:58:43Z",
+  "last_successful_fetch": "2026-11-22T11:58:43Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
   "new_items_this_run": 66,
   "sources": [
@@ -24,9 +24,8 @@
     },
     {
       "name": "UK creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA creative campaigns",
@@ -40,9 +39,8 @@
     },
     {
       "name": "UK talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "EMEA talent agencies",
@@ -52,13 +50,12 @@
     {
       "name": "US talent agencies",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
@@ -88,12 +85,12 @@
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 15
+      "items": 14
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "name": "Hitlist watch 6/8",
