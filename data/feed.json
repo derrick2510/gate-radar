@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T13:19:18Z",
-  "last_successful_fetch": "2026-11-22T13:19:18Z",
-  "status": "partial",
-  "sources_ok": 19,
+  "generated_at": "2026-11-22T15:04:23Z",
+  "last_successful_fetch": "2026-11-22T15:04:23Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 67,
+  "new_items_this_run": 91,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,43 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 12
+      "items": 6
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 23
+      "items": 8
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "name": "Hitlist watch 4/8",
-      "state": "ok",
-      "items": 10
-    },
-    {
-      "name": "Hitlist watch 5/8",
       "state": "ok",
       "items": 0
     },
     {
+      "name": "Hitlist watch 4/8",
+      "state": "ok",
+      "items": 34
+    },
+    {
+      "name": "Hitlist watch 5/8",
+      "state": "ok",
+      "items": 7
+    },
+    {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 11
+      "items": 10
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 6
+      "items": 20
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 6
+      "items": 11
     }
   ],
   "items": [
@@ -1425,7 +1424,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1614,7 +1613,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 5/8"
       },
       "contacts": [],
       "origin": "automated",
