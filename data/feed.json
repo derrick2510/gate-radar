@@ -1,26 +1,27 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T05:36:23Z",
-  "last_successful_fetch": "2026-11-23T05:36:23Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "generated_at": "2026-11-23T07:57:35Z",
+  "last_successful_fetch": "2026-11-23T07:57:35Z",
+  "status": "partial",
+  "sources_ok": 19,
   "sources_total": 20,
-  "new_items_this_run": 99,
+  "new_items_this_run": 60,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "US agency account wins",
-      "state": "ok",
-      "items": 2
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "UK creative campaigns",
@@ -30,7 +31,7 @@
     {
       "name": "EMEA creative campaigns",
       "state": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "US creative campaigns",
@@ -70,42 +71,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 12
+      "items": 5
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 6
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 7
+      "items": 3
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 7
+      "items": 13
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 0
+      "items": 8
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 54
+      "items": 7
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 8
+      "items": 12
     }
   ],
   "items": [
@@ -688,7 +689,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-31c9f8b3be259b91",
       "date": "2026-11-20",
@@ -701,7 +702,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeU9NUnRDOWpTQXpiMl9wVzN4V2xPWXIxZ1VCME9jbGtMa0w1UlN6S2FZbWZabzZkMGJDWEJjUlNkblZWMTNveTdnSklFamVfU1BqbkcxQV9LandLTU1mVnNJS1dMMU5zMERwTmMzTWRybzJGSkhHTzNWQWdqWnYtTm9jSlBXZnFqS0RwcTZSREtwOXRtNWJQM085RQ?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1103,7 +1104,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-65dfa5a62ba596d2",
       "date": "2026-11-19",
@@ -1116,7 +1117,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "US agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
