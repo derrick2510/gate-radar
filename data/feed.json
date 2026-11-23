@@ -1,131 +1,111 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T17:22:37Z",
-  "last_successful_fetch": "2026-11-23T15:27:23Z",
-  "status": "unavailable",
-  "sources_ok": 0,
+  "generated_at": "2026-11-23T19:23:03Z",
+  "last_successful_fetch": "2026-11-23T19:23:03Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 0,
+  "new_items_this_run": 74,
   "sources": [
     {
       "name": "UK agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 7
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "US agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "UK creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "US creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "UK talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "EMEA talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "US talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 1/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 18
     },
     {
       "name": "Hitlist watch 2/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 9
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 7
     },
     {
       "name": "Hitlist watch 4/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 13
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 8
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 7
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 7
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 7
     }
   ],
   "items": [
@@ -1085,7 +1065,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-fd7966fba229e99f",
       "date": "2026-11-19",
@@ -1098,7 +1078,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdXNDTjdFOUpVOXZSemZTbjRaZUMyeFZ0LURFU2NUcXlCdkhGYzh5dVlNT1JQR0FveDFlQnJmODgwVDhHUFpHQWN1VXVfcnVSWDdRUi03NHJYdF9ZaGRQa1kzb3Y1NTdlekE?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US creative campaigns"
+        "feed": "EMEA creative campaigns"
       },
       "contacts": [],
       "origin": "automated",
@@ -1594,7 +1574,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 2/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
