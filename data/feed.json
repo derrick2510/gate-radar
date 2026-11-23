@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T22:11:09Z",
-  "last_successful_fetch": "2026-11-23T22:11:09Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "generated_at": "2026-11-23T23:13:02Z",
+  "last_successful_fetch": "2026-11-23T23:13:02Z",
+  "status": "partial",
+  "sources_ok": 19,
   "sources_total": 20,
-  "new_items_this_run": 96,
+  "new_items_this_run": 171,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -70,42 +70,43 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 8
+      "items": 30
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 14
+      "items": 32
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 33
+      "items": 22
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 14
+      "items": 20
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "ok",
-      "items": 7
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 16
+      "items": 22
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 11
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 0
+      "items": 40
     }
   ],
   "items": [
@@ -257,6 +258,44 @@
       "target_match": false,
       "talent_signal": true,
       "target_note": "Talent agency signal; qualify roster, sector and relevance.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 53,
+      "signal_reasons": [
+        "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-bec282417bb87e74",
+      "date": "2026-11-19",
+      "title": "KFC Australia and We Are Social Stage Fake Funeral for GTA VI Launch Day — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "WE ARE SOCIAL",
+      "brand": "KFC",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xYXpwTEFPcW1sSUpYaVJnd29UNHd5cGI1bk01dnFXc3hwLUJmakduOHdKaEFTM0NWVGNoZFJqMGs2WEs0SDRPU2lxSlkyWUJVZTZqaW5zT0N5d3pUbDhLczZ2WDkwNFdhVTU1NA?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "Hitlist watch 2/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
@@ -1763,7 +1802,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 2/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1915,7 +1954,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 6/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1953,7 +1992,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53UzJPYVBpNzEtaDFoS2ppQkRuS2xkY2gzOW1LSlQ5aFVTeWZsTUw3WFFTZk5zblo4QWZSYy1EOWstT0hUbE0zeHdDOENabTBxMDI1SWk4bm0xbWpud2lnMFZEQnd4YzJLZnBzNWd5cFVYNGNDTm05S2YtRmdQVFU?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
