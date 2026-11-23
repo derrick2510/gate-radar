@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T19:23:03Z",
-  "last_successful_fetch": "2026-11-23T19:23:03Z",
+  "generated_at": "2026-11-23T21:10:04Z",
+  "last_successful_fetch": "2026-11-23T21:10:04Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 74,
+  "new_items_this_run": 51,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "name": "EMEA agency account wins",
@@ -50,7 +50,7 @@
     {
       "name": "US talent agencies",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "UK production procurement",
@@ -70,12 +70,12 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 18
+      "items": 9
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 9
+      "items": 0
     },
     {
       "name": "Hitlist watch 3/8",
@@ -85,27 +85,27 @@
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 13
+      "items": 4
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 8
+      "items": 7
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 7
+      "items": 5
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 3
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 7
+      "items": 17
     }
   ],
   "items": [
@@ -1216,7 +1216,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-c1d54305d1070900",
       "date": "2026-11-19",
@@ -1229,7 +1229,7 @@
         "label": "Deadline",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUEZCamtnNk9aTXVad3UyMDYxX1F3YUg1QV90Q1p0N0lzOWZiMEMxRTFLdFd4UGNfaElaZ1U2YWVHS2pYOU9jLVdGOTV5eVVGeXpsTmdpOW01UEVvcHlGOXZvOFk1LWVEMXJjWEprWnhxeHM3eGNNUDRicng0eDZoMjhtZnVibkRjYTV0NWRzdFA?oc=5",
         "publisher_url": "https://deadline.com",
-        "feed": "US talent agencies"
+        "feed": "UK talent agencies"
       },
       "contacts": [],
       "origin": "automated",
