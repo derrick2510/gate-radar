@@ -1,27 +1,26 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T07:57:35Z",
-  "last_successful_fetch": "2026-11-23T07:57:35Z",
-  "status": "partial",
-  "sources_ok": 19,
+  "generated_at": "2026-11-23T09:41:53Z",
+  "last_successful_fetch": "2026-11-23T09:41:53Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 60,
+  "new_items_this_run": 86,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 6
+      "items": 7
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 4
     },
     {
       "name": "US agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
@@ -36,7 +35,7 @@
     {
       "name": "US creative campaigns",
       "state": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "UK talent agencies",
@@ -71,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 5
+      "items": 20
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 6
+      "items": 10
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 6
+      "items": 23
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 3
+      "items": 8
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 13
+      "items": 12
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 8
+      "items": 0
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 9
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 12
+      "items": 5
     }
   ],
   "items": [
@@ -125,7 +124,7 @@
       "ask": "I saw the recent client appointment and was curious how you approach external film and social production as that relationship develops?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-a5e435b01b5c4fa6",
       "date": "2026-11-19",
@@ -138,7 +137,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR28zU2JQT1NqQ2owb0lXZWJOeXhSWnRPMUdkbUJGSUI1c0hLQmczZzM1UUNTLWdFc0plYjk2dGVrdnV1TUNpZ1pKQm5EaVViLWt5XzZYZEotb0xWZ3hhaE4tOXBkNEMzcVBPUzhjMkhxcDVzXzlqLUdjV3otQkEzdlV4ZjZEcTdXWThjZEhKQVJCd0FqNDhnWA?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -689,7 +688,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-31c9f8b3be259b91",
       "date": "2026-11-20",
@@ -702,7 +701,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeU9NUnRDOWpTQXpiMl9wVzN4V2xPWXIxZ1VCME9jbGtMa0w1UlN6S2FZbWZabzZkMGJDWEJjUlNkblZWMTNveTdnSklFamVfU1BqbkcxQV9LandLTU1mVnNJS1dMMU5zMERwTmMzTWRybzJGSkhHTzNWQWdqWnYtTm9jSlBXZnFqS0RwcTZSREtwOXRtNWJQM085RQ?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -943,6 +942,43 @@
       "sector": "Creative & production",
       "signal_score": 16,
       "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-45f454866edb2225",
+      "date": "2026-11-23",
+      "title": "NNG Wins Impulse and VO5 Creative, Media and Production Brief — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "UK agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
         "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
         "Agency name matches the private target list; identity still needs verification.",
         "Headline contains a market reference: US."
@@ -1104,7 +1140,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-65dfa5a62ba596d2",
       "date": "2026-11-19",
@@ -1117,7 +1153,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "EMEA agency account wins"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1841,7 +1877,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
