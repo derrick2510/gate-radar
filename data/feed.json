@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T16:29:27Z",
+  "generated_at": "2026-11-24T18:08:12Z",
   "last_successful_fetch": "2026-11-24T14:30:34Z",
   "status": "unavailable",
   "sources_ok": 0,
@@ -95,13 +95,13 @@
       "name": "Hitlist watch 3/8",
       "state": "error",
       "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "reason": "HTTP Error 503: Service Unavailable"
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "error",
       "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "reason": "HTTP Error 503: Service Unavailable"
     },
     {
       "name": "Hitlist watch 5/8",
@@ -113,7 +113,7 @@
       "name": "Hitlist watch 6/8",
       "state": "error",
       "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "reason": "HTTP Error 503: Service Unavailable"
     },
     {
       "name": "Hitlist watch 7/8",
