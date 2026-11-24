@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T04:22:10Z",
-  "last_successful_fetch": "2026-11-24T04:22:10Z",
+  "generated_at": "2026-11-24T06:16:42Z",
+  "last_successful_fetch": "2026-11-24T06:16:42Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 127,
+  "new_items_this_run": 66,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "name": "EMEA agency account wins",
@@ -20,7 +20,7 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 6
+      "items": 3
     },
     {
       "name": "UK creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 33
+      "items": 5
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 6
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 17
+      "items": 3
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 7
+      "items": 17
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 1
+      "items": 8
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 30
+      "items": 7
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 32
+      "items": 13
     }
   ],
   "items": [
@@ -161,6 +161,43 @@
       "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-3c45fe4c0ee7de6d",
+      "date": "2026-11-24",
+      "title": "Reckitt-owned Veet appoints global creative agency",
+      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Campaign UK",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHg2V2h6aXhPUXhRcDR1WF82WU5wOGQ3NDRvSzRwdEVRQUlGQWpfWXFGUzJvQ1JSeDBLdlU0Q0p5N0RIQUpOZUEtUWtxVFhmUnY4aW03WThGT2l4Y2xPQ3BvY2U5aXdzczE3WkZxVjdkZ0RHZWkzdWNkZVBlUGcyNzIxeFdoekRuQTM0RWlPanBualJraHV0SlR2VV9MRHRGVjVvRXRNaEZPWFpJQ3JnbUdRRzdmWk0?oc=5",
+        "publisher_url": "https://www.campaignlive.co.uk",
+        "feed": "UK agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Account win",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 65,
+      "signal_reasons": [
+        "Agency/client appointment reported, but this is not a verified hitlist win or production requirement."
+      ],
+      "priority_reason": "Agency/client appointment reported, but this is not a verified hitlist win or production requirement.",
+      "next_action": "Check whether the account fits GATE’s sectors, confirm decision-makers and whether external production is relevant.",
+      "angle": "An agency/client appointment may lead to creative production, but no production brief is established.",
+      "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
       "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-4754468deafffd98",
@@ -175,6 +212,43 @@
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbmdjSVlsLWR0OUhOM1FlT1RBODNZc1AzNHlIMUtYdkUzNG9VVVRwaEc1LUNpV2tQdndPNEVzZmM1QlVJaGo5NzRpMkRwNWw2OHhQekdNN0cxNGdfUzZQRzhESFoyZTlHSk9pWVEtaHd4TXNfUDE2M3RTRnZxbHp0TXVvVzVGLXlFYnVvdEkwTHQxZmZ1ME9HRUJqdHRGbE1lcVpUbHhVcGJNMk8wQ3pVSGFRM2FnNjY1ZWF2M0daVXhXOUE?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
         "feed": "EMEA creative campaigns"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Account win",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 65,
+      "signal_reasons": [
+        "Agency/client appointment reported, but this is not a verified hitlist win or production requirement."
+      ],
+      "priority_reason": "Agency/client appointment reported, but this is not a verified hitlist win or production requirement.",
+      "next_action": "Check whether the account fits GATE’s sectors, confirm decision-makers and whether external production is relevant.",
+      "angle": "An agency/client appointment may lead to creative production, but no production brief is established.",
+      "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-d02f0cd71dd1134f",
+      "date": "2026-11-18",
+      "title": "Westfield appoints DISLO as retained social media agency",
+      "summary": "Source-linked headline from www.prmoment.com. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "www.prmoment.com",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWXlfMUoyU0hfb0tQd1BVenJaNklrREphZ2ZUR3l3SEw2WWpZU3l4UTdCZi1aM3YyMXF5bWl2M2d6dW44T3hzdFhiUUx1QnA5TXU1MmxsMF9oTHhoak1FWVdxYnE0VmJXcGhlMGVtRnM0ZUZ1eXJMZHh1Z05FblhjMDQwdnhtZF9XQzNVSzlkdnJwX0JCRGc?oc=5",
+        "publisher_url": "https://www.prmoment.com",
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -727,7 +801,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-31c9f8b3be259b91",
       "date": "2026-11-20",
@@ -740,7 +814,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeU9NUnRDOWpTQXpiMl9wVzN4V2xPWXIxZ1VCME9jbGtMa0w1UlN6S2FZbWZabzZkMGJDWEJjUlNkblZWMTNveTdnSklFamVfU1BqbkcxQV9LandLTU1mVnNJS1dMMU5zMERwTmMzTWRybzJGSkhHTzNWQWdqWnYtTm9jSlBXZnFqS0RwcTZSREtwOXRtNWJQM085RQ?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -989,7 +1063,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1002,7 +1076,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
