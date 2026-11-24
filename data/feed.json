@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T23:13:02Z",
-  "last_successful_fetch": "2026-11-23T23:13:02Z",
+  "generated_at": "2026-11-24T00:07:03Z",
+  "last_successful_fetch": "2026-11-24T00:07:03Z",
   "status": "partial",
   "sources_ok": 19,
   "sources_total": 20,
-  "new_items_this_run": 171,
+  "new_items_this_run": 87,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -15,7 +15,7 @@
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 4
     },
     {
       "name": "US agency account wins",
@@ -35,7 +35,7 @@
     {
       "name": "US creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "UK talent agencies",
@@ -59,8 +59,9 @@
     },
     {
       "name": "EMEA production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US production procurement",
@@ -70,43 +71,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 30
+      "items": 0
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 32
+      "items": 7
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 22
+      "items": 11
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 20
+      "items": 6
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 19
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 22
+      "items": 6
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 11
+      "items": 32
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 40
+      "items": 8
     }
   ],
   "items": [
@@ -639,43 +639,6 @@
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
-      "type": "Campaign",
-      "priority": "Low",
-      "sector": "Creative & production",
-      "signal_score": 32,
-      "signal_reasons": [
-        "A published campaign is a conversation starter, not evidence of an upcoming production brief."
-      ],
-      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
-      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
-      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
-      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "US",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-687e571ee4bb7ad2",
-      "date": "2026-11-02",
-      "title": "Versus Launches WE ARE with brand film",
-      "summary": "Source-linked headline from Shots. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Shots",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyYlVYWUxmNW84MFluNHRkd19vUElVUHBubWFRT0xvZWVfUEFidkhlMkp6R0hXcFhBVnl0Unp4MzhONUk1d2E4Y3Y3bERsUzNyb3Vxa2pVREVwTGJrUjJ2emphQUk0a0hsdWFncDFCU3E0MnZx?oc=5",
-        "publisher_url": "https://shots.net",
-        "feed": "US creative campaigns"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": false,
-      "target_note": "No agency hitlist match confirmed",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
       "type": "Industry move",
       "priority": "Low",
       "sector": "Creative & production",
@@ -1066,7 +1029,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "UK",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -1079,7 +1042,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1104,7 +1067,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-fd7966fba229e99f",
       "date": "2026-11-19",
@@ -1117,7 +1080,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdXNDTjdFOUpVOXZSemZTbjRaZUMyeFZ0LURFU2NUcXlCdkhGYzh5dVlNT1JQR0FveDFlQnJmODgwVDhHUFpHQWN1VXVfcnVSWDdRUi03NHJYdF9ZaGRQa1kzb3Y1NTdlekE?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA creative campaigns"
+        "feed": "US creative campaigns"
       },
       "contacts": [],
       "origin": "automated",
@@ -1917,82 +1880,6 @@
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1R0Sjg1T0pvVDhEQU8zQkdfbFZ4S0l4ZGh4MHZEWFNEUTRGWEJUdjhoSTJmYUFhbGNGUS1WSVRwcHJ1ZlRuSllzNmRTT2tSX1hMTHVtZkxfZzdXMU4xaW1vekhyMGJTcmtZdzgwdUVWQ1BjR2N4czhtOVBpZmRickFZVGZwRUQtX2JwQ3hpQVE2aGVRcnZjT2NaTkpaWUZzV2lIVnZQblNmMnVNcS1PLWptbzRZX0NGcEZHcA?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
         "feed": "EMEA agency account wins"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Low",
-      "sector": "Creative & production",
-      "signal_score": 16,
-      "signal_reasons": [
-        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-        "Agency name matches the private target list; identity still needs verification."
-      ],
-      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
-      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
-      "ask": "How does your team typically plan film and content production?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-8f637930b2fd189d",
-      "date": "2026-11-02",
-      "title": "What T-Mobile’s choice of Highdive and Anomaly reveals about brand building in an AI-driven world",
-      "summary": "Source-linked headline from Ad Age. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "ANOMALY",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Ad Age",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQb2ZRNDJvQTQtMXZYamVCSDZYS2JWLW93LU8wOXZZOHJiTFpLTTl0eFltTHlhNE5XVkg0RkVobXh3OWxMeld2aEdKeGhVYUJlcTE2UWJJYkVINk1JZmtYVjdjYV82emU3TDdxNFVobDJoRnFjRk5rNGNKeVR3OFJ3eldfM1hmV3RhSE95bnhn?oc=5",
-        "publisher_url": "https://adage.com",
-        "feed": "Hitlist watch 6/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Low",
-      "sector": "Creative & production",
-      "signal_score": 16,
-      "signal_reasons": [
-        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-        "Agency name matches the private target list; identity still needs verification."
-      ],
-      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
-      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
-      "ask": "How does your team typically plan film and content production?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-e74471419ed70daf",
-      "date": "2026-11-02",
-      "title": "Channel 4 Sales and Aldi Unwrap New Partnership for Festive Period — LBB",
-      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "CHANNEL 4",
-      "brand": "Channel 4",
-      "production": "Not established by headline",
-      "source": {
-        "label": "LBB - Little Black Book",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53UzJPYVBpNzEtaDFoS2ppQkRuS2xkY2gzOW1LSlQ5aFVTeWZsTUw3WFFTZk5zblo4QWZSYy1EOWstT0hUbE0zeHdDOENabTBxMDI1SWk4bm0xbWpud2lnMFZEQnd4YzJLZnBzNWd5cFVYNGNDTm05S2YtRmdQVFU?oc=5",
-        "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
