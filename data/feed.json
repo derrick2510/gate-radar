@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T21:14:12Z",
-  "last_successful_fetch": "2026-11-24T21:14:12Z",
+  "generated_at": "2026-11-24T22:17:22Z",
+  "last_successful_fetch": "2026-11-24T22:17:22Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 110,
+  "new_items_this_run": 151,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -20,7 +20,7 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "UK creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 8
+      "items": 52
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 13
+      "items": 8
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 33
+      "items": 22
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 13
+      "items": 20
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 20
+      "items": 14
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 17
+      "items": 22
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 2
+      "items": 12
     }
   ],
   "items": [
@@ -619,15 +619,15 @@
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-a0023e12b3c72e58",
       "date": "2026-11-24",
-      "title": "Tiktok And Akcelo Bring £10bn Economic Impact To Life In New UK Brand Campaign",
-      "summary": "Source-linked headline from Roastbrief US. Check the report to confirm full details, campaign credits and territory.",
+      "title": "TikTok and Akcelo bring £10bn economic impact to life in new UK brand campaign",
+      "summary": "Source-linked headline from Mediashotz. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "TikTok",
       "production": "Not established by headline",
       "source": {
-        "label": "Roastbrief US",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0Vka25vWnBNSzRBTnE0MXM2V3hUb1JzU0YtWlhKRjFkNG1KdTIwZGFRaXhjc0kzTEJfek1EQ1lLOWthN0ZSLUd2enc0VFhIWkk5dUdRS3lTSldYVmtCNFpJaTh5ajE5allybkNwNEJqeTZoTnZ1eGNmOUFQejUxNWpZZzlKVUlOY3lEMkhybkNkOVlxazVIdEJBcTZwZk5yNnc?oc=5",
-        "publisher_url": "https://roastbrief.us",
+        "label": "Mediashotz",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDBiMHNQbTFwMG1qOWJDZGlqdk81d2NFYkNnRkhyay1jZWlmQ0FqVDZrVWJoai1EcTRtZUdDQUhRUUdJWkszSW9FaW1MWHAyeWxhQXo5QzctZ0ViaXc3cnpFOWxrWDg4NldaNDNqRzBVdEVxR3dSamlVZERsaFBQeS1XckhydmFIVmNKS0FnMU9zWHJnYkZseVBnR25iZkptdWpyZmFB0gGuAUFVX3lxTE9lTDlGLVdiU1NvQWpUY2twMnllYzdQTnBRMkJwUVlLZF9PTDAzRUozLXhfUHU5cGR2V1RsaTY1OGQ1ZHNPYy10RWdENVgwXzlTUnZGeWJsbTN2YnczdUpwdGlnVHRJeFVBMVZaZmlNNm8wZHU1OGRKbTVHa2NNSXFOSjBrVmhIMG4wQ05tMUhmWElGQUFkaXZCTjRLNW0xcWNzNkI3OXpqMUhLemc0dw?oc=5",
+        "publisher_url": "https://mediashotz.co.uk",
         "feed": "UK creative campaigns"
       },
       "contacts": [],
@@ -1230,7 +1230,45 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlNscGgwU3drN3RHenhzalNYUk9oM1RxWU9vUTIwMGFwcUFaY296Z0dzQ0JWV0paWFNLTWNmWnFpc0FaWDJ1QjFKOEtXbVJkU3RIM19SdUZobmg1QVVycm52Mjd2YkRuQWtDUTRyRjg2MHRTTzZPMU42X2djeGFXZ1dmTHFHTEdhRXBHT0VIRUVFUXVLY3Ffa2ozSGFDUmZoWGxvYXNVQW5URlpCbzFNMnFYRHpVMk9Gd1MtblM1cFo?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 8/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-0186884ae84d4f42",
+      "date": "2026-11-24",
+      "title": "Channel 4 hit as Unilever switches from TV to influencer marketing",
+      "summary": "Source-linked headline from The Guardian. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "CHANNEL 4",
+      "brand": "Channel 4, Unilever",
+      "production": "Not established by headline",
+      "source": {
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDJ5ajhlZjVMTXN5OHRHRXJsRUdFNTFDNThEYm9teUNJOTBLR0lHbFVQYTdWRk1LQ2l5cWNkUk4xUUVUb1ZlYUN5Zk5KNlNraUpVT3c0N3hDb3cxQ09HVXpORTNxZF9TTXRtMXNRWXBCNkhoWV80ekJVVXpzenFGYVlVWnBRTWNxMzJ4emdPdDllQQ?oc=5",
+        "publisher_url": "https://www.theguardian.com",
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1254,7 +1292,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1267,7 +1305,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -2104,7 +2142,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 2/8"
       },
       "contacts": [],
       "origin": "automated",
