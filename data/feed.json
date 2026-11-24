@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T12:19:31Z",
-  "last_successful_fetch": "2026-11-24T12:19:31Z",
+  "generated_at": "2026-11-24T14:30:34Z",
+  "last_successful_fetch": "2026-11-24T14:30:34Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 87,
+  "new_items_this_run": 91,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 10
+      "items": 11
     },
     {
       "name": "EMEA agency account wins",
@@ -40,7 +40,7 @@
     {
       "name": "UK talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "EMEA talent agencies",
@@ -70,22 +70,22 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 6
+      "items": 22
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 3
+      "items": 8
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 18
+      "items": 10
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 13
+      "items": 1
     },
     {
       "name": "Hitlist watch 5/8",
@@ -95,17 +95,17 @@
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 13
+      "items": 11
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 14
+      "items": 21
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 7
+      "items": 5
     }
   ],
   "items": [
@@ -755,6 +755,44 @@
       "signal_score": 22,
       "signal_reasons": [
         "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+        "Agency name matches the private target list; identity still needs verification."
+      ],
+      "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
+      "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities.",
+      "angle": "A new contact or remit can justify a light-touch introduction but does not imply a production need.",
+      "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-6dc1d6763a4ceed9",
+      "date": "2026-11-24",
+      "title": "Bray Leino Appoints Katy Hopkins as Executive Creative Director — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "BRAY LEINO",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM0xjakMxcVBCckN3eWZXOURyTERlTGVkMnFXT3pTQ2xITDE4Y0FuRGJfdzR1REJrQmRaZFFmd0tDN1pZY3hxQjBRVTZTenpZWTJRUHR2RVRnUnVHQVR4LU90NVNXbjQwaGZsQjk2RU9CUHdLaVpVeGMyclh1dlpraEFYcWZCWGhVV2NHZFFHZ19kY0p6?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "UK agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry move",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 22,
+      "signal_reasons": [
+        "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
         "Headline contains a market reference: EMEA."
       ],
       "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
@@ -1089,6 +1127,84 @@
     {
       "type": "Industry news",
       "priority": "Low",
+      "sector": "Talent & representation",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Talent/representation angle; identify a partnerships or content owner.",
+        "Headline contains a market reference: UK."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "UK",
+      "region_evidence": "Headline evidence",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-bea22880fff2222f",
+      "date": "2026-11-24",
+      "title": "United Talent Agency to unite businesses at new London HQ",
+      "summary": "Source-linked headline from The Bookseller. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "The Bookseller",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRTBKWEZiSkF1aEUzbXF3d01zUkRmd0UtVFU0Q3dNTGxFbzVtU3otX2ZEZ1ZIYU9CVzE0R0FMWVRYd2tyNEVYUkxTLXJmS1hiemRhOU1aVVhVTnhQV005V3VJaE0xeURXTk9JYzlUNmMzZ3dBem8yY1hBaTNhQ0g2SE1ZcktVMWczb2lLSVpNdlZXTV9ocVpN?oc=5",
+        "publisher_url": "https://www.thebookseller.com",
+        "feed": "UK talent agencies"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": true,
+      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Agency name matches the private target list; identity still needs verification.",
+        "Headline contains a market reference: UK."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "UK",
+      "region_evidence": "Headline evidence",
+      "search_market": "UK/EMEA/US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-64e1d081f866911c",
+      "date": "2026-11-24",
+      "title": "Channel 4 Serves Up Sweeter Ad Break for 'The Great British Bake Off' Final with 5 Brand Take Over — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "CHANNEL 4",
+      "brand": "Channel 4",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlNscGgwU3drN3RHenhzalNYUk9oM1RxWU9vUTIwMGFwcUFaY296Z0dzQ0JWV0paWFNLTWNmWnFpc0FaWDJ1QjFKOEtXbVJkU3RIM19SdUZobmg1QVVycm52Mjd2YkRuQWtDUTRyRjg2MHRTTzZPMU42X2djeGFXZ1dmTHFHTEdhRXBHT0VIRUVFUXVLY3Ffa2ozSGFDUmZoWGxvYXNVQW5URlpCbzFNMnFYRHpVMk9Gd1MtblM1cFo?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "Hitlist watch 3/8"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
       "sector": "Creative & production",
       "signal_score": 16,
       "signal_reasons": [
@@ -1177,7 +1293,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "UK",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -1190,7 +1306,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1215,7 +1331,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-fd7966fba229e99f",
       "date": "2026-11-19",
@@ -1228,7 +1344,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdXNDTjdFOUpVOXZSemZTbjRaZUMyeFZ0LURFU2NUcXlCdkhGYzh5dVlNT1JQR0FveDFlQnJmODgwVDhHUFpHQWN1VXVfcnVSWDdRUi03NHJYdF9ZaGRQa1kzb3Y1NTdlekE?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 4/8"
+        "feed": "US creative campaigns"
       },
       "contacts": [],
       "origin": "automated",
@@ -1403,7 +1519,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-c8cc90ae4f4bbce1",
       "date": "2026-11-19",
@@ -1416,7 +1532,7 @@
         "label": "Ad Age",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbGltdFQ0SkFXbTFyU1MxbDJBRG0yRWRtTDA0SldTdzV0UmY1b0hjTWpFcFlBaV9IT2loV1Zocm90eEplUXdBNHZsUDVYOWM2X0hZN2Z4WTAxUmhRY1hjQk9McDBveERpX0x5X196QlJJNkw0a1U5eFlyR05iZ1JGaVhpNUIyT0JNblYwTEFzY284RkN5VlBvMkhwbG1UWXJ3YjFZa296Ql9JNWQwSXdTT0t3?oc=5",
         "publisher_url": "https://adage.com",
-        "feed": "US agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
