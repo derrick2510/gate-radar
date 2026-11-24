@@ -1,131 +1,111 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T18:08:12Z",
-  "last_successful_fetch": "2026-11-24T14:30:34Z",
-  "status": "unavailable",
-  "sources_ok": 0,
+  "generated_at": "2026-11-24T19:22:50Z",
+  "last_successful_fetch": "2026-11-24T19:22:50Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 0,
+  "new_items_this_run": 177,
   "sources": [
     {
       "name": "UK agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 10
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "US agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "UK creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "US creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 3
     },
     {
       "name": "UK talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "EMEA talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "US talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 1/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "Hitlist watch 2/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 53
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 31
     },
     {
       "name": "Hitlist watch 4/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 22
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 23
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 11
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 32
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 11
     }
   ],
   "items": [
@@ -418,7 +398,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xYXpwTEFPcW1sSUpYaVJnd29UNHd5cGI1bk01dnFXc3hwLUJmakduOHdKaEFTM0NWVGNoZFJqMGs2WEs0SDRPU2lxSlkyWUJVZTZqaW5zT0N5d3pUbDhLczZ2WDkwNFdhVTU1NA?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 8/8"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -619,6 +599,44 @@
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
       "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
       "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 32,
+      "signal_reasons": [
+        "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+        "Headline contains a market reference: UK."
+      ],
+      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
+      "region": "UK",
+      "region_evidence": "Headline evidence",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-a0023e12b3c72e58",
+      "date": "2026-11-24",
+      "title": "TikTok and Akcelo bring £10bn economic impact to life in new UK brand campaign",
+      "summary": "Source-linked headline from Mediashotz. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "TikTok",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Mediashotz",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDBiMHNQbTFwMG1qOWJDZGlqdk81d2NFYkNnRkhyay1jZWlmQ0FqVDZrVWJoai1EcTRtZUdDQUhRUUdJWkszSW9FaW1MWHAyeWxhQXo5QzctZ0ViaXc3cnpFOWxrWDg4NldaNDNqRzBVdEVxR3dSamlVZERsaFBQeS1XckhydmFIVmNKS0FnMU9zWHJnYkZseVBnR25iZkptdWpyZmFB0gGuAUFVX3lxTE9lTDlGLVdiU1NvQWpUY2twMnllYzdQTnBRMkJwUVlLZF9PTDAzRUozLXhfUHU5cGR2V1RsaTY1OGQ1ZHNPYy10RWdENVgwXzlTUnZGeWJsbTN2YnczdUpwdGlnVHRJeFVBMVZaZmlNNm8wZHU1OGRKbTVHa2NNSXFOSjBrVmhIMG4wQ05tMUhmWElGQUFkaXZCTjRLNW0xcWNzNkI3OXpqMUhLemc0dw?oc=5",
+        "publisher_url": "https://mediashotz.co.uk",
+        "feed": "UK creative campaigns"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
       "type": "Campaign",
@@ -1236,7 +1254,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1249,7 +1267,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1972,7 +1990,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEFQSjI0S3dIcUVIVkN2dEstZ1EzQjdTWXltUm80UmdDSWpsbU1fbXIzVjRwTXJ5T2dOem9ub1pGV1NlbE4yQlFpX3pCb2QxOWZ6R3ZCZ01qNWJ0V3dUem5sek11N3JHRmtLWG9yekhiQWlnVGJlTVgxWmstTlFIbzQzQTdMblZxbEtNVjdwaVRXRmR1WWc?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2086,7 +2104,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
