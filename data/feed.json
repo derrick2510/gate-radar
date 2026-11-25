@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T01:43:46Z",
-  "last_successful_fetch": "2026-11-25T01:43:46Z",
+  "generated_at": "2026-11-25T03:19:40Z",
+  "last_successful_fetch": "2026-11-25T03:19:40Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 156,
+  "new_items_this_run": 155,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -15,22 +15,22 @@
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "US creative campaigns",
@@ -70,12 +70,12 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 32
+      "items": 33
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 22
+      "items": 12
     },
     {
       "name": "Hitlist watch 3/8",
@@ -85,27 +85,27 @@
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 10
+      "items": 17
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 23
+      "items": 18
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 10
+      "items": 2
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 44
+      "items": 30
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 0
+      "items": 31
     }
   ],
   "items": [
@@ -398,7 +398,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xYXpwTEFPcW1sSUpYaVJnd29UNHd5cGI1bk01dnFXc3hwLUJmakduOHdKaEFTM0NWVGNoZFJqMGs2WEs0SDRPU2lxSlkyWUJVZTZqaW5zT0N5d3pUbDhLczZ2WDkwNFdhVTU1NA?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1254,7 +1254,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1267,7 +1267,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1331,7 +1331,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "UK/EMEA/US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-659a76f62838f5a3",
       "date": "2026-11-19",
@@ -1344,7 +1344,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1915,7 +1915,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2104,7 +2104,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
