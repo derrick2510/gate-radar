@@ -1,41 +1,41 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T13:43:36Z",
-  "last_successful_fetch": "2026-11-25T13:43:36Z",
+  "generated_at": "2026-11-25T15:26:46Z",
+  "last_successful_fetch": "2026-11-25T15:26:46Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 122,
+  "new_items_this_run": 130,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 8
+      "items": 10
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 2
+      "items": 4
     },
     {
       "name": "EMEA creative campaigns",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "US creative campaigns",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "UK talent agencies",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 30
+      "items": 7
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 0
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 46
+      "items": 55
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 0
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 6
+      "items": 20
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 21
+      "items": 14
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 5
+      "items": 22
     }
   ],
   "items": [
@@ -654,6 +654,43 @@
       "region_evidence": "Search-market context only",
       "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-49efa3a49a5446ab",
+      "date": "2026-11-24",
+      "title": "Earn $1,500 for a Sports TV Commercial + More Voiceover Jobs",
+      "summary": "Source-linked headline from Backstage. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "Backstage",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWY3gxcGVxS2JZNUZMb2p4ay14djNhclB6VFoxblZZVXBSSW1lMVh6WEtHenQwQVY4S1dSbGVwQWc2ZDNiQ2xKSmlRRm9WZk1Ra0pZQUt0Sl9RZFpTTnFDREZabVVfbXU0LW1sSGR6MkVRS0xPVGc?oc=5",
+        "publisher_url": "https://www.backstage.com",
+        "feed": "US creative campaigns"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Campaign",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 32,
+      "signal_reasons": [
+        "A published campaign is a conversation starter, not evidence of an upcoming production brief."
+      ],
+      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
+      "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
+      "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "US",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-b81f88d15c6ec886",
       "date": "2026-11-20",
       "title": "Rolling Stones front Crossfire Hurricane Rum brand film",
@@ -801,7 +838,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-7c974b29e0db2f8f",
       "date": "2026-11-25",
@@ -814,7 +851,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVk5RZEtJbC04Y0VwZFI2VmVuMHh6WjNZWDVqTlY5Um1ud0VJOV96ZVR2Z2lqd0NaZVNyaDFCZG5OaFUxanRLMEtvYVBQR0J6RWtZNkZDVHZCZzBYTVVzZVQ5OWhWUWpLaXJ0bWZjbFVaeVRzWDlFbXVtY3YyZHc5bXRPMHEtc0tl?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2142,7 +2179,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
