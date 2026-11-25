@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-24T22:17:22Z",
-  "last_successful_fetch": "2026-11-24T22:17:22Z",
+  "generated_at": "2026-11-25T00:02:34Z",
+  "last_successful_fetch": "2026-11-25T00:02:34Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 151,
+  "new_items_this_run": 136,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -20,7 +20,7 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "UK creative campaigns",
@@ -70,17 +70,17 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 52
+      "items": 7
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 8
+      "items": 16
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 22
+      "items": 8
     },
     {
       "name": "Hitlist watch 4/8",
@@ -90,22 +90,22 @@
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 14
+      "items": 17
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 22
+      "items": 18
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 8
+      "items": 0
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 12
+      "items": 52
     }
   ],
   "items": [
@@ -1125,44 +1125,6 @@
       "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities."
     },
     {
-      "type": "Industry move",
-      "priority": "Low",
-      "sector": "Creative & production",
-      "signal_score": 22,
-      "signal_reasons": [
-        "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
-        "Agency name matches the private target list; identity still needs verification."
-      ],
-      "angle": "A new contact or remit can justify a light-touch introduction but does not imply a production need.",
-      "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK/EMEA/US",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-1b3986accd129ce5",
-      "date": "2026-11-03",
-      "title": "Movers Spotlight: Jeff Bowerman, We Are Social",
-      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "WE ARE SOCIAL",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Campaign UK",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTRKczZFZWo1a1dCLXlOVnRMSUkyWUcwbkkxMVIwYmRTTVBKUVFvNGVUWUphdU1iVmlEV3hxNzBxNVNNUWYySHJ5ODdFTGp0LWNtMFVUbGJxbkFxS3V5bVc1R18ybmszTDFYc1lzWWVhMkNFODhyN3h6eVlXSEhVc05EczdVWE5tSG5oUjlSNnJHeTNYYTFHUFdjaVYwMElkUWctR3dQYkp0eWtFMERV?oc=5",
-        "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "Hitlist watch 8/8"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
-      "priority_reason": "Personnel change or industry appointment; useful for relationship-building, not evidence of available production work.",
-      "next_action": "Consider a friendly congratulations; learn their remit and production decision process before asking about opportunities."
-    },
-    {
       "type": "Industry news",
       "priority": "Low",
       "sector": "Talent & representation",
@@ -1292,7 +1254,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1305,7 +1267,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1953,7 +1915,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 5/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2226,44 +2188,6 @@
       "target_match": false,
       "talent_signal": true,
       "target_note": "Talent agency signal; qualify roster, sector and relevance.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Low",
-      "sector": "Creative & production",
-      "signal_score": 16,
-      "signal_reasons": [
-        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-        "Agency name matches the private target list; identity still needs verification."
-      ],
-      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
-      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
-      "ask": "How does your team typically plan film and content production?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-aa8e8052b1814383",
-      "date": "2026-11-03",
-      "title": "VCCP dethrones BBH in Q3 2026 global creative rankings",
-      "summary": "Source-linked headline from Campaign UK. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "VCCP",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Campaign UK",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1R0Sjg1T0pvVDhEQU8zQkdfbFZ4S0l4ZGh4MHZEWFNEUTRGWEJUdjhoSTJmYUFhbGNGUS1WSVRwcHJ1ZlRuSllzNmRTT2tSX1hMTHVtZkxfZzdXMU4xaW1vekhyMGJTcmtZdzgwdUVWQ1BjR2N4czhtOVBpZmRickFZVGZwRUQtX2JwQ3hpQVE2aGVRcnZjT2NaTkpaWUZzV2lIVnZQblNmMnVNcS1PLWptbzRZX0NGcEZHcA?oc=5",
-        "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "EMEA agency account wins"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": true,
-      "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     }
   ],
