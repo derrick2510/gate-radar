@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T12:22:42Z",
-  "last_successful_fetch": "2026-11-26T12:22:42Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "generated_at": "2026-11-26T14:32:07Z",
+  "last_successful_fetch": "2026-11-26T14:32:07Z",
+  "status": "partial",
+  "sources_ok": 18,
   "sources_total": 20,
-  "new_items_this_run": 117,
+  "new_items_this_run": 123,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 10
+      "items": 7
     },
     {
       "name": "EMEA agency account wins",
@@ -20,12 +20,12 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
@@ -44,8 +44,9 @@
     },
     {
       "name": "EMEA talent agencies",
-      "state": "ok",
-      "items": 2
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US talent agencies",
@@ -70,42 +71,43 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 22
+      "items": 6
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 10
+      "items": 2
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 47
+      "items": 31
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 0
+      "items": 32
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "ok",
-      "items": 11
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 6
+      "items": 23
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 20
+      "items": 9
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 4
+      "items": 29
     }
   ],
   "items": [
@@ -145,6 +147,43 @@
       "target_match": true,
       "talent_signal": false,
       "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Account win",
+      "priority": "Medium",
+      "sector": "Creative & production",
+      "signal_score": 65,
+      "signal_reasons": [
+        "Agency/client appointment reported, but this is not a verified hitlist win or production requirement."
+      ],
+      "priority_reason": "Agency/client appointment reported, but this is not a verified hitlist win or production requirement.",
+      "next_action": "Check whether the account fits GATE’s sectors, confirm decision-makers and whether external production is relevant.",
+      "angle": "An agency/client appointment may lead to creative production, but no production brief is established.",
+      "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "EMEA",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-e7082491c8e1baf9",
+      "date": "2026-11-26",
+      "title": "Mamas & Papas Appoints Dentsu Creative as Lead Creative Agency — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVNPZ0RPRGZ1WU9udVhGczNtR0hGUGxadFMtS3VmX3JaVWpfbTdBZHRWLVg0OVhLamNWZGh5S28zb0pvakVMRExad2szRWg1MGlJUjN5SFNaLUkxa1NTRGh1a29iUVdyajM1Ti1WdzZRUDBpN25kMGtCeGRWQmFmd25qaFg1eWFJMy1pcFd4S0M?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "EMEA agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": false,
+      "target_note": "No agency hitlist match confirmed",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
@@ -361,7 +400,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xYXpwTEFPcW1sSUpYaVJnd29UNHd5cGI1bk01dnFXc3hwLUJmakduOHdKaEFTM0NWVGNoZFJqMGs2WEs0SDRPU2lxSlkyWUJVZTZqaW5zT0N5d3pUbDhLczZ2WDkwNFdhVTU1NA?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -800,7 +839,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-7c974b29e0db2f8f",
       "date": "2026-11-25",
@@ -813,7 +852,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVk5RZEtJbC04Y0VwZFI2VmVuMHh6WjNZWDVqTlY5Um1ud0VJOV96ZVR2Z2lqd0NaZVNyaDFCZG5OaFUxanRLMEtvYVBQR0J6RWtZNkZDVHZCZzBYTVVzZVQ5OWhWUWpLaXJ0bWZjbFVaeVRzWDlFbXVtY3YyZHc5bXRPMHEtc0tl?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA agency account wins"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1366,7 +1405,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1379,7 +1418,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -2102,7 +2141,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEFQSjI0S3dIcUVIVkN2dEstZ1EzQjdTWXltUm80UmdDSWpsbU1fbXIzVjRwTXJ5T2dOem9ub1pGV1NlbE4yQlFpX3pCb2QxOWZ6R3ZCZ01qNWJ0V3dUem5sek11N3JHRmtLWG9yekhiQWlnVGJlTVgxWmstTlFIbzQzQTdMblZxbEtNVjdwaVRXRmR1WWc?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2216,7 +2255,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
