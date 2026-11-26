@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T09:32:13Z",
-  "last_successful_fetch": "2026-11-26T09:32:13Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "generated_at": "2026-11-26T11:15:57Z",
+  "last_successful_fetch": "2026-11-26T11:15:57Z",
+  "status": "partial",
+  "sources_ok": 19,
   "sources_total": 20,
-  "new_items_this_run": 94,
+  "new_items_this_run": 136,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 11
+      "items": 10
     },
     {
       "name": "EMEA agency account wins",
@@ -20,12 +20,12 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
@@ -34,8 +34,9 @@
     },
     {
       "name": "US creative campaigns",
-      "state": "ok",
-      "items": 3
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "UK talent agencies",
@@ -70,42 +71,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 10
+      "items": 16
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 22
+      "items": 18
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 7
+      "items": 2
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 14
+      "items": 55
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 1
+      "items": 9
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 10
+      "items": 11
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 12
+      "items": 23
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 20
+      "items": 10
     }
   ],
   "items": [
@@ -813,7 +814,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVk5RZEtJbC04Y0VwZFI2VmVuMHh6WjNZWDVqTlY5Um1ud0VJOV96ZVR2Z2lqd0NaZVNyaDFCZG5OaFUxanRLMEtvYVBQR0J6RWtZNkZDVHZCZzBYTVVzZVQ5OWhWUWpLaXJ0bWZjbFVaeVRzWDlFbXVtY3YyZHc5bXRPMHEtc0tl?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1366,7 +1367,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1379,7 +1380,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -2027,7 +2028,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2216,7 +2217,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 5/8"
       },
       "contacts": [],
       "origin": "automated",
