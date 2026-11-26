@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-25T23:12:22Z",
-  "last_successful_fetch": "2026-11-25T23:12:22Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "generated_at": "2026-11-26T00:06:13Z",
+  "last_successful_fetch": "2026-11-26T00:06:13Z",
+  "status": "partial",
+  "sources_ok": 18,
   "sources_total": 20,
-  "new_items_this_run": 110,
+  "new_items_this_run": 111,
   "sources": [
     {
       "name": "UK agency account wins",
@@ -25,17 +25,17 @@
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "EMEA creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "name": "US creative campaigns",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "UK talent agencies",
@@ -54,13 +54,15 @@
     },
     {
       "name": "UK production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "EMEA production procurement",
-      "state": "ok",
-      "items": 0
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "name": "US production procurement",
@@ -70,42 +72,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 13
+      "items": 8
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 14
+      "items": 23
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 8
+      "items": 23
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 7
+      "items": 29
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 1
+      "items": 13
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 56
+      "items": 1
     }
   ],
   "items": [
@@ -161,7 +163,7 @@
       "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-3c45fe4c0ee7de6d",
       "date": "2026-11-24",
@@ -174,7 +176,7 @@
         "label": "Campaign UK",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcHg2V2h6aXhPUXhRcDR1WF82WU5wOGQ3NDRvSzRwdEVRQUlGQWpfWXFGUzJvQ1JSeDBLdlU0Q0p5N0RIQUpOZUEtUWtxVFhmUnY4aW03WThGT2l4Y2xPQ3BvY2U5aXdzczE3WkZxVjdkZ0RHZWkzdWNkZVBlUGcyNzIxeFdoekRuQTM0RWlPanBualJraHV0SlR2VV9MRHRGVjVvRXRNaEZPWFpJQ3JnbUdRRzdmWk0?oc=5",
         "publisher_url": "https://www.campaignlive.co.uk",
-        "feed": "EMEA creative campaigns"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -286,43 +288,6 @@
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWXlfMUoyU0hfb0tQd1BVenJaNklrREphZ2ZUR3l3SEw2WWpZU3l4UTdCZi1aM3YyMXF5bWl2M2d6dW44T3hzdFhiUUx1QnA5TXU1MmxsMF9oTHhoak1FWVdxYnE0VmJXcGhlMGVtRnM0ZUZ1eXJMZHh1Z05FblhjMDQwdnhtZF9XQzNVSzlkdnJwX0JCRGc?oc=5",
         "publisher_url": "https://www.prmoment.com",
         "feed": "UK agency account wins"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": false,
-      "target_note": "No agency hitlist match confirmed",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Account win",
-      "priority": "Medium",
-      "sector": "Creative & production",
-      "signal_score": 65,
-      "signal_reasons": [
-        "Agency/client appointment reported, but this is not a verified hitlist win or production requirement."
-      ],
-      "priority_reason": "Agency/client appointment reported, but this is not a verified hitlist win or production requirement.",
-      "next_action": "Check whether the account fits GATE’s sectors, confirm decision-makers and whether external production is relevant.",
-      "angle": "An agency/client appointment may lead to creative production, but no production brief is established.",
-      "ask": "I saw the account appointment and wondered how the team usually brings production partners into new client work?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-2aeef4b0158f6d9c",
-      "date": "2026-11-04",
-      "title": "Dig Agency appointed lead creative agency for a2 Milk campaign",
-      "summary": "Source-linked headline from Mumbrella. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Mumbrella",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUmtPT29RMTNmX3BWT1J4dFVzWHk2c3NYSVp3dFk0MURWdUd6dk53cnlnWk9mMGdSaEtwcG9Pb1oyQVB4UWxDcXZrX3pZT0pfcl9sTTNMMElXc19SLVBFcUZmMHBhcm9UZk8zM3VQUzF3M3BfYkdMRXVMZVBya21UaG03ejlVNjF6UHpjOGtGMzBXS284M0tfTmtB?oc=5",
-        "publisher_url": "https://mumbrella.com.au",
-        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -563,42 +528,41 @@
     },
     {
       "type": "Campaign",
-      "priority": "Medium",
+      "priority": "Low",
       "sector": "Creative & production",
-      "signal_score": 53,
+      "signal_score": 32,
       "signal_reasons": [
-        "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
-        "Agency name matches the private target list; identity still needs verification.",
-        "Headline contains a market reference: UK."
+        "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+        "Headline contains a market reference: US."
       ],
+      "priority_reason": "A published campaign is a conversation starter, not evidence of an upcoming production brief.",
+      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign.",
       "angle": "The campaign may already be finished. Explore next phases or related film/social work without implying an open brief.",
       "ask": "I noticed the campaign. Do you usually handle follow-on film and social assets internally or work with additional production partners?",
-      "region": "UK",
+      "region": "US",
       "region_evidence": "Headline evidence",
-      "search_market": "UK/EMEA/US",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-7da9fda90db5baad",
-      "date": "2026-11-04",
-      "title": "KFC UK&I, Mother Doomify 100 Markets for 'Avengers: Doomsday'",
-      "summary": "Source-linked headline from DesignRush. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "MOTHER",
+      "id": "rss-257cced7f915630a",
+      "date": "2026-11-25",
+      "title": "Play Santa in a Holiday TV Commercial + More Casting Calls in Los Angeles",
+      "summary": "Source-linked headline from Backstage. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
       "brand": "Brand to confirm",
       "production": "Not established by headline",
       "source": {
-        "label": "DesignRush",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OT1l4M2xPdGVPaUVHTWd0eXlHOHB6dnhIaXhqRE0xdWxnRHI0ZVZTTHl4Q1dCTDB5aDc1SUt6Wm5SUTBTVFFfN0xIeUVrcDl3a1ZVdHVKSWYtOWw1OG1zbEh3a0xCRHNZNGVQZS1nX1hSLUZMOWFqLVd2RQ?oc=5",
-        "publisher_url": "https://news.designrush.com",
-        "feed": "Hitlist watch 1/8"
+        "label": "Backstage",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYXpDcFhvc2ZkNHIyTVAwVG12OG5EVHdac21NOU5OaEljX1hQbmVfeVlacWR0WTA2cncxcVJOS0dwZ3k1c1FONUtIaWNMZ0RhXzl5Nk9OV3ZDLWRNZHhCeWVJRDVtaGdRcWdhUUV3MkpYMHpZUDNSRWk3bWJBUjk2ckQyNmFqd2RJdGpwXzMwRQ?oc=5",
+        "publisher_url": "https://www.backstage.com",
+        "feed": "US creative campaigns"
       },
       "contacts": [],
       "origin": "automated",
       "review_status": "Headline collected — requires review",
-      "target_match": true,
+      "target_match": false,
       "talent_signal": false,
-      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach.",
-      "priority_reason": "A hitlist agency is associated with a published campaign; follow-on work is only hypothetical.",
-      "next_action": "Confirm creative and production credits, then ask about follow-on assets, adaptations, or upcoming work rather than the already-delivered campaign."
+      "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
       "type": "Campaign",
@@ -1305,7 +1269,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlNscGgwU3drN3RHenhzalNYUk9oM1RxWU9vUTIwMGFwcUFaY296Z0dzQ0JWV0paWFNLTWNmWnFpc0FaWDJ1QjFKOEtXbVJkU3RIM19SdUZobmg1QVVycm52Mjd2YkRuQWtDUTRyRjg2MHRTTzZPMU42X2djeGFXZ1dmTHFHTEdhRXBHT0VIRUVFUXVLY3Ffa2ozSGFDUmZoWGxvYXNVQW5URlpCbzFNMnFYRHpVMk9Gd1MtblM1cFo?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 8/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1343,7 +1307,7 @@
         "label": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDJ5ajhlZjVMTXN5OHRHRXJsRUdFNTFDNThEYm9teUNJOTBLR0lHbFVQYTdWRk1LQ2l5cWNkUk4xUUVUb1ZlYUN5Zk5KNlNraUpVT3c0N3hDb3cxQ09HVXpORTNxZF9TTXRtMXNRWXBCNkhoWV80ekJVVXpzenFGYVlVWnBRTWNxMzJ4emdPdDllQQ?oc=5",
         "publisher_url": "https://www.theguardian.com",
-        "feed": "Hitlist watch 8/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2103,7 +2067,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEFQSjI0S3dIcUVIVkN2dEstZ1EzQjdTWXltUm80UmdDSWpsbU1fbXIzVjRwTXJ5T2dOem9ub1pGV1NlbE4yQlFpX3pCb2QxOWZ6R3ZCZ01qNWJ0V3dUem5sek11N3JHRmtLWG9yekhiQWlnVGJlTVgxWmstTlFIbzQzQTdMblZxbEtNVjdwaVRXRmR1WWc?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 5/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2217,7 +2181,7 @@
         "label": "Campaign Middle East",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2NiV1RzVTM1RnJzUlY4T0t6WEowTUh5bWYwV0xTN1pWNGNzanRQZmRHeEV4U0hzbVkybjE0V0hkRlBuSTUxUVRBMUJyOEJfZ1lYUXFlSFZ4Zm9iZ1l3VGFVbC1wM1NDWG9qdExIUURUVjlTSjZQckJOS2lGdFJjUm8xUTB0VmxzQUpybEhYeHBydHVBNWNsc2hwSVA1enU4TTVjRGhwVTFXNXZ6R09QSlpCT1I?oc=5",
         "publisher_url": "https://campaignme.com",
-        "feed": "Hitlist watch 2/8"
+        "feed": "Hitlist watch 1/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2225,82 +2189,6 @@
       "target_match": true,
       "talent_signal": false,
       "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Low",
-      "sector": "Talent & representation",
-      "signal_score": 16,
-      "signal_reasons": [
-        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-        "Talent/representation angle; identify a partnerships or content owner."
-      ],
-      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
-      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
-      "ask": "How does your team typically plan film and content production?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-efc9b35d58776848",
-      "date": "2026-11-04",
-      "title": "Dominique Moore Launches DMA Talent Agency For Young Actors",
-      "summary": "Source-linked headline from Deadline. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Deadline",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRjNmcWdCaG1GdVBUeUstS1NFdl9aeHZZenlFaTBhRjNqVVlVZzAyTmZBN3lCaVpOMEM4VUY5aGF6OWhNOUpkNXF4dDlWNkltZHBmUVNDZnQyUlhGSTdlWmZqeElYbWhtcU40b3U0TDQtcnAtSzUwWGhfeUZXLU1uNUdxVWJZRFRHTUFUdDZkMVVyN3V0M191VA?oc=5",
-        "publisher_url": "https://deadline.com",
-        "feed": "UK talent agencies"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": true,
-      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
-      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
-    },
-    {
-      "type": "Industry news",
-      "priority": "Low",
-      "sector": "Talent & representation",
-      "signal_score": 16,
-      "signal_reasons": [
-        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-        "Talent/representation angle; identify a partnerships or content owner."
-      ],
-      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
-      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
-      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
-      "ask": "How does your team typically plan film and content production?",
-      "region": "To verify",
-      "region_evidence": "Search-market context only",
-      "search_market": "UK",
-      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
-      "id": "rss-242e7dd865ce3aec",
-      "date": "2026-11-04",
-      "title": "Star Of ‘Horrible Histories’ & ‘Tracey Ullman’s Show’ Launches Talent Agency For Kids",
-      "summary": "Source-linked headline from Yahoo. Check the report to confirm full details, campaign credits and territory.",
-      "agency": "Agency to confirm",
-      "brand": "Brand to confirm",
-      "production": "Not established by headline",
-      "source": {
-        "label": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTVhKeDRZWUZBQkQ0ZGtlX3ZGWUZmZktQaGMtOXFsWXlVZ1VLcTY0aHdxeXRSRXJEZmZRMENVb2Itdk1DT1NlRG9yYmFacEpwZlg4MDJacXEtM1NGQWFGakpNa1BsVHZpa016eWdLUkt1RGNVYTI2VEZjcE9UdTFXUEw4MzFuYWxDeHptRXd2SlY3VGxvQ2hLVHJvVzdodmhiRlRXR2lLWWVpOUU?oc=5",
-        "publisher_url": "https://www.yahoo.com",
-        "feed": "UK talent agencies"
-      },
-      "contacts": [],
-      "origin": "automated",
-      "review_status": "Headline collected — requires review",
-      "target_match": false,
-      "talent_signal": true,
-      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     }
   ],
