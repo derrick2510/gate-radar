@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T07:44:46Z",
-  "last_successful_fetch": "2026-11-27T07:44:46Z",
-  "status": "healthy",
-  "sources_ok": 20,
+  "generated_at": "2026-11-27T09:31:59Z",
+  "last_successful_fetch": "2026-11-27T09:31:59Z",
+  "status": "partial",
+  "sources_ok": 19,
   "sources_total": 20,
-  "new_items_this_run": 121,
+  "new_items_this_run": 107,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 11
+      "items": 12
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 5
+      "items": 4
     },
     {
       "name": "US agency account wins",
@@ -25,7 +25,7 @@
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 0
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
@@ -70,42 +70,43 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 6
+      "items": 16
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 6
+      "items": 2
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 19
+      "items": 28
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 2
+      "items": 13
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 51
+      "items": 7
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 9
+      "items": 31
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 11
+      "items": 12
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "ok",
-      "items": 22
+      "state": "error",
+      "items": 0,
+      "reason": "HTTP Error 429: Too Many Requests"
     }
   ],
   "items": [
@@ -655,15 +656,15 @@
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-a0023e12b3c72e58",
       "date": "2026-11-24",
-      "title": "Tiktok And Akcelo Bring £10bn Economic Impact To Life In New UK Brand Campaign",
-      "summary": "Source-linked headline from Roastbrief US. Check the report to confirm full details, campaign credits and territory.",
+      "title": "TikTok and Akcelo bring £10bn economic impact to life in new UK brand campaign",
+      "summary": "Source-linked headline from Mediashotz. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "TikTok",
       "production": "Not established by headline",
       "source": {
-        "label": "Roastbrief US",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0Vka25vWnBNSzRBTnE0MXM2V3hUb1JzU0YtWlhKRjFkNG1KdTIwZGFRaXhjc0kzTEJfek1EQ1lLOWthN0ZSLUd2enc0VFhIWkk5dUdRS3lTSldYVmtCNFpJaTh5ajE5allybkNwNEJqeTZoTnZ1eGNmOUFQejUxNWpZZzlKVUlOY3lEMkhybkNkOVlxazVIdEJBcTZwZk5yNnc?oc=5",
-        "publisher_url": "https://roastbrief.us",
+        "label": "Mediashotz",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDBiMHNQbTFwMG1qOWJDZGlqdk81d2NFYkNnRkhyay1jZWlmQ0FqVDZrVWJoai1EcTRtZUdDQUhRUUdJWkszSW9FaW1MWHAyeWxhQXo5QzctZ0ViaXc3cnpFOWxrWDg4NldaNDNqRzBVdEVxR3dSamlVZERsaFBQeS1XckhydmFIVmNKS0FnMU9zWHJnYkZseVBnR25iZkptdWpyZmFB0gGuAUFVX3lxTE9lTDlGLVdiU1NvQWpUY2twMnllYzdQTnBRMkJwUVlLZF9PTDAzRUozLXhfUHU5cGR2V1RsaTY1OGQ1ZHNPYy10RWdENVgwXzlTUnZGeWJsbTN2YnczdUpwdGlnVHRJeFVBMVZaZmlNNm8wZHU1OGRKbTVHa2NNSXFOSjBrVmhIMG4wQ05tMUhmWElGQUFkaXZCTjRLNW0xcWNzNkI3OXpqMUhLemc0dw?oc=5",
+        "publisher_url": "https://mediashotz.co.uk",
         "feed": "UK creative campaigns"
       },
       "contacts": [],
@@ -1325,7 +1326,46 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "UK",
       "region_evidence": "Headline evidence",
-      "search_market": "UK/EMEA/US",
+      "search_market": "UK",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-431803c2f507938b",
+      "date": "2026-11-27",
+      "title": "Mother London Promotes Tom Bender to Chief Creative Officer — LBB",
+      "summary": "Source-linked headline from LBB - Little Black Book. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "MOTHER",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "LBB - Little Black Book",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLUY0YmV1VW9hUTQ0Y1BRS2Z1WU11WUdSMWlCS2ltclJXengxOGh2dVJKS1Q2XzBaelNPd2EyRE9HdVdzTWpZal9aRjAzU0E3cTZ3Y3c2YUVLNEc0OHlleUNpSWNzdzNPTFp3cUswbDltM1FRNzhvOHZlUDBMZWdtT25YTUdyZDNiVEJuOE5zOA?oc=5",
+        "publisher_url": "https://lbbonline.com",
+        "feed": "UK agency account wins"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": true,
+      "talent_signal": false,
+      "target_note": "Hitlist name match; verify this is the intended agency before outreach.",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Low",
+      "sector": "Creative & production",
+      "signal_score": 16,
+      "signal_reasons": [
+        "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+        "Agency name matches the private target list; identity still needs verification.",
+        "Headline contains a market reference: UK."
+      ],
+      "priority_reason": "General creative-industry context. There is no concrete commissioning or account-win signal in the headline.",
+      "next_action": "Monitor the account or research further; no immediate cold outreach recommended from this story alone.",
+      "angle": "Useful context to research, not enough to justify a production-specific approach by itself.",
+      "ask": "How does your team typically plan film and content production?",
+      "region": "UK",
+      "region_evidence": "Headline evidence",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-f4c3b3c83e927ab5",
       "date": "2026-11-26",
@@ -1338,7 +1378,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXJxV0g0Z0UzMUtveERXejl4Wlp6ZjNKQjkwaGtFZzc3VlVtdUJNTmZCZTFoQ1BhTE44eDJXUXNpWEduY2FXOWVhZDZYdVh2c0NhR0tOcnFoRE84YTFEcEZNMmVoVWQyTk1FZFdCdTVXMWN6N1pSWUQ4YmxNQ1FOWjhUTTVGeGNIR0Q1aEZFYjZJa0Z1NXFocy1OXzNGTk1CY1NJQUhQdWwxbW5aTlhmN3JEQnoyX2hL?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 5/8"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1719,7 +1759,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BdXNDTjdFOUpVOXZSemZTbjRaZUMyeFZ0LURFU2NUcXlCdkhGYzh5dVlNT1JQR0FveDFlQnJmODgwVDhHUFpHQWN1VXVfcnVSWDdRUi03NHJYdF9ZaGRQa1kzb3Y1NTdlekE?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 6/8"
+        "feed": "Hitlist watch 4/8"
       },
       "contacts": [],
       "origin": "automated",
