@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T12:17:12Z",
-  "last_successful_fetch": "2026-11-27T12:17:12Z",
-  "status": "partial",
-  "sources_ok": 19,
+  "generated_at": "2026-11-27T13:43:59Z",
+  "last_successful_fetch": "2026-11-27T13:43:59Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 99,
+  "new_items_this_run": 149,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 11
+      "items": 9
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 5
+      "items": 4
     },
     {
       "name": "US agency account wins",
@@ -25,7 +25,7 @@
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 0
+      "items": 2
     },
     {
       "name": "EMEA creative campaigns",
@@ -44,9 +44,8 @@
     },
     {
       "name": "EMEA talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "US talent agencies",
@@ -71,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 6
+      "items": 19
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 29
+      "items": 2
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 6
+      "items": 51
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 7
+      "items": 9
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 30
+      "items": 11
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 12
+      "items": 26
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 10
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 6
+      "items": 28
     }
   ],
   "items": [
@@ -385,7 +384,7 @@
       "ask": "How do you approach video and social production when new talent or brand partnerships come on board?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-f1c2af9e7854b8ae",
       "date": "2026-11-27",
@@ -398,7 +397,7 @@
         "label": "The Future Laboratory",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdVlyYmJCbjdCdGY5UjVaMERLVFRpcHJpNU1Ma3dyeDJCQ1VzbUY2YkE5T0JiRi1rMkZ0T2sxLWUwX0hHSjZTSmo4ZnlQNklHQ1hYSkM2bmgwZ0VDc0luYVdsbmp3NjlSeHE5ZU1FTDVCWDk2LW5xdU5QeXd5QzlJVg?oc=5",
         "publisher_url": "https://app.thefuturelaboratory.com",
-        "feed": "UK talent agencies"
+        "feed": "EMEA talent agencies"
       },
       "contacts": [],
       "origin": "automated",
@@ -950,7 +949,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "EMEA",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-7c974b29e0db2f8f",
       "date": "2026-11-25",
@@ -963,7 +962,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVk5RZEtJbC04Y0VwZFI2VmVuMHh6WjNZWDVqTlY5Um1ud0VJOV96ZVR2Z2lqd0NaZVNyaDFCZG5OaFUxanRLMEtvYVBQR0J6RWtZNkZDVHZCZzBYTVVzZVQ5OWhWUWpLaXJ0bWZjbFVaeVRzWDlFbXVtY3YyZHc5bXRPMHEtc0tl?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "EMEA agency account wins"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2442,7 +2441,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEFQSjI0S3dIcUVIVkN2dEstZ1EzQjdTWXltUm80UmdDSWpsbU1fbXIzVjRwTXJ5T2dOem9ub1pGV1NlbE4yQlFpX3pCb2QxOWZ6R3ZCZ01qNWJ0V3dUem5sek11N3JHRmtLWG9yekhiQWlnVGJlTVgxWmstTlFIbzQzQTdMblZxbEtNVjdwaVRXRmR1WWc?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 8/8"
       },
       "contacts": [],
       "origin": "automated",
