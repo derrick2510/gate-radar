@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-27T03:21:05Z",
-  "last_successful_fetch": "2026-11-27T03:21:05Z",
-  "status": "partial",
-  "sources_ok": 19,
+  "generated_at": "2026-11-27T05:29:32Z",
+  "last_successful_fetch": "2026-11-27T05:29:32Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 85,
+  "new_items_this_run": 136,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 10
+      "items": 12
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 5
+      "items": 6
     },
     {
       "name": "US agency account wins",
@@ -40,12 +40,12 @@
     {
       "name": "UK talent agencies",
       "state": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "name": "EMEA talent agencies",
       "state": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "name": "US talent agencies",
@@ -54,9 +54,8 @@
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 429: Too Many Requests"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
@@ -71,37 +70,37 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 12
+      "items": 25
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 20
+      "items": 16
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 4
+      "items": 29
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 2
+      "items": 10
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 15
+      "items": 44
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 14
+      "items": 0
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 7
+      "items": 5
     },
     {
       "name": "Hitlist watch 8/8",
@@ -368,6 +367,44 @@
       "target_match": false,
       "talent_signal": false,
       "target_note": "No agency hitlist match confirmed",
+      "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
+    },
+    {
+      "type": "Industry news",
+      "priority": "Medium",
+      "sector": "Talent & representation",
+      "signal_score": 59,
+      "signal_reasons": [
+        "Talent representation/partnership activity may prompt branded-content planning, but no production buying decision is evidenced.",
+        "Talent/representation angle; identify a partnerships or content owner."
+      ],
+      "priority_reason": "Talent representation/partnership activity may prompt branded-content planning, but no production buying decision is evidenced.",
+      "next_action": "Identify the partnerships/content lead; ask whether talent produces campaign or original social content with outside partners.",
+      "angle": "New talent or partnerships sometimes create production needs; first confirm who produces the content.",
+      "ask": "How do you approach video and social production when new talent or brand partnerships come on board?",
+      "region": "To verify",
+      "region_evidence": "Search-market context only",
+      "search_market": "EMEA",
+      "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
+      "id": "rss-f1c2af9e7854b8ae",
+      "date": "2026-11-27",
+      "title": "Hearst launches a creator studio that works like a talent agency",
+      "summary": "Source-linked headline from The Future Laboratory. Check the report to confirm full details, campaign credits and territory.",
+      "agency": "Agency to confirm",
+      "brand": "Brand to confirm",
+      "production": "Not established by headline",
+      "source": {
+        "label": "The Future Laboratory",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdVlyYmJCbjdCdGY5UjVaMERLVFRpcHJpNU1Ma3dyeDJCQ1VzbUY2YkE5T0JiRi1rMkZ0T2sxLWUwX0hHSjZTSmo4ZnlQNklHQ1hYSkM2bmgwZ0VDc0luYVdsbmp3NjlSeHE5ZU1FTDVCWDk2LW5xdU5QeXd5QzlJVg?oc=5",
+        "publisher_url": "https://app.thefuturelaboratory.com",
+        "feed": "EMEA talent agencies"
+      },
+      "contacts": [],
+      "origin": "automated",
+      "review_status": "Headline collected — requires review",
+      "target_match": false,
+      "talent_signal": true,
+      "target_note": "Talent agency signal; qualify roster, sector and relevance.",
       "contact_note": "Contacts are not inferred from news headlines. Verify names, titles and public profiles separately before outreach."
     },
     {
@@ -837,7 +874,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-7c974b29e0db2f8f",
       "date": "2026-11-25",
@@ -850,7 +887,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVk5RZEtJbC04Y0VwZFI2VmVuMHh6WjNZWDVqTlY5Um1ud0VJOV96ZVR2Z2lqd0NaZVNyaDFCZG5OaFUxanRLMEtvYVBQR0J6RWtZNkZDVHZCZzBYTVVzZVQ5OWhWUWpLaXJ0bWZjbFVaeVRzWDlFbXVtY3YyZHc5bXRPMHEtc0tl?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -950,7 +987,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "EMEA",
       "region_evidence": "Headline evidence",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-86c8c7ac39c735d8",
       "date": "2026-11-23",
@@ -963,7 +1000,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWHN5OTFNNWVWZkVaRkFvYXJpTUtLZVRpOFJ4Z0d4TDRpeHQ2NUlCM25vZkg1THJLZWhTcTdUMVhIZENhdV9DNVlyb1kwekx5Vk00UGZfU2Q4R1I1elNBTGRTa1lCcGxIUmpTcUF3bjJLbk1mZlpNc25tOFpxTHdjMlZ3WjJLT0pTenFONzRCdW1xWGg0aTZfYS1oMWp0QlNSblM3My1KWVA?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1288,7 +1325,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "UK",
       "region_evidence": "Headline evidence",
-      "search_market": "UK",
+      "search_market": "UK/EMEA/US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-f4c3b3c83e927ab5",
       "date": "2026-11-26",
@@ -1301,7 +1338,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXJxV0g0Z0UzMUtveERXejl4Wlp6ZjNKQjkwaGtFZzc3VlVtdUJNTmZCZTFoQ1BhTE44eDJXUXNpWEduY2FXOWVhZDZYdVh2c0NhR0tOcnFoRE84YTFEcEZNMmVoVWQyTk1FZFdCdTVXMWN6N1pSWUQ4YmxNQ1FOWjhUTTVGeGNIR0Q1aEZFYjZJa0Z1NXFocy1OXzNGTk1CY1NJQUhQdWwxbW5aTlhmN3JEQnoyX2hL?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "Hitlist watch 5/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1530,7 +1567,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVlNscGgwU3drN3RHenhzalNYUk9oM1RxWU9vUTIwMGFwcUFaY296Z0dzQ0JWV0paWFNLTWNmWnFpc0FaWDJ1QjFKOEtXbVJkU3RIM19SdUZobmg1QVVycm52Mjd2YkRuQWtDUTRyRjg2MHRTTzZPMU42X2djeGFXZ1dmTHFHTEdhRXBHT0VIRUVFUXVLY3Ffa2ozSGFDUmZoWGxvYXNVQW5URlpCbzFNMnFYRHpVMk9Gd1MtblM1cFo?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 5/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -2290,7 +2327,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEFQSjI0S3dIcUVIVkN2dEstZ1EzQjdTWXltUm80UmdDSWpsbU1fbXIzVjRwTXJ5T2dOem9ub1pGV1NlbE4yQlFpX3pCb2QxOWZ6R3ZCZ01qNWJ0V3dUem5sek11N3JHRmtLWG9yekhiQWlnVGJlTVgxWmstTlFIbzQzQTdMblZxbEtNVjdwaVRXRmR1WWc?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 5/8"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
