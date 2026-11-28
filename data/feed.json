@@ -1,31 +1,31 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-28T13:24:42Z",
-  "last_successful_fetch": "2026-11-28T13:24:42Z",
+  "generated_at": "2026-11-28T15:05:41Z",
+  "last_successful_fetch": "2026-11-28T15:05:41Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 56,
+  "new_items_this_run": 137,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 12
+      "items": 11
     },
     {
       "name": "EMEA agency account wins",
       "state": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 0
+      "items": 1
     },
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 4
+      "items": 1
     },
     {
       "name": "EMEA creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 7
+      "items": 1
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 12
+      "items": 31
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 0
+      "items": 8
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 4
+      "items": 25
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 11
+      "items": 24
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 19
+      "items": 16
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 4
+      "items": 29
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 2
+      "items": 10
     }
   ],
   "items": [
@@ -1363,7 +1363,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "UK",
       "region_evidence": "Headline evidence",
-      "search_market": "UK/EMEA/US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-f4c3b3c83e927ab5",
       "date": "2026-11-26",
@@ -1376,7 +1376,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXJxV0g0Z0UzMUtveERXejl4Wlp6ZjNKQjkwaGtFZzc3VlVtdUJNTmZCZTFoQ1BhTE44eDJXUXNpWEduY2FXOWVhZDZYdVh2c0NhR0tOcnFoRE84YTFEcEZNMmVoVWQyTk1FZFdCdTVXMWN6N1pSWUQ4YmxNQ1FOWjhUTTVGeGNIR0Q1aEZFYjZJa0Z1NXFocy1OXzNGTk1CY1NJQUhQdWwxbW5aTlhmN3JEQnoyX2hL?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 2/8"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1668,7 +1668,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "US",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1681,7 +1681,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "US agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -2404,7 +2404,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNEFQSjI0S3dIcUVIVkN2dEstZ1EzQjdTWXltUm80UmdDSWpsbU1fbXIzVjRwTXJ5T2dOem9ub1pGV1NlbE4yQlFpX3pCb2QxOWZ6R3ZCZ01qNWJ0V3dUem5sek11N3JHRmtLWG9yekhiQWlnVGJlTVgxWmstTlFIbzQzQTdMblZxbEtNVjdwaVRXRmR1WWc?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 4/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
