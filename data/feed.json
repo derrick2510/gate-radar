@@ -1,131 +1,111 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-28T12:04:31Z",
-  "last_successful_fetch": "2026-11-28T11:08:00Z",
-  "status": "unavailable",
-  "sources_ok": 0,
+  "generated_at": "2026-11-28T13:24:42Z",
+  "last_successful_fetch": "2026-11-28T13:24:42Z",
+  "status": "healthy",
+  "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 0,
+  "new_items_this_run": 56,
   "sources": [
     {
       "name": "UK agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 12
     },
     {
       "name": "EMEA agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "US agency account wins",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "UK creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "EMEA creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "US creative campaigns",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "UK talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "EMEA talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     },
     {
       "name": "US talent agencies",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 1
     },
     {
       "name": "UK production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "EMEA production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "US production procurement",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 1/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 7
     },
     {
       "name": "Hitlist watch 2/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 12
     },
     {
       "name": "Hitlist watch 3/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 0
     },
     {
       "name": "Hitlist watch 4/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "Hitlist watch 5/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 11
     },
     {
       "name": "Hitlist watch 6/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 19
     },
     {
       "name": "Hitlist watch 7/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 4
     },
     {
       "name": "Hitlist watch 8/8",
-      "state": "error",
-      "items": 0,
-      "reason": "HTTP Error 503: Service Unavailable"
+      "state": "ok",
+      "items": 2
     }
   ],
   "items": [
@@ -931,7 +911,7 @@
       "ask": "Congratulations on the news. How does your team typically work with outside production partners?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "UK",
+      "search_market": "EMEA",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-7c974b29e0db2f8f",
       "date": "2026-11-25",
@@ -944,7 +924,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVk5RZEtJbC04Y0VwZFI2VmVuMHh6WjNZWDVqTlY5Um1ud0VJOV96ZVR2Z2lqd0NaZVNyaDFCZG5OaFUxanRLMEtvYVBQR0J6RWtZNkZDVHZCZzBYTVVzZVQ5OWhWUWpLaXJ0bWZjbFVaeVRzWDlFbXVtY3YyZHc5bXRPMHEtc0tl?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "UK agency account wins"
+        "feed": "EMEA agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -1396,7 +1376,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVXJxV0g0Z0UzMUtveERXejl4Wlp6ZjNKQjkwaGtFZzc3VlVtdUJNTmZCZTFoQ1BhTE44eDJXUXNpWEduY2FXOWVhZDZYdVh2c0NhR0tOcnFoRE84YTFEcEZNMmVoVWQyTk1FZFdCdTVXMWN6N1pSWUQ4YmxNQ1FOWjhUTTVGeGNIR0Q1aEZFYjZJa0Z1NXFocy1OXzNGTk1CY1NJQUhQdWwxbW5aTlhmN3JEQnoyX2hL?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 3/8"
+        "feed": "Hitlist watch 2/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1625,7 +1605,7 @@
         "label": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcDJ5ajhlZjVMTXN5OHRHRXJsRUdFNTFDNThEYm9teUNJOTBLR0lHbFVQYTdWRk1LQ2l5cWNkUk4xUUVUb1ZlYUN5Zk5KNlNraUpVT3c0N3hDb3cxQ09HVXpORTNxZF9TTXRtMXNRWXBCNkhoWV80ekJVVXpzenFGYVlVWnBRTWNxMzJ4emdPdDllQQ?oc=5",
         "publisher_url": "https://www.theguardian.com",
-        "feed": "Hitlist watch 8/8"
+        "feed": "Hitlist watch 2/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -1778,7 +1758,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFpjMUU4c2REM2FiUjJQbHRsc2U0NUlqOFZVb0J3WklDdWkySS1PcnFfMi1EdFptMjFDN3JqOW9WOG53VW1DNGg0eXJ4d3ZPcGJ3amxWTE9QY1YycEFiNC1nSUY5U1l5aGFqcnlETHAwei1Edzkwb2doT09TSEx3S0JRaTZUNG1SSHlfamtJMV9wLUxZR1ZJbnRzUWdmaE9PQjJv?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 7/8"
+        "feed": "Hitlist watch 6/8"
       },
       "contacts": [],
       "origin": "automated",
