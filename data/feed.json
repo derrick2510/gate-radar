@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-28T01:40:22Z",
-  "last_successful_fetch": "2026-11-28T01:40:22Z",
+  "generated_at": "2026-11-28T03:13:47Z",
+  "last_successful_fetch": "2026-11-28T03:13:47Z",
   "status": "healthy",
   "sources_ok": 20,
   "sources_total": 20,
-  "new_items_this_run": 150,
+  "new_items_this_run": 124,
   "sources": [
     {
       "name": "UK agency account wins",
       "state": "ok",
-      "items": 13
+      "items": 11
     },
     {
       "name": "EMEA agency account wins",
@@ -20,12 +20,12 @@
     {
       "name": "US agency account wins",
       "state": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "name": "UK creative campaigns",
       "state": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "name": "EMEA creative campaigns",
@@ -70,42 +70,42 @@
     {
       "name": "Hitlist watch 1/8",
       "state": "ok",
-      "items": 26
+      "items": 10
     },
     {
       "name": "Hitlist watch 2/8",
       "state": "ok",
-      "items": 23
+      "items": 18
     },
     {
       "name": "Hitlist watch 3/8",
       "state": "ok",
-      "items": 16
+      "items": 5
     },
     {
       "name": "Hitlist watch 4/8",
       "state": "ok",
-      "items": 29
+      "items": 19
     },
     {
       "name": "Hitlist watch 5/8",
       "state": "ok",
-      "items": 10
+      "items": 0
     },
     {
       "name": "Hitlist watch 6/8",
       "state": "ok",
-      "items": 48
+      "items": 33
     },
     {
       "name": "Hitlist watch 7/8",
       "state": "ok",
-      "items": 0
+      "items": 34
     },
     {
       "name": "Hitlist watch 8/8",
       "state": "ok",
-      "items": 4
+      "items": 12
     }
   ],
   "items": [
@@ -511,7 +511,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xYXpwTEFPcW1sSUpYaVJnd29UNHd5cGI1bk01dnFXc3hwLUJmakduOHdKaEFTM0NWVGNoZFJqMGs2WEs0SDRPU2lxSlkyWUJVZTZqaW5zT0N5d3pUbDhLczZ2WDkwNFdhVTU1NA?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "Hitlist watch 1/8"
+        "feed": "Hitlist watch 7/8"
       },
       "contacts": [],
       "origin": "automated",
@@ -692,15 +692,15 @@
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-a0023e12b3c72e58",
       "date": "2026-11-24",
-      "title": "Tiktok And Akcelo Bring £10bn Economic Impact To Life In New UK Brand Campaign",
-      "summary": "Source-linked headline from Roastbrief US. Check the report to confirm full details, campaign credits and territory.",
+      "title": "TikTok and Akcelo bring £10bn economic impact to life in new UK brand campaign",
+      "summary": "Source-linked headline from Mediashotz. Check the report to confirm full details, campaign credits and territory.",
       "agency": "Agency to confirm",
       "brand": "TikTok",
       "production": "Not established by headline",
       "source": {
-        "label": "Roastbrief US",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0Vka25vWnBNSzRBTnE0MXM2V3hUb1JzU0YtWlhKRjFkNG1KdTIwZGFRaXhjc0kzTEJfek1EQ1lLOWthN0ZSLUd2enc0VFhIWkk5dUdRS3lTSldYVmtCNFpJaTh5ajE5allybkNwNEJqeTZoTnZ1eGNmOUFQejUxNWpZZzlKVUlOY3lEMkhybkNkOVlxazVIdEJBcTZwZk5yNnc?oc=5",
-        "publisher_url": "https://roastbrief.us",
+        "label": "Mediashotz",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObDBiMHNQbTFwMG1qOWJDZGlqdk81d2NFYkNnRkhyay1jZWlmQ0FqVDZrVWJoai1EcTRtZUdDQUhRUUdJWkszSW9FaW1MWHAyeWxhQXo5QzctZ0ViaXc3cnpFOWxrWDg4NldaNDNqRzBVdEVxR3dSamlVZERsaFBQeS1XckhydmFIVmNKS0FnMU9zWHJnYkZseVBnR25iZkptdWpyZmFB0gGuAUFVX3lxTE9lTDlGLVdiU1NvQWpUY2twMnllYzdQTnBRMkJwUVlLZF9PTDAzRUozLXhfUHU5cGR2V1RsaTY1OGQ1ZHNPYy10RWdENVgwXzlTUnZGeWJsbTN2YnczdUpwdGlnVHRJeFVBMVZaZmlNNm8wZHU1OGRKbTVHa2NNSXFOSjBrVmhIMG4wQ05tMUhmWElGQUFkaXZCTjRLNW0xcWNzNkI3OXpqMUhLemc0dw?oc=5",
+        "publisher_url": "https://mediashotz.co.uk",
         "feed": "UK creative campaigns"
       },
       "contacts": [],
@@ -1668,7 +1668,7 @@
       "ask": "How does your team typically plan film and content production?",
       "region": "To verify",
       "region_evidence": "Search-market context only",
-      "search_market": "US",
+      "search_market": "UK",
       "caution": "Headline-level lead. Confirm agency/client identity and original source before reaching out. Neither an open production brief nor budget is confirmed by a news headline alone.",
       "id": "rss-45f454866edb2225",
       "date": "2026-11-23",
@@ -1681,7 +1681,7 @@
         "label": "LBB - Little Black Book",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlp2VS1kTDBpalZ6UGVnYmt5TmdvSFdBc3V2TW05T3J3RURzQ1Z6dzRYMzh2Q2liS1N1ajZuNlJ1Qk9wY3FPZ25fUS1TOXpqajZHUnpfTWQ2ZTlQRVczQm1DOTlpSHRnTkt0MVhPaUhrTjI5aU9CUmU1enpzeXpuMkRrdGw2MGRUcmJ4NDN6b3A?oc=5",
         "publisher_url": "https://lbbonline.com",
-        "feed": "US agency account wins"
+        "feed": "UK agency account wins"
       },
       "contacts": [],
       "origin": "automated",
@@ -2329,7 +2329,7 @@
         "label": "yespress.io",
         "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5COHdsNU1VbFNzZ2JWOEZtUkxKUjRrSUU5SUZBaWNlSjRNdU9rZHhrZ3daZW1GTWpyZUc5RFpUNA?oc=5",
         "publisher_url": "https://yespress.io",
-        "feed": "Hitlist watch 4/8"
+        "feed": "Hitlist watch 3/8"
       },
       "contacts": [],
       "origin": "automated",
